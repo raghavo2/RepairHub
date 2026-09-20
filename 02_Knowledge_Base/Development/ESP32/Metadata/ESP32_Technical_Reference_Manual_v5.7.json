@@ -1,0 +1,44 @@
+{
+  "document_id": "ESP32_TRM_001",
+  "file_name": "ESP32_Technical_Reference_Manual_v5.7.pdf",
+  "title": "ESP32 Technical Reference Manual",
+  "manufacturer": "Espressif Systems",
+  "document_type": "Technical Reference Manual",
+  "category": "Development",
+  "subcategory": "ESP32",
+  "version": "5.7",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Hardware Architecture",
+    "Peripheral Registers",
+    "Low-Level Debugging",
+    "Driver Development"
+  ],
+  "covers": [
+    "CPU",
+    "Memory",
+    "GPIO",
+    "DMA",
+    "UART",
+    "SPI",
+    "I2C",
+    "TWAI",
+    "ADC",
+    "DAC",
+    "Timers",
+    "Interrupts",
+    "Clock",
+    "Reset",
+    "Watchdog",
+    "Security"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "ocr_required": false,
+  "citation_required": true
+}

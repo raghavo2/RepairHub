@@ -1,0 +1,35 @@
+{
+  "document_id": "UPS_MAINT_001",
+  "file_name": "EPRI_UPS_Maintenance_and_Application_Guide.pdf",
+  "title": "UPS Maintenance and Application Guide",
+  "manufacturer": "Electric Power Research Institute (EPRI)",
+  "document_type": "Technical Guide",
+  "category": "Industrial Systems",
+  "subcategory": "UPS",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Preventive Maintenance",
+    "Reliability",
+    "Failure Analysis"
+  ],
+  "covers": [
+    "UPS Fundamentals",
+    "Battery Chargers",
+    "Inverters",
+    "Rectifiers",
+    "Static Transfer Switches",
+    "Preventive Maintenance",
+    "Condition Monitoring",
+    "Testing",
+    "Calibration",
+    "Failure Modes"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "MOSFET_DS_001",
+  "file_name": "TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet.pdf",
+  "title": "CSD17302Q5A 30V N-Channel NexFET Power MOSFET",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Datasheet",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Component Specifications",
+    "Replacement Selection"
+  ],
+  "covers": [
+    "Electrical Characteristics",
+    "Absolute Maximum Ratings",
+    "Gate Charge",
+    "RDS(on)",
+    "Thermal Characteristics",
+    "Package Information"
+  ],
+  "used_by_agents": [
+    "Alternative Component Agent",
+    "Diagnosis Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

@@ -1,0 +1,32 @@
+{
+  "document_id": "IGBT_GATE_001",
+  "file_name": "onsemi_MC33153_Single_IGBT_Gate_Driver_Datasheet.pdf",
+  "title": "MC33153 Single IGBT Gate Driver",
+  "manufacturer": "onsemi",
+  "document_type": "Datasheet",
+  "category": "Power Components",
+  "subcategory": "IGBT",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Gate Driver",
+    "Protection Design",
+    "Driver Selection"
+  ],
+  "covers": [
+    "Gate Driver",
+    "Desaturation Protection",
+    "Short Circuit Protection",
+    "Undervoltage Lockout",
+    "Negative Gate Drive",
+    "Drive Current",
+    "Fault Detection"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Alternative Component Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

@@ -1,0 +1,61 @@
+{
+    "document_name": "Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview.pdf",
+    "source_path": "Industrial\\SMPS\\Repair_Guides\\Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview.pdf",
+    "total_pages": 9,
+    "pages": [
+        {
+            "page_number": 1,
+            "text": "Troubleshooting & \nRepairing Switch Mode \nPower Supplies \nBrought to you by Jestine Yong\nhttp://www.PowerSupplyRepairGuide.com\n",
+            "character_count": 127,
+            "word_count": 14
+        },
+        {
+            "page_number": 2,
+            "text": "Content\nPart I\nIntroduction to SMPS\n1. Introduction to Switch Mode Power Supplies (SMPS)………..9\n2. Identifying Electronic Components in Different Types of SMPS \nwith the Help of Photos…………………………………………14\n3. Block Diagram of a Typical SMPS and How It Works………18\n4. Easy Way To Understand The 11 Circuit Functions of SMPS \nWith The Help Of Schematic Diagrams………………………24\n4.1- Input Protection and EMI Filtering Circuit………...........26\n4.2- Bridge Circuit………………………………………………27\n4.3- Start Up and Run DC Circuit…….……………………….29\n4.4- Oscillator Circuit…………………………………………..31\n4.5- Secondary Output Voltage Circuit………………….........34\n4.6- Sampling Circuit…………………………………………...36\n4.7- Error Detection Circuit……………………………………38\n4.8- Feedback Circuit…………………………………………...39\n4.9- Protection Circuit ………………………………………….40\n4.10- Standby Circuit ……………………………………..........50\n4.11- Power Factor Correction (PFC) Circuit………………...56\n5. Electronic Components Found In SMPS and Possible \nCauses…………………………………….………………...........62\n6. How To Find The Right Equivalent Components In SMPS \nCircuit……..……………………………………………………..86\nPart II\nSecrets of SMPS Troubleshooting Techniques\n7. Recommended Tools and Test Equipment For Successful \nSMPS Repair………………………………...……….…………95\n7.1-Isolation Transformer……………………………………..96\n7.2-Variable Transformer……………………………………..98\n",
+            "character_count": 1314,
+            "word_count": 146
+        },
+        {
+            "page_number": 3,
+            "text": "7.3-AC Ammeter……………………………………………….100\n7.4-Analog and Digital Multimeter…………………………...102\n7.5-Digital Capacitance Meter………………………………..104\n7.6-Blue ESR Meter…………………………………………...105\n7.7-Blue Ring Tester…………………………………………..106\n7.8-Oscilloscope………………………………………………..107\n8. Safety Guidelines………………………………………………109\n9. Understand The Six Common Problems Found In SMPS….115\n9.1-No Power…………………………………………………..115\n9.2-Low Output Voltage………………………………………117\n9.3-High Output Voltage……………………………………...118\n9.4-Power Cycling/Pulsating/Blinking……………………….118\n9.5-Power Shutdown…………………………………………..121\n9.6-Intermittent Power Problem……………………………...121\n10. How to Easily Discharge The Main Capacitor In \nSMPS...……................................................................................122\n11. How to Easily Perform Voltage Testing On SMPS Circuit...127\n12. How to Use Oscilloscope to Test SMPS Circuit Waveforms.140\n13. Find Out How Useful Is The Series Light Bulb Trick In SMPS \nRepairs…………………………………………………………154\n13.1-Light Bulb Off……………………………………………156\n13.2-Light Bulb Very Bright………………………………….157\n13.2-Light Bulb Pulsating/Blinking (Slow or Fast)...………..158\n14. The Five Methods That I Use To Troubleshoot And Repair \nSMPS...........................................................................................161\n14.1-Using the Blue Ring Tester Method…………………….161\n14.2-Flickering Method……………………………………….165\n14.3-Resistance Test Method…………………………………168\n14.4-Isolation Method…………………………………………170\n14.5-Secondary Diode Removal Method…………………......177\n15. Simple Way For Beginners To Troubleshoot And Repair Any \nType Of SMPS By Following My Favourite Method………..179\n",
+            "character_count": 1634,
+            "word_count": 147
+        },
+        {
+            "page_number": 4,
+            "text": "16. What Should You Do If Too Many Components Burnt In The \nSMPS?.........................................................................................189\n17. How To Know If The Substitution Part Number Will Last Or \nNot………………………………………………………………195\nPart III\nTrue Case Histories\n18. 11 True Case Histories of SMPS Repair That You Should Not \nMiss…………………………………………………………….200\nPART IV\nTroubleshooting and Repairing ATX Power Supply\n19. Troubleshooting And Repairing ATX Power Supply ……...227\n20. ATX Power Supply Repair True Case Histories……………245\nPart V\nMiscellaneous\n21. Understanding Power Supply Glossary Terms……..………262\n22. Recommended Electronic Repair E-Books………………….267\n23. Recommended Resources…………..……………….............269\n24. Conclusion…………………………………..………………..271\n",
+            "character_count": 771,
+            "word_count": 87
+        },
+        {
+            "page_number": 5,
+            "text": "Preview Page\nPage 14\n2) Identifying Electronic Components In \nDifferent Types Of SMPS With The Help \nOf Photos\nI will expose to you different types of SMPS with the help of photos so \nthat you can be familiar with the section and components used in SMPS. \nWith the information provided in the photos, I’m sure you will be well \nprepared in troubleshooting and repairing SMPS in the future.\nFigure 2.1- A Typical LCD TV SMPS\n",
+            "character_count": 424,
+            "word_count": 75
+        },
+        {
+            "page_number": 6,
+            "text": "Figure 2.2- A 15” Samsung LCD Monitor SMPS\nFigure 2.3- A 29” Sony CRT Television SMPS (Primary Side)\nIf you have seen all the photos, you will notice that almost all of the \npower supplies …………………………..\n",
+            "character_count": 202,
+            "word_count": 36
+        },
+        {
+            "page_number": 7,
+            "text": "Page 27\n4.2) The Bridge Circuit\nFigure 4.3- The Bridge circuit\nThe bridge circuit consists of a bridge rectifier (either 4 individual diodes \nor a single package rectifier) and a filter capacitor. The function of the \nbridge rectifier is to convert the incoming AC voltage into DC voltage \nand the filter capacitor (usually have the value of 220uf 400Volt) to \nremove the ripples and this will provide a nice DC voltage source to the \nprimary winding of switch mode power transformer. For countries that \nuse the 220 to 240 VAC, the DC voltage that you will get is about \n300VDC and for countries that use 110-120VAC, the DC voltage that \nyou will get is about 150 to 160 VDC. The DC voltage that you get is \nmeasured across the two pins of the filter capacitor using a multimeter. \nYou may refer to chapter 11 on “How to easily perform voltage testing \non SMPS circuit”.\nIn some power supply design, you could see that there are capacitors \nconnected across each diode in the bridge rectifier as seen from figure \n4.4. The function of the capacitors is to suppress the RFI signals \ngenerated by the rectifier diodes. \n",
+            "character_count": 1119,
+            "word_count": 195
+        },
+        {
+            "page_number": 8,
+            "text": "Figure 4.4-  Capacitors Connected Across Each Diode In The Bridge \nRectifier\nIf the bridge rectifier is shorted, then the .......................................\n",
+            "character_count": 162,
+            "word_count": 20
+        },
+        {
+            "page_number": 9,
+            "text": "PAGE 165\n2 Flickering Method\nThis method is used to find out whether the primary or the secondary \nsection is the cause of the problem. Sometimes in SMPS repair, you just \ndon’t know where the problem lies. You might have checked many of the \nmajor components like power FET, secondary output diodes, Horizontal \noutput transistor (HOT), FLYBACK, Yoke coils, B+ coils and etc and all \nseemed to be good. You need an absolute way to find out which section is \nactually given you the problem. Once you know which section is having \nproblem then it will be easy for you to spend all your time on that section \nso that you can easily nailed down the culprit.\nThe first thing that you need to do is to follow the steps below:\n1 Remove the SMPS transformer from the circuit (refer to figure 14.4)\n2 Set the analogue multimeter to 50 VDC\n3 Place the……………………………………………….\nTo read the rest of the chapter of “Troubleshooting And Repairing \nSwitch Mode Power Supplies” (271 pages), please visit:\nHttp://www.PowerSupplyRepairGuide.com\nDon’t waste anymore of your precious time to search from the Internet to \nlearn the basic repair. In this E-book, you will learn all my Advance \nTroubleshooting and Repairing Secrets and YOU can become a \nProfessional in Switch Mode Power Supplies repair!\nAll the best!\nJestine Yong\n",
+            "character_count": 1305,
+            "word_count": 221
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "SMPS_FAIL_001",
+  "file_name": "TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters.pdf",
+  "title": "Off-Line SMPS Failure Modes PWM Switchers and DC-DC Converters",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Application Report",
+  "category": "Industrial Systems",
+  "subcategory": "SMPS",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Failure Analysis",
+    "Root Cause Analysis",
+    "Repair"
+  ],
+  "covers": [
+    "PWM Controllers",
+    "Failure Modes",
+    "Output Regulation",
+    "Testing",
+    "Repair",
+    "Transformer Isolation",
+    "Output Diodes",
+    "Capacitor Replacement"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

@@ -1,0 +1,34 @@
+{
+  "document_id": "SMPS_REF_001",
+  "file_name": "Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide.pdf",
+  "title": "SMPS AC/DC Reference Design User's Guide",
+  "manufacturer": "Microchip Technology",
+  "document_type": "Reference Design Guide",
+  "category": "Industrial Systems",
+  "subcategory": "SMPS",
+  "priority": "Critical",
+  "knowledge_level": "Expert",
+  "primary_use": [
+    "Reference Design",
+    "Digital Power Control",
+    "Firmware Development"
+  ],
+  "covers": [
+    "PFC Boost Converter",
+    "Full-Bridge Converter",
+    "Buck Converter",
+    "Hardware Design",
+    "Software Design",
+    "System Operation",
+    "Board Schematics",
+    "PCB Layout",
+    "Performance Testing"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

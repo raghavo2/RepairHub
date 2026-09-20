@@ -1,0 +1,133 @@
+{
+    "document_name": "Circutor_CA4_Power_Control_Instruction_Manual.pdf",
+    "source_path": "Industrial\\Power_Controller\\Communication\\Circutor_CA4_Power_Control_Instruction_Manual.pdf",
+    "total_pages": 21,
+    "pages": [
+        {
+            "page_number": 1,
+            "text": " \n \n \n \n \n \n \n \n \nPOWER CONTROL \n \nCA-4 \n \n(Cod. 7 70 428) \n \n \nINSTRUCTION MANUAL \n(M98133401-03-06B) \n \n(c)  CIRCUTOR S.A. \n",
+            "character_count": 126,
+            "word_count": 13
+        },
+        {
+            "page_number": 2,
+            "text": "INDEX \nPage \n \n1.- INTRODUCTION...............................................................................1 \n1.1.- POWER CONTROL COMPONENTS.........................................2 \n1.2.- PERFORMANCE ........................................................................3 \n2.- BASIC INSTRUCTIONS....................................................................4 \n2.1.- DELIVERY SPOT CHECK..........................................................4 \n2.2.- CONNECTION PROCEDURES .................................................4 \n3.- INSTALLATION AND STARTUP.......................................................4 \n3.1.- INSTALLATION ..........................................................................5 \n3.2.- CA-4 CONNECTION TERMINAL ...............................................6 \n3.3.-  CA-4 TO THE MR-3 CONNECTION .........................................9 \n3.4.- LOAD CONNECTION WITH CA-4............................................12 \n3.5.- LOAD CONNECTION WITH MR-3...........................................13 \n3.6.- CA-4 TO THE PC CONNECTION ............................................14 \n4.- TECHNICAL CHARACTERISTICS .................................................16 \n5.-  SAFETY CONSIDERATIONS.....................................................18 \n6.- MAINTENANCE ..............................................................................18 \n7.- TECHNICAL SERVICE ...................................................................19 \n",
+            "character_count": 1475,
+            "word_count": 72
+        },
+        {
+            "page_number": 3,
+            "text": "--- Power control --- CA-4 --- Page 1 \nPOWER CONTROL CA-4 \n1.- INTRODUCTION \n \nCA-4 power controller has been created to control the maximum demand of energetic \nconsumption of factories, industrial areas, offices flats, big surfaces and where ever we \nwant to have a control above the loads to avoid to excel the maximum demand of \ncontracted energy. \n \nTo allow it, the controller will use the modules to act on the loads. An analisis process of \nthe energetic consumption will disconnect loads according to a priority order when the \nconsumption is going to excel the maximum allowed level and the controller will connect \nagain the loads according to a priority order when the consumption returns to a correct \nlevel. \n \nThe controller always tries to keep connected the maximum number of loads in all \npossible time. Then, the consumed prices will always approximate to allowed maximum \nlevel. Nevertheless, they never won’t exceed it, and we will avoid to pay extra charges in \nthe electrical company bill because of we have consumed more energy than we have \ncontracted (in companies that apply this type of extra charge). \n \nThe system has been designed in a modular process, then, we can adapt it to each type \nof industrial plant. For example, we can use CA-4 controller with small companies, using \nsome MR-3 modules, and we can use the same controller but more number of modules \nwith bigger companies. \n \nModular design give us some advantages: \n  \n• \nDivided system \n \nWe don’t need to have the whole power control system in only one place of the industrial \nplant. This control system will allow us to install each MR-3 modules near the loads we \nwant to control. Then, we’ll avoid to install too many long cables between the loads and \n",
+            "character_count": 1752,
+            "word_count": 291
+        },
+        {
+            "page_number": 4,
+            "text": "--- Power control --- CA-4 --- Page 2 \nthe controller. We’ll just need a RS-485 bus that connects the MR-3 to the controller and \nshort cables between MR-3 modules and the loads we want to connect. \n \nHowever, if we want the controller works, we have to program several parameters with \nthe controller software.  \n \nIn the intructions manual, we can see how  we can configure the controller and we'll see \nall the possibilities that this device give us, too. \n \n \n• \nEasy to expand \n \nIf we need to expand the number of loads that we want to control in an industrial plant \nwhich has a CA-4 controller, we’ll be able to do it quickly and easly. We’ll just need to \nexpand the number of MR-3 modules, and we’ll connect them to RS-485 bus and we’ll \nmake necessary connections of new loads that we want to add.  \n \n \n1.1.- POWER CONTROL COMPONENTS \n \nPower control system is compound of: \n \n• \nA CA-4 controller \n \nIt supervises the installation and it decides if it’s necessary to act over the loads. \n \n \n \n• \nMR-3 modules \n \nThis modules (using their inputs and outputs) allow to know to CA-4 controller the load \nstatus (inputs) and they allow to the controller to act over the loads (outputs) \n \n",
+            "character_count": 1199,
+            "word_count": 205
+        },
+        {
+            "page_number": 5,
+            "text": "--- Power control --- CA-4 --- Page 3 \n1.2.- PERFORMANCE \n \nCA-4 controller can control up to three loads, so, it's perfect to little factories where it isn't \nnecessary to control a lot of loads to mantain the maximum demanded power under \ncontracted power. Elsewhere,  we can use MR-3 modules to increase the number of \nloads we want to control. If we use a RS-485 communications bus, we can connect MR-3 \nmodules to the CA-4 controller, then, the number of controlled loads can increase in an \nimportant way. \n \nCA-4 controller, by means of MR-3 inputs, always knows if the loads are connected or \ndisconnected, then, it knows if it can control a load or if it can’t do any action with it, using \nother loads to do the control. So that CA-4 controller only will act over the loads that it can \ncontrol and it won’t lose time with the loads that it can’t control. \n \nHowever, CA-4 controller will be able to decide if it stops or connects load in MR-3 \noutputs.  When CA-4 controller has to stop or connect again a load, it will send an order \nto corresponding MR-3 and then, the module will act over the load with corresponding \noutput. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+            "character_count": 1177,
+            "word_count": 202
+        },
+        {
+            "page_number": 6,
+            "text": "--- Power control --- CA-4 --- Page 4 \n2.- BASIC INSTRUCTIONS \n \n2.1.- DELIVERY SPOT CHECK \n \nThis manual is issued to help all the CA-4 users to install and use it in order to get the \nbest from it. After receiving the unit please check the following points: \n \n   (a) Does this device corresponds to your order specifications? \n   (b) Check if any damage was done during the shipment process. \n   (c) Verify that it includes *One instruction manual. \n2.2.- CONNECTION PROCEDURES \n \n \nThe manual you hold in your hands contains information and warnings that the user \nshould respect in order to guarantee a proper operation of all the instrument functions \nand keep its safety conditions. \n3.- INSTALLATION AND STARTUP      \n \n \nThe manual you hold in your hands contains information and warnings that the user \nshould respect in order to guarantee a proper operation of all the instrument functions \nand keep its safety conditions. \n \nThe instrument must not be powered and used until its definitive installed on the cabinet’s \ndoor. \n \n \n \n \n \n",
+            "character_count": 1047,
+            "word_count": 164
+        },
+        {
+            "page_number": 7,
+            "text": "--- Power control --- CA-4 --- Page 5 \n \n Whether the instrument is not used as manufacturer’s specifications, the \nprotection of the instrument can be damaged.  \n \nWhen any protection failure is suspected to exist (for example, it presents external visible \ndamages), the instrument must be immediately powered off. In this case contact a \nqualified service representative. \n \n  \n3.1.- INSTALLATION \n \nBefore applying DC power to the, check following points: \n \n  (a) Supply voltage: 24 V d.c. applied on Power+ and Power- terminals  \n  (b) Consumption: 250 mA  \n  (c) Operation conditions:  \n• \nOperating temperature:  -10 to +60ºC \n• \nHumidity:  25 to 75 % R.H.  \n  (d) Safety: Designed to meet protection class II as per EN 61010.  \n \n \nMounting: \n \n \nInstrument is to be mounted on DIN rail mounting device with low dimensions. \nAll connections keep inside the cabinet. \n \nNote that with the instrument powered on, the terminals could be dangerous to \ntouch and cover opening actions or elements removal may allow accessing \ndangerous parts. Therefore, the instrument must not be used until this is \ncompletely installed. \n \n \n \n",
+            "character_count": 1134,
+            "word_count": 168
+        },
+        {
+            "page_number": 8,
+            "text": "--- Power control --- CA-4 --- Page 6 \n3.2.- CA-4 CONNECTION TERMINAL \n \n Terminal Nº \n    Concept  \n8 \n   Voltage reference Power-  /  Inputs common \n7 \n   Input 1 --- Load 1 \n6 \n   Input 2 --- Load 2 \n5 \n   Input 3 --- Load 3 or pulse of synchrony \n4 \n   Input 4 --- KWh pulse \n9 \n   Voltage supply Power+ \n10 \n   Relay output 1 --- Load 1 \n11 \n   Relay output 2 --- Load 2 \n1 \n   Relay output 3 --- Load 3 \n2 \n   Relay output 4 --- Alarm relay \n3 \n   Relay common \n \n \n \nThe connection with the MR-3 and the PC is done through the contacts on the device \nfrontal. \n",
+            "character_count": 568,
+            "word_count": 102
+        },
+        {
+            "page_number": 9,
+            "text": "--- Power control --- CA-4 --- Page 7 \n \n \n \n \n \n \n \n \nDetail of CA-4 frontal \n1\n6\nCommunications\nPC\nConnection\n \nB\nSHLD\nA\n",
+            "character_count": 123,
+            "word_count": 20
+        },
+        {
+            "page_number": 10,
+            "text": "--- Power control --- CA-4 --- Page 8 \n \n \n \n \n \nDetail of Undecal base connectors \n1\n2\n3\n8\n7\n6\n5\n4\n9\n10\n11\n0 V\n1\n2\n3\n4\n24 V 1\n2\n3\nCOM\n4\nPower Supply\nInputs\nInputs Common\nOutputs\nOutputs Common\n",
+            "character_count": 194,
+            "word_count": 45
+        },
+        {
+            "page_number": 11,
+            "text": "--- Power control --- CA-4 --- Page 9 \n \n3.3.-  CA-4 TO THE MR-3 CONNECTION \n  \n \nThe connection between CA-4 and the MR-3 must be done with an RS-485 \ncommunication bus. \n \nThe RS-485 communication bus may be up to 1200m in length and the MR-3 can be \nplaced anywhere along the bus. \n \nIn some cases, in each end of the communication bus must be terminated with a 120Ω \nresistor, so there must be 2 resistors per bus. This resistance will only be necesary if \ncommunications failures are detected in the communications between the controller and \nthe proximity readers, due to the line impedance \n \n \nSee followind connections diagram for installation: \n \n \n \n \n",
+            "character_count": 663,
+            "word_count": 107
+        },
+        {
+            "page_number": 12,
+            "text": "--- Power control --- CA-4 --- Page 10 \n \n \n \n \n \n \n \n( * )  Before intalling the EOL 120 Ω resistance,  \n        refer to previous page information \n1\n6\nMR-3 Nº1   \n120 Ω    \n24 V d.c. supply bus\nBus RS-485\nMR-3 Nº2   \nMR-3 Nºn\n120 Ω    \nCA-4\n24 V d.c.\nsupply\ndisplay\nreset\nmax\nmin\nCVM\nCVM\n",
+            "character_count": 291,
+            "word_count": 53
+        },
+        {
+            "page_number": 13,
+            "text": "--- Power control --- CA-4 --- Page 11 \n \nAsignación de la dirección de los MR-3 : \n \n\u0001 \nRemove power supply to the CA-4 controller \n \n\u0001 \nPress Setup button places in the frontal side of the controller \n \n\u0001 \nWithout stop pressing Setup button  attach power supply to the controller again \n \n\u0001 \nController’s Comm led will light on. Do not stop pressing Setup until it lights off \n \n\u0001 \nAt this moment, Comm and Cpu leds become intermittent \n \n\u0001 \nPulsar el botón Set de los MR-3 en el orden establecido. Al pulsarlo los leds Comm \ny Cpu se iluminarán intermitentemente y ya quedará asignada la dirección \n \n \n",
+            "character_count": 606,
+            "word_count": 103
+        },
+        {
+            "page_number": 14,
+            "text": "--- Power control --- CA-4 --- Page 12 \n \n3.4.- LOAD CONNECTION WITH CA-4 \n \nSee followind connections diagram for connections: \n \nLOAD\nLoad status\nindicator contact\nON / OFF\n1\n2\n3\n8\n7\n6\n5\n4\n9\n10\n11\n",
+            "character_count": 199,
+            "word_count": 38
+        },
+        {
+            "page_number": 15,
+            "text": "--- Power control --- CA-4 --- Page 13 \n \n3.5.- LOAD CONNECTION WITH MR-3 \n \nSee followind connections diagram for connections: \n \nA1\nA2\nIN1\nIN2\nIN3\nOUT1\nOUT2\nOUT3\nPower\nSupply\nPower\nSupply\n+\n-\n24 V d.c.\nSupply\nLOAD\n+\nLoad status\nindicator contact\nON / OFF\n",
+            "character_count": 257,
+            "word_count": 46
+        },
+        {
+            "page_number": 16,
+            "text": "--- Power control --- CA-4 --- Page 14 \n \n3.6.- CA-4 TO THE PC CONNECTION \n \n \n \n \n \n \nIf the distance between the CA-4 and the PC is longer to 12m, the RS-232 \ncommunication between the two devices is not recommended. An RS-485 \ncommunication bus must be used, so two more devices are required: \n \n- RS-232 / RS-485 converter connected to the CA-4 \n- RS-232 / RS-485 intelligent converter connected to the PC \n \nCA-4\nRS-232 CABLE \n1\n6\n2   \n3   \n5   \n1   \n6   \nRJ-11\nDETAIL\n1\n6\n3\n2\n5\n1\n6\n",
+            "character_count": 488,
+            "word_count": 88
+        },
+        {
+            "page_number": 17,
+            "text": "--- Power control --- CA-4 --- Page 15 \n \n \nThe next picture shows the connections of the RS-232 / RS-485 converters to the CA-4 \nand the PC. \n \n \n \nA1\nA2   \nRS485\nRTS\nRS422\nRTS\n232/485-422 OPTOISOLATED CONVERTER\nRS485 or RS422\nRS232\nPOWER\n!\n!\n2   \n5   \n5   \n2   \n3   \n5   \n3   \n2   \n2   \n5   \n1   \n1   \nRJ-11\nCA-4\nRS-232\nRS-485\nRS-232\n5\n2\n3\nPC\nDB-9   \n1\n6\n7   \n1   \n6   \nRJ-11\nDETAIL\n",
+            "character_count": 385,
+            "word_count": 71
+        },
+        {
+            "page_number": 18,
+            "text": "--- Power control --- CA-4 --- Page 16 \n \n4.- TECHNICAL CHARACTERISTICS \n \nPower Supply : \n \nVoltage........................................  24 V d.c.  \n Voltage tolerance........................ + / -  25 % \nConsumtion.................................  250 mA \n Working temperature.................. \n-10 to +60 º C \nOutput relay features : \n(4 relays) \n Insulation voltage....................... \n1000 V contact-contact /  4000 V contact-coil \n Thermal current Ith..................... \n3 A \n Maximum operation power......... \n1500 VA \n Mechanical life........................... \n3 x 107 operations \n Electrical life............................... \n350 op. per hour ( at maximum load ) \nDigital inputs............................. \n4 free voltage contacts  ( 10 mA - 24 V d.c.) \nConstructive characteristics : \n \nFixing.......................................... \nFitted onto symmetrical DIN 46277 \n(EN 50022) \nFrontal cover................................ Lexan \nSecurity.......................................\nCategory I, EN 61010 \nOther characteristics : \n1 “Test” key to configure the system. \nStandards :    \nEN 50082–1, EN50082–2, EN 61000-3-2,       \nEN 61000-3-3, EN 61010-1 \n \n \n \n \n \n \n \n",
+            "character_count": 1201,
+            "word_count": 130
+        },
+        {
+            "page_number": 19,
+            "text": "--- Power control --- CA-4 --- Page 17 \n \n \nCA-4 dimensions: \n \n \n \n \n \n1\n6\n45\n82\n110\n139\n",
+            "character_count": 90,
+            "word_count": 16
+        },
+        {
+            "page_number": 20,
+            "text": "--- Power control --- CA-4 --- Page 18 \n5.-  SAFETY CONSIDERATIONS     \n \n \nAll installation specification described at the previous chapters named INSTALLATION \nAND STARTUP, INSTALLATION MODES and SPECIFICATIONS. \n \nNote that with the instrument powered on, the terminals could be dangerous to touch and \ncover opening actions or elements removal may allow accessing dangerous parts. This \ninstrument is factory-shipped at proper operation condition. \n \n \n6.- MAINTENANCE  \n \nCA-4 does not require any special maintenance. No adjustment, maintenance or \nrepairing action should be done over the instrument open and powered and, should those \nactions are essential, high-qualified operators must perform them. \n \nBefore any adjustment, replacement, maintenance or repairing operation is carried out, \nthe instrument must be disconnected from any power supply source. \n \nWhen any protection failure is suspected to exist, the instrument must be immediately put \nout of service. The instrument’s design allow a quick replacement in case of any failure. \n \n",
+            "character_count": 1054,
+            "word_count": 146
+        },
+        {
+            "page_number": 21,
+            "text": "--- Power control --- CA-4 --- Page 19 \n \n7.- TECHNICAL SERVICE \n \n \nFor any inquiry about the instrument operation mode or in case of \nmalfunction, you can contact CIRCUTOR S.A.’s technical service. \n \nCIRCUTOR S.A. - Aftersales Service \nVial Sant Jordi, s/n \n08232 – VILADECAVALLS (Barcelona) (SPAIN)  \nTel:  (+34) 93 745 29 00  \nFax: (+34) 93 745 29 14  \ne-mail: central@circutor.es \nweb: www.circutor.com \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+            "character_count": 442,
+            "word_count": 61
+        }
+    ]
+}

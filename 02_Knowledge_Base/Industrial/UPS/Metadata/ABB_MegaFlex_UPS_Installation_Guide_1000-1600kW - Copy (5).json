@@ -1,0 +1,58 @@
+{
+  "document_id": "UPS_INSTALL_002",
+  "file_name": "ABB_MegaFlex_1000_1600kW_UPS_Installation_Guide_REV-B.pdf",
+  "title": "MegaFlex 1000–1600 kW UPS Installation Guide",
+  "manufacturer": "ABB",
+  "series": "MegaFlex",
+  "models": [
+    "1000 kW",
+    "1100 kW",
+    "1200 kW",
+    "1500 kW",
+    "1600 kW"
+  ],
+  "document_type": "Installation Guide",
+  "category": "Industrial Systems",
+  "subcategory": "UPS",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Installation",
+    "Commissioning",
+    "Electrical Wiring",
+    "Industrial Deployment"
+  ],
+  "covers": [
+    "Safety Rules",
+    "Cyber Security",
+    "Site Preparation",
+    "Transport",
+    "Storage",
+    "UPS Positioning",
+    "Floor Loading",
+    "Ventilation",
+    "Cooling",
+    "Battery Installation",
+    "Power Wiring",
+    "Grounding",
+    "Parallel Systems (RPA)",
+    "Cabinet Interconnections",
+    "EPO",
+    "Connectivity",
+    "RS232",
+    "SNMP",
+    "Customer Interface",
+    "Electrical Specifications"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent",
+    "Installation Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true,
+  "language": "English",
+  "revision": "REV-B",
+  "publication_year": 2021
+}

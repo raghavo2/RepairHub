@@ -1,0 +1,39 @@
+{
+  "document_id": "ESP32_IDF_001",
+  "file_name": "ESP32_ESP_IDF_Programming_Guide_v5.2.pdf",
+  "title": "ESP-IDF Programming Guide",
+  "manufacturer": "Espressif Systems",
+  "document_type": "Programming Guide",
+  "category": "Development",
+  "subcategory": "ESP32",
+  "version": "5.2",
+  "priority": "High",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Firmware",
+    "Software APIs",
+    "Driver Development",
+    "Programming"
+  ],
+  "covers": [
+    "Wi-Fi",
+    "Bluetooth",
+    "GPIO",
+    "UART",
+    "SPI",
+    "I2C",
+    "ADC",
+    "OTA",
+    "Bootloader",
+    "FreeRTOS",
+    "Networking"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Recommendation Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 8,
+  "ocr_required": false,
+  "citation_required": true
+}

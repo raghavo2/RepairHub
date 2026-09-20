@@ -1,0 +1,31 @@
+{
+  "document_id": "RECT_DS_001",
+  "file_name": "onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet.pdf",
+  "title": "NRVHP8H200MFD Switch-Mode Power Rectifier",
+  "manufacturer": "onsemi",
+  "document_type": "Datasheet",
+  "category": "Industrial Systems",
+  "subcategory": "Power Rectifier",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Component Specifications",
+    "Replacement Selection",
+    "Power Supply Design"
+  ],
+  "covers": [
+    "Maximum Ratings",
+    "Electrical Characteristics",
+    "Thermal Characteristics",
+    "Package Information",
+    "Output Rectification",
+    "Freewheeling Applications"
+  ],
+  "used_by_agents": [
+    "Alternative Component Agent",
+    "Diagnosis Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

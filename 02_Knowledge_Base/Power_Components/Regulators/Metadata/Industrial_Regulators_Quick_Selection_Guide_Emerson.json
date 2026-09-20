@@ -1,0 +1,28 @@
+{
+  "document_id": "REG_GUIDE_001",
+  "file_name": "Industrial_Regulators_Quick_Selection_Guide_Emerson.pdf",
+  "title": "Industrial Regulators Quick Selection Guide",
+  "manufacturer": "Emerson (Fisher)",
+  "document_type": "Selection Guide",
+  "category": "Power Components",
+  "subcategory": "Regulators",
+  "priority": "Medium",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Industrial Regulator Selection",
+    "Pressure Regulator Reference"
+  ],
+  "covers": [
+    "Pressure Reducing Regulators",
+    "Flow Capacity",
+    "Control Pressure",
+    "Industrial Applications",
+    "Product Selection"
+  ],
+  "used_by_agents": [
+    "Alternative Component Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 6,
+  "citation_required": true
+}

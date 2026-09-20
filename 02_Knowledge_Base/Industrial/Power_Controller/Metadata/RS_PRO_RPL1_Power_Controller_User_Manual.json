@@ -1,0 +1,34 @@
+{
+  "document_id": "CTRL_USER_001",
+  "file_name": "RS_PRO_RPL1_Power_Controller_User_Manual.pdf",
+  "title": "RPL1 Power Controller User Manual",
+  "manufacturer": "RS PRO / Lumel",
+  "document_type": "User Manual",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Operation",
+    "Installation",
+    "Maintenance"
+  ],
+  "covers": [
+    "Installation",
+    "Electrical Connections",
+    "Control Modes",
+    "Phase Control",
+    "Pulse Control",
+    "Soft Start",
+    "Overload Protection",
+    "Temperature Protection",
+    "Technical Specifications"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

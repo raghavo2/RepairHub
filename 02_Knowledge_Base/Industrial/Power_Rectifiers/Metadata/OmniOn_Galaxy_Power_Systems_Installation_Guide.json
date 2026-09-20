@@ -1,0 +1,33 @@
+{
+  "document_id": "RECT_INSTALL_001",
+  "file_name": "OmniOn_Galaxy_Power_Systems_Installation_Guide.pdf",
+  "title": "Galaxy Power Systems Installation Guide",
+  "manufacturer": "OmniOn Power",
+  "document_type": "Installation Guide",
+  "category": "Industrial Systems",
+  "subcategory": "Power Rectifier",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Installation",
+    "Commissioning",
+    "System Configuration"
+  ],
+  "covers": [
+    "Safety",
+    "Grounding",
+    "Power Wiring",
+    "Battery Connections",
+    "Rectifier Installation",
+    "Load Sharing",
+    "Commissioning",
+    "Controller Configuration"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

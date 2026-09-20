@@ -1,0 +1,168 @@
+{
+    "document_name": "Universal_Rectifiers_Troubleshooting_Guide.pdf",
+    "source_path": "Industrial\\Power_Rectifiers\\Troubleshooting\\Universal_Rectifiers_Troubleshooting_Guide.pdf",
+    "total_pages": 23,
+    "pages": [
+        {
+            "page_number": 1,
+            "character_count": 378,
+            "word_count": 59,
+            "raw_text": "TROUBLESHOOTING PRELIMINARY\n• To troubleshoot, one must first have a working knowledge of the\nindividual parts and their relation to one another.\n• Must have adequate hand tools\n• Must have basic instrumentation:\nAccurate digital voltmeter with diode test mode for silicon units\nClamp-on AC – DC ammeter\nVoltage detectors\nCell phone very useful\n• Observe all safety precautions\n",
+            "clean_text": "TROUBLESHOOTING PRELIMINARY\n• To troubleshoot, one must first have a working knowledge of the\nindividual parts and their relation to one another.\n• Must have adequate hand tools\n• Must have basic instrumentation:\nAccurate digital voltmeter with diode test mode for silicon units\nClamp-on AC – DC ammeter\nVoltage detectors\nCell phone very useful\n• Observe all safety precautions"
+        },
+        {
+            "page_number": 2,
+            "character_count": 634,
+            "word_count": 106,
+            "raw_text": "RECTIFIER COMPONENTS\n• Cabinet - protects the rectifier components from the elements\n• Circuit Breaker - serves as an on - off switch and overload protection\n• Transformer - reduces the line voltage to a useable level for the cathodic \nprotection system and isolates the CP system from the incoming power\n• Rectifier Stack - used to change A.C. to D.C. (Silicon) or (Selenium)\n• Fuses - to protect the more expensive components (like Diodes, ACSS,etc.\n• Meters - used to indicate D.C. Voltage and D.C. Current\n• Shunts - used to accurately measure circuit current\n•Arrestors - protects the rectifier from voltage and lightning surges\n",
+            "clean_text": "RECTIFIER COMPONENTS\n• Cabinet - protects the rectifier components from the elements\n• Circuit Breaker - serves as an on - off switch and overload protection\n• Transformer - reduces the line voltage to a useable level for the cathodic\nprotection system and isolates the CP system from the incoming power\n• Rectifier Stack - used to change A.C. to D.C. (Silicon) or (Selenium)\n• Fuses - to protect the more expensive components (like Diodes, ACSS,etc.\n• Meters - used to indicate D.C. Voltage and D.C. Current\n• Shunts - used to accurately measure circuit current\n•Arrestors - protects the rectifier from voltage and lightning surges"
+        },
+        {
+            "page_number": 3,
+            "character_count": 274,
+            "word_count": 40,
+            "raw_text": "TROUBLESHOOTING - BASIC\nAn adequate inspection and maintenance\nprogram will greatly reduce the possibility of\nrectifier failure.  Rectifier failures do occur,\nhowever, and the field technician must know\nhow to find and repair troubles quickly to\nreduce rectifier down time.\n",
+            "clean_text": "TROUBLESHOOTING - BASIC\nAn adequate inspection and maintenance\nprogram will greatly reduce the possibility of\nrectifier failure. Rectifier failures do occur,\nhowever, and the field technician must know\nhow to find and repair troubles quickly to\nreduce rectifier down time."
+        },
+        {
+            "page_number": 4,
+            "character_count": 66,
+            "word_count": 11,
+            "raw_text": "MAJOR CAUSES OF RECTIFIER FAILURES\n1. NEGLECT\n2. AGE\n3. LIGHTNING\n",
+            "clean_text": "MAJOR CAUSES OF RECTIFIER FAILURES\n1. NEGLECT\n2. AGE\n3. LIGHTNING"
+        },
+        {
+            "page_number": 5,
+            "character_count": 368,
+            "word_count": 58,
+            "raw_text": "TROUBLESHOOTING PRECAUTIONS\n• Turn the RECTIFIER and the MAIN DISCONNECT OFF!\n• Be careful when testing a rectifier which is in operation. Safety \nfirst\n• Consult the rectifier wiring diagram before troubleshooting\n• Correct polarity must be observed when using DC instruments\n• Rectifier should be in the OFF position before using an \nOHMETER\n• Common sense prevails\n",
+            "clean_text": "TROUBLESHOOTING PRECAUTIONS\n• Turn the RECTIFIER and the MAIN DISCONNECT OFF!\n• Be careful when testing a rectifier which is in operation. Safety\nfirst\n• Consult the rectifier wiring diagram before troubleshooting\n• Correct polarity must be observed when using DC instruments\n• Rectifier should be in the OFF position before using an\nOHMETER\n• Common sense prevails"
+        },
+        {
+            "page_number": 6,
+            "character_count": 250,
+            "word_count": 37,
+            "raw_text": "TROUBLESHOOTING PROCEDURES\nMost rectifier troubles are simple and do not require extensive \ndetailed troubleshooting procedures. The most common \nproblems are:\n• Faulty meters\n• Loose terminals\n• Blown Fuses\n• Open ground bed leads\n• Lighting damage\n",
+            "clean_text": "TROUBLESHOOTING PROCEDURES\nMost rectifier troubles are simple and do not require extensive\ndetailed troubleshooting procedures. The most common\nproblems are:\n• Faulty meters\n• Loose terminals\n• Blown Fuses\n• Open ground bed leads\n• Lighting damage"
+        },
+        {
+            "page_number": 7,
+            "character_count": 199,
+            "word_count": 27,
+            "raw_text": "TROUBLESHOOTING MORE DIFFICULT PROBLEMS\nIt is usually better to systematically isolate the rectifier \ncomponents until the defective part is found. \n• TROUBLESHOOTING IS THE PROCESS OF \nELIMINATION!\n",
+            "clean_text": "TROUBLESHOOTING MORE DIFFICULT PROBLEMS\nIt is usually better to systematically isolate the rectifier\ncomponents until the defective part is found.\n• TROUBLESHOOTING IS THE PROCESS OF\nELIMINATION!"
+        },
+        {
+            "page_number": 8,
+            "character_count": 1080,
+            "word_count": 190,
+            "raw_text": "CHECK\nThe AC voltage across line side of circuit breaker \n(Points A-A)\n• The AC voltage across load side of circuit breaker \n(Points B-B)\nThis voltage should be the same as points A-A.\n• The input change taps for loose connections (Point C)\nAdjust for the correct input voltage.\n• The transformer secondary tap link bars for the \npresence of voltage (Points D-E)\nVoltage may be measured between any of the \nsecondary taps If the circuit breaker trips, indicating a \nshort circuit, the transformer can be isolated by \nremoving the link bars. If the circuit breaker continues \nto trip, the transformer is shorted. If the circuit breaker \nholds, the short is not in the transformer.\n• The AC voltage supplied to the rectifier stack (Points \nF-G) This voltage should be the same as points D-E.\n• If the circuit breaker trips, isolate the stack by \nremoving one of the DC leads. (Points H or J)\n• If AC voltage is supplied to the stack, check the DC \noutput voltage. (Points H-J) If DC voltage is present \nbut is less than expected, stack may have an open \ncircuit and is half-waving.\n",
+            "clean_text": "CHECK\nThe AC voltage across line side of circuit breaker\n(Points A-A)\n• The AC voltage across load side of circuit breaker\n(Points B-B)\nThis voltage should be the same as points A-A.\n• The input change taps for loose connections (Point C)\nAdjust for the correct input voltage.\n• The transformer secondary tap link bars for the\npresence of voltage (Points D-E)\nVoltage may be measured between any of the\nsecondary taps If the circuit breaker trips, indicating a\nshort circuit, the transformer can be isolated by\nremoving the link bars. If the circuit breaker continues\nto trip, the transformer is shorted. If the circuit breaker\nholds, the short is not in the transformer.\n• The AC voltage supplied to the rectifier stack (Points\nF-G) This voltage should be the same as points D-E.\n• If the circuit breaker trips, isolate the stack by\nremoving one of the DC leads. (Points H or J)\n• If AC voltage is supplied to the stack, check the DC\noutput voltage. (Points H-J) If DC voltage is present\nbut is less than expected, stack may have an open\ncircuit and is half-waving."
+        },
+        {
+            "page_number": 9,
+            "character_count": 1020,
+            "word_count": 184,
+            "raw_text": "CHECK\n• If the circuit breaker does not trip when a DC lead on \nthe stack is removed, but does when it is connected, a \nshort circuit is probably is the external ground-bed or \nstructure leads.\n• If DC voltage is present at the stack Points J-H, but \nnot at the rectifier output. Check for loose connections \nor open leads between Points J-K or H-L.\n• If DC voltage is present at the rectifier output \nterminals, but no current is flowing, there is an \nopen in one of the external DC Leads.\n• Meters may cause the rectifier to appear defective. \nCheck meter with portable meters known to be \naccurate.\n• Meter switches may be checked with an ohmmeter.\n• If it is suspected that the choke is defective, it may be \neffectively taken from the circuit by placing a heavy \njumper lead across the choke leads.\n• Capacitors in an interference filter are individually \nfused. If fuse is blown, replace with a new fuse and \nturn the on again.\n• Lighting arrestors in rectifier may be isolated by \nremoving them from the circuit.\n",
+            "clean_text": "CHECK\n• If the circuit breaker does not trip when a DC lead on\nthe stack is removed, but does when it is connected, a\nshort circuit is probably is the external ground-bed or\nstructure leads.\n• If DC voltage is present at the stack Points J-H, but\nnot at the rectifier output. Check for loose connections\nor open leads between Points J-K or H-L.\n• If DC voltage is present at the rectifier output\nterminals, but no current is flowing, there is an\nopen in one of the external DC Leads.\n• Meters may cause the rectifier to appear defective.\nCheck meter with portable meters known to be\naccurate.\n• Meter switches may be checked with an ohmmeter.\n• If it is suspected that the choke is defective, it may be\neffectively taken from the circuit by placing a heavy\njumper lead across the choke leads.\n• Capacitors in an interference filter are individually\nfused. If fuse is blown, replace with a new fuse and\nturn the on again.\n• Lighting arrestors in rectifier may be isolated by\nremoving them from the circuit."
+        },
+        {
+            "page_number": 10,
+            "character_count": 308,
+            "word_count": 40,
+            "raw_text": "TROUBLESHOOTING TIPS\nMany rectifier problems are relatively \nobvious to the experienced technicians upon \nphysical examination.  The obvious should \nnever be overlooked!  Loose connections, \nsigns of arcing, strange odors, etc., indicate \ntroubles, which do not require elaborate test \nprocedure to uncover.\n",
+            "clean_text": "TROUBLESHOOTING TIPS\nMany rectifier problems are relatively\nobvious to the experienced technicians upon\nphysical examination. The obvious should\nnever be overlooked! Loose connections,\nsigns of arcing, strange odors, etc., indicate\ntroubles, which do not require elaborate test\nprocedure to uncover."
+        },
+        {
+            "page_number": 11,
+            "character_count": 402,
+            "word_count": 64,
+            "raw_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\n1. No output voltage or current present.\nA. Breaker Tripped (or Fuse Blown)\n1. Steady overload, reduce output slightly.\n2. Short circuit in some component.\nB. No AC Line Voltage\nC. Open Circuit\n1. Check all connections\n2. Check all diodes in silicon stacks\nD. Defective meters or meter switches Paragraph 11,\nTroubleshooting Procedure section of your guide.\n",
+            "clean_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\n1. No output voltage or current present.\nA. Breaker Tripped (or Fuse Blown)\n1. Steady overload, reduce output slightly.\n2. Short circuit in some component.\nB. No AC Line Voltage\nC. Open Circuit\n1. Check all connections\n2. Check all diodes in silicon stacks\nD. Defective meters or meter switches Paragraph 11,\nTroubleshooting Procedure section of your guide."
+        },
+        {
+            "page_number": 12,
+            "character_count": 462,
+            "word_count": 70,
+            "raw_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\nE. Defective Transformer, good primary input, but\nno secondary output.\n1. Secondary probably open.\n2. Check DC resistance of windings with an ohmmeter.\n(a.) Secondary should have less than 1Ώ\nresistance.\n(b.) Primary should have 1-10Ώ resistance\n(c.) An open circuit is possible if resistance is\nextremely high.\nF. Circuit Breaker (or thermal overload protectors).\nIf contacts do not close, repair or replace breaker.\n",
+            "clean_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\nE. Defective Transformer, good primary input, but\nno secondary output.\n1. Secondary probably open.\n2. Check DC resistance of windings with an ohmmeter.\n(a.) Secondary should have less than 1Ώ\nresistance.\n(b.) Primary should have 1-10Ώ resistance\n(c.) An open circuit is possible if resistance is\nextremely high.\nF. Circuit Breaker (or thermal overload protectors).\nIf contacts do not close, repair or replace breaker."
+        },
+        {
+            "page_number": 13,
+            "character_count": 485,
+            "word_count": 87,
+            "raw_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\n2. If maximum DC output voltage at rated DC current is half output.\nA. Check for proper AC input voltage.\nB. Check stacks for plates open circuit, this would make\nunit operate as a half-wave rectifier.\nC. Badly aged stacks.\nD. For 3Ø rectifiers, in addition to the above 1Ø rectifiers.\n(1.) Open circuit if, one AC line is considerably less\nthan the other two.\n(2.) One of three stacks are more aged than the other\ntwo.\nE. Low line voltage.\n",
+            "clean_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\n2. If maximum DC output voltage at rated DC current is half output.\nA. Check for proper AC input voltage.\nB. Check stacks for plates open circuit, this would make\nunit operate as a half-wave rectifier.\nC. Badly aged stacks.\nD. For 3Ø rectifiers, in addition to the above 1Ø rectifiers.\n(1.) Open circuit if, one AC line is considerably less\nthan the other two.\n(2.) One of three stacks are more aged than the other\ntwo.\nE. Low line voltage."
+        },
+        {
+            "page_number": 14,
+            "character_count": 292,
+            "word_count": 43,
+            "raw_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\n3. Variable Transformer Control\nSome rectifiers may be equipped with a variable \ntransformer in lieu of the standard tap and link bar \narrangement.  The variable transformer will provide \nstep-less, infinite control of the output of the rectifier.\n",
+            "clean_text": "SOME HELPFUL TROUBLESHOOTING TIPS TO FOLLOW\n3. Variable Transformer Control\nSome rectifiers may be equipped with a variable\ntransformer in lieu of the standard tap and link bar\narrangement. The variable transformer will provide\nstep-less, infinite control of the output of the rectifier."
+        },
+        {
+            "page_number": 15,
+            "character_count": 518,
+            "word_count": 84,
+            "raw_text": "TROUBLESHOOTING THE VARIABLE TRANSFORMER\nTroubleshooting the variable transformer will be the same as the\nprocedure for the main transformer.\nA.  AC input voltage should be checked across terminals\none and four.\nB.  Output AC voltage can be checked across terminals\none and three. (Control knob should be at maximum\nrotation.\nC.  Output voltage should be the same as Input voltage.\nD.  If no AC voltage is present on the output terminals\nof the variable transformer, check for open winding,\ndirty or worn wiper brush.\n",
+            "clean_text": "TROUBLESHOOTING THE VARIABLE TRANSFORMER\nTroubleshooting the variable transformer will be the same as the\nprocedure for the main transformer.\nA. AC input voltage should be checked across terminals\none and four.\nB. Output AC voltage can be checked across terminals\none and three. (Control knob should be at maximum\nrotation.\nC. Output voltage should be the same as Input voltage.\nD. If no AC voltage is present on the output terminals\nof the variable transformer, check for open winding,\ndirty or worn wiper brush."
+        },
+        {
+            "page_number": 16,
+            "character_count": 31,
+            "word_count": 4,
+            "raw_text": "TYPICAL SINGLE PHASE RECTIFIER\n",
+            "clean_text": "TYPICAL SINGLE PHASE RECTIFIER"
+        },
+        {
+            "page_number": 17,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 18,
+            "character_count": 30,
+            "word_count": 4,
+            "raw_text": "TYPICAL THREE PHASE RECTIFIER\n",
+            "clean_text": "TYPICAL THREE PHASE RECTIFIER"
+        },
+        {
+            "page_number": 19,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 20,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 21,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 22,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 23,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "document_id": "ESP32_ERRATA_001",
+  "file_name": "ESP32_Chip_Errata_v3.0.pdf",
+  "title": "ESP32 Series SoC Errata",
+  "manufacturer": "Espressif Systems",
+  "document_type": "Errata",
+  "category": "Development",
+  "subcategory": "ESP32",
+  "version": "3.0",
+  "priority": "High",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Known Hardware Bugs",
+    "Failure Analysis",
+    "Troubleshooting"
+  ],
+  "covers": [
+    "CPU",
+    "GPIO",
+    "Brownout",
+    "Watchdog",
+    "UART",
+    "TWAI",
+    "LEDC",
+    "RTC"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent"
+  ],
+  "retrieval_priority": 9,
+  "ocr_required": false,
+  "citation_required": true
+}

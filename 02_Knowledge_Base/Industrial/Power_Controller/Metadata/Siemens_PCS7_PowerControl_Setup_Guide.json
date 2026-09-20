@@ -1,0 +1,33 @@
+{
+  "document_id": "CTRL_SETUP_001",
+  "file_name": "Siemens_PCS7_PowerControl_Setup_Guide.pdf",
+  "title": "PCS 7 PowerControl Setup Guide",
+  "manufacturer": "Siemens",
+  "document_type": "Setup Guide",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "Critical",
+  "knowledge_level": "Expert",
+  "primary_use": [
+    "Commissioning",
+    "Project Engineering",
+    "SCADA Integration"
+  ],
+  "covers": [
+    "PCS 7 Installation",
+    "Project Engineering",
+    "IEC 61850 Integration",
+    "OS Stations",
+    "Server Configuration",
+    "Backup",
+    "Time Synchronization",
+    "Project Deployment"
+  ],
+  "used_by_agents": [
+    "Knowledge Retrieval Agent",
+    "Configuration Agent",
+    "Modification Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

@@ -1,0 +1,294 @@
+{
+    "document_name": "Rectifier_Selection_Operation_and_Maintenance_Guide.pdf",
+    "source_path": "Industrial\\Power_Rectifiers\\Maintenance_Guides\\Rectifier_Selection_Operation_and_Maintenance_Guide.pdf",
+    "total_pages": 41,
+    "pages": [
+        {
+            "page_number": 1,
+            "character_count": 70,
+            "word_count": 9,
+            "raw_text": "RECTIFIER\nSELECTION, OPERATION\n& MAINTENANCE\nPresented by\nMarty Iozzo\n",
+            "clean_text": "RECTIFIER\nSELECTION, OPERATION\n& MAINTENANCE\nPresented by\nMarty Iozzo"
+        },
+        {
+            "page_number": 2,
+            "character_count": 694,
+            "word_count": 120,
+            "raw_text": "What Is A Rectifier and What Does It Do?\n¾ It has been established that DC electricity will generate corrosion, \nand corrosion in turn will generate DC electricity.  Therefore, it is \npossible to prevent corrosion by the use of DC electricity\n¾ A Direct Current passing from a structure will cause corrosion, and \na Direct Current impressed onto a structure will stop corrosion\n¾ The Rectifier is used to deliver – or impress – a Direct Current onto \na structure\n¾ The Rectifier has two functions:\n1.\nTo transform incoming line voltage (AC) provided by the utility \ncompany to a usable voltage, and\n2.\nTo convert the usable AC voltage to Direct Current (DC) to be used \nfor cathodic protection\n",
+            "clean_text": "What Is A Rectifier and What Does It Do?\n¾ It has been established that DC electricity will generate corrosion, \nand corrosion in turn will generate DC electricity.  Therefore, it is \npossible to prevent corrosion by the use of DC electricity\n¾ A Direct Current passing from a structure will cause corrosion, and \na Direct Current impressed onto a structure will stop corrosion\n¾ The Rectifier is used to deliver – or impress – a Direct Current onto \na structure\n¾ The Rectifier has two functions:\n1.\nTo transform incoming line voltage (AC) provided by the utility \ncompany to a usable voltage, and\n2.\nTo convert the usable AC voltage to Direct Current (DC) to be used \nfor cathodic protection"
+        },
+        {
+            "page_number": 3,
+            "character_count": 194,
+            "word_count": 32,
+            "raw_text": "When Selecting Your Rectifier….\n¾ Designed for rugged unattended service\n¾ Cooling options\n¾ Cabinet options\n¾ Input – AC Power\n¾ Output – DC Power keeping possible future \nrequirements in mind\n",
+            "clean_text": "When Selecting Your Rectifier….\n¾ Designed for rugged unattended service\n¾ Cooling options\n¾ Cabinet options\n¾ Input – AC Power\n¾ Output – DC Power keeping possible future \nrequirements in mind"
+        },
+        {
+            "page_number": 4,
+            "character_count": 294,
+            "word_count": 42,
+            "raw_text": "What’s the Perfect Rectifier for Me?\n¾Constant Current\nMaintains a constant current output by adjusting the \nvoltage as site conditions fluctuate\n¾Auto Potential\nAdjusts the rectifier output to maintain a desired \nstructure‐to‐soil potential\n¾Manual Tap (Constant Voltage)\nSet it and forget it\n",
+            "clean_text": "What’s the Perfect Rectifier for Me?\n¾Constant Current\nMaintains a constant current output by adjusting the \nvoltage as site conditions fluctuate\n¾Auto Potential\nAdjusts the rectifier output to maintain a desired \nstructure‐to‐soil potential\n¾Manual Tap (Constant Voltage)\nSet it and forget it"
+        },
+        {
+            "page_number": 5,
+            "character_count": 238,
+            "word_count": 38,
+            "raw_text": "Unpacking and Installing your Rectifier\n¾ Check for freight damage\n¾ Tighten all loose connections\n¾ Select a location that’s easily\naccessible\n¾ Do not install near heat producing equipment\n¾ Make sure the rectifier is properly grounded\n",
+            "clean_text": "Unpacking and Installing your Rectifier\n¾ Check for freight damage\n¾ Tighten all loose connections\n¾ Select a location that’s easily\naccessible\n¾ Do not install near heat producing equipment\n¾ Make sure the rectifier is properly grounded"
+        },
+        {
+            "page_number": 6,
+            "character_count": 80,
+            "word_count": 15,
+            "raw_text": "Proper Output Polarity\n¾ Structure = Negative\n¾ Anode = Positive\nCP is a “SNAP”\n",
+            "clean_text": "Proper Output Polarity\n¾ Structure = Negative\n¾ Anode = Positive\nCP is a “SNAP”"
+        },
+        {
+            "page_number": 7,
+            "character_count": 112,
+            "word_count": 20,
+            "raw_text": "Common Causes of Cathodic Protection System Failures\n0\n10\n20\n30\n40\n50\n60\n70\nRectifier\nCables\nGroundbed\nAC Power\n",
+            "clean_text": "Common Causes of Cathodic Protection System Failures\n0\n10\n20\n30\n40\n50\n60\n70\nRectifier\nCables\nGroundbed\nAC Power"
+        },
+        {
+            "page_number": 8,
+            "character_count": 266,
+            "word_count": 40,
+            "raw_text": "As with any electrical or mechanical device, \nrectifier downtime will occur due to unplanned \nfailure of the equipment.\nA good maintenance program will help ward off \nsome component failures, and basic \ntroubleshooting skills will bring the rectifier \nback on line.\n",
+            "clean_text": "As with any electrical or mechanical device, \nrectifier downtime will occur due to unplanned \nfailure of the equipment.\nA good maintenance program will help ward off \nsome component failures, and basic \ntroubleshooting skills will bring the rectifier \nback on line."
+        },
+        {
+            "page_number": 9,
+            "character_count": 433,
+            "word_count": 69,
+            "raw_text": "Basic Preventive Maintenance Checks And Services\n¾ The rectifier enclosure should be maintained\n¾ Rectifiers must be allowed to cool properly\n¾ Rectifier enclosure must be properly grounded\n¾ Check all connections for tightness\n¾ All rectifier components should be kept clean\n¾ Basic measurements should be recorded\n AC input voltage and amperage\n Stack AC input voltage\n DC output voltage and amperage\n Transformer tap settings\n",
+            "clean_text": "Basic Preventive Maintenance Checks And Services\n¾ The rectifier enclosure should be maintained\n¾ Rectifiers must be allowed to cool properly\n¾ Rectifier enclosure must be properly grounded\n¾ Check all connections for tightness\n¾ All rectifier components should be kept clean\n¾ Basic measurements should be recorded\n AC input voltage and amperage\n Stack AC input voltage\n DC output voltage and amperage\n Transformer tap settings"
+        },
+        {
+            "page_number": 10,
+            "character_count": 347,
+            "word_count": 59,
+            "raw_text": "Rectifier Components\nTo best understand all components of the rectifier and their relation to one \nanother, the best place to start is at the input\n• AC Input\n• Input Lightning Arrestor\n• Main Circuit Breaker\n• Power Transformer\n• Rectifier Stack\n• Fuses or Secondary \nBreakers\n• Meters\n• Shunt\n• Output Lightning Arrestor\n• Filters\n• Accessories\n",
+            "clean_text": "Rectifier Components\nTo best understand all components of the rectifier and their relation to one \nanother, the best place to start is at the input\n• AC Input\n• Input Lightning Arrestor\n• Main Circuit Breaker\n• Power Transformer\n• Rectifier Stack\n• Fuses or Secondary \nBreakers\n• Meters\n• Shunt\n• Output Lightning Arrestor\n• Filters\n• Accessories"
+        },
+        {
+            "page_number": 11,
+            "character_count": 269,
+            "word_count": 45,
+            "raw_text": "Lightning Arrestors\n¾ Usually found on the \ninput and output of the \nrectifier\n¾ Protects the rectifier \nfrom extreme voltage \nsurges\n¾ Most configurations are a \nset of gapped points that \nan arc current can travel \nwhen a voltage surge is \ngreat enough in \nmagnitude\n",
+            "clean_text": "Lightning Arrestors\n¾ Usually found on the \ninput and output of the \nrectifier\n¾ Protects the rectifier \nfrom extreme voltage \nsurges\n¾ Most configurations are a \nset of gapped points that \nan arc current can travel \nwhen a voltage surge is \ngreat enough in \nmagnitude"
+        },
+        {
+            "page_number": 12,
+            "character_count": 233,
+            "word_count": 41,
+            "raw_text": "Main Circuit Breaker\n¾ Turns the incoming AC on \nor off\n¾ Must be placed in each \n‘HOT’ supply line\n¾ Provides overload \nprotection to the rectifier\n¾ Contains either a thermal \nor magnetic trip \nelement……. Or a \ncombination of both\n",
+            "clean_text": "Main Circuit Breaker\n¾ Turns the incoming AC on \nor off\n¾ Must be placed in each \n‘HOT’ supply line\n¾ Provides overload \nprotection to the rectifier\n¾ Contains either a thermal \nor magnetic trip \nelement……. Or a \ncombination of both"
+        },
+        {
+            "page_number": 13,
+            "character_count": 241,
+            "word_count": 40,
+            "raw_text": "Power Transformer\n¾ Converts the incoming \nAC voltage to a ‘usable’ \nvoltage\n¾ Primary – Input\n¾ Secondary – Output\n¾ The secondary allows for \nadjustment of the \nrectifier\n¾ Most transformers used \nin rectifiers are step‐\ndown or ‘bucking’\n",
+            "clean_text": "Power Transformer\n¾ Converts the incoming \nAC voltage to a ‘usable’ \nvoltage\n¾ Primary – Input\n¾ Secondary – Output\n¾ The secondary allows for \nadjustment of the \nrectifier\n¾ Most transformers used \nin rectifiers are step‐\ndown or ‘bucking’"
+        },
+        {
+            "page_number": 14,
+            "character_count": 168,
+            "word_count": 30,
+            "raw_text": "Rectifier Stack\n¾ Converts incoming AC \nto DC output\n¾ It’s function is to pass \ncurrent in one direction \nand block it in the \nopposite direction\n¾ Selenium\n¾ Silicon\n",
+            "clean_text": "Rectifier Stack\n¾ Converts incoming AC \nto DC output\n¾ It’s function is to pass \ncurrent in one direction \nand block it in the \nopposite direction\n¾ Selenium\n¾ Silicon"
+        },
+        {
+            "page_number": 15,
+            "character_count": 203,
+            "word_count": 38,
+            "raw_text": "Rectifier Stack – Silicon\n¾ Cost effective\n¾ Very efficient\n¾ Does not age\n¾ Longer life\n¾ Much higher output \nrating\n¾ Easily replaced\n¾ Must be surge protected\n¾ Will not show signs of visible \ndamage\n",
+            "clean_text": "Rectifier Stack – Silicon\n¾ Cost effective\n¾ Very efficient\n¾ Does not age\n¾ Longer life\n¾ Much higher output \nrating\n¾ Easily replaced\n¾ Must be surge protected\n¾ Will not show signs of visible \ndamage"
+        },
+        {
+            "page_number": 16,
+            "character_count": 237,
+            "word_count": 39,
+            "raw_text": "Rectifier Stack – Selenium\n¾ Can withstand Voltage \nsurges\n¾ Can withstand short‐term \noverload\n¾ Becomes less efficient with \nage\n¾ Becomes less efficient with \nheat\n¾ More difficult to replace\n¾ If it looks good, it’s \n‘probably’ good\n",
+            "clean_text": "Rectifier Stack – Selenium\n¾ Can withstand Voltage \nsurges\n¾ Can withstand short‐term \noverload\n¾ Becomes less efficient with \nage\n¾ Becomes less efficient with \nheat\n¾ More difficult to replace\n¾ If it looks good, it’s \n‘probably’ good"
+        },
+        {
+            "page_number": 17,
+            "character_count": 90,
+            "word_count": 12,
+            "raw_text": "Fuses & Secondary Breakers\n¾ Protects the more \nexpensive rectifier \ncomponents.  Period.\n",
+            "clean_text": "Fuses & Secondary Breakers\n¾ Protects the more \nexpensive rectifier \ncomponents.  Period."
+        },
+        {
+            "page_number": 18,
+            "character_count": 249,
+            "word_count": 41,
+            "raw_text": "DC Output Meters\n¾ Used in the rectifier to \nindicate the amount of \nDC Voltage and/or \ncurrent at the output\n¾ Always carry a portable \nvolt/amp meter when \nservicing the rectifier, \nas rectifier meters have \nbeen known to give \nerroneous readings\n",
+            "clean_text": "DC Output Meters\n¾ Used in the rectifier to \nindicate the amount of \nDC Voltage and/or \ncurrent at the output\n¾ Always carry a portable \nvolt/amp meter when \nservicing the rectifier, \nas rectifier meters have \nbeen known to give \nerroneous readings"
+        },
+        {
+            "page_number": 19,
+            "character_count": 170,
+            "word_count": 27,
+            "raw_text": "Shunts\n¾ Calibrated device (resistor) \nused in the DC Circuit for \nmonitoring purposes.\n¾ DC current can be \ncalculated from the \nmeasured voltage drop \nacross the shunt\n",
+            "clean_text": "Shunts\n¾ Calibrated device (resistor) \nused in the DC Circuit for \nmonitoring purposes.\n¾ DC current can be \ncalculated from the \nmeasured voltage drop \nacross the shunt"
+        },
+        {
+            "page_number": 20,
+            "character_count": 180,
+            "word_count": 29,
+            "raw_text": "Filters & Accessories\n¾ All rectifier \nmanufacturers offer \nvarious accessories to \nenhance their products\n Filters\n Lights\n Alarms\n AC outlets\n Hour meters\n Remote monitors\n",
+            "clean_text": "Filters & Accessories\n¾ All rectifier \nmanufacturers offer \nvarious accessories to \nenhance their products\n Filters\n Lights\n Alarms\n AC outlets\n Hour meters\n Remote monitors"
+        },
+        {
+            "page_number": 21,
+            "character_count": 883,
+            "word_count": 140,
+            "raw_text": "Before We Start Troubleshooting\n……….. A Few Precautions\nBe Aware of High Voltages!\n9 Backhand Rule:  Touch the rectifier enclosure with the back of your hand\n9 De‐energize: If possible, disconnect the power at the source\n9 One‐Hand Rule: If possible, work within the enclosure with only one hand\n9 Look Away:  When energizing the rectifier, look away or cover your face\n9 Insulated Hand/Foot wear: Wear them to prevent electrocution\n9 Work In Pairs:  For obvious reasons\n9 Weather: Do not attempt repairs during inclement weather\n9 Jewelry: Do not wear jewelry while working on ‘live’ circuits\n9 Fatigue: Do not work on energized equipment while mentally or physically \nfatigued\n9 Maintain Constant Vigilance:  Know where you are with respect to ‘live’ \ncircuits\n9 Working Knowledge:  Have a general understanding of the rectifier circuit \noperation and basic troubleshooting skills\n",
+            "clean_text": "Before We Start Troubleshooting\n……….. A Few Precautions\nBe Aware of High Voltages!\n9 Backhand Rule:  Touch the rectifier enclosure with the back of your hand\n9 De‐energize: If possible, disconnect the power at the source\n9 One‐Hand Rule: If possible, work within the enclosure with only one hand\n9 Look Away:  When energizing the rectifier, look away or cover your face\n9 Insulated Hand/Foot wear: Wear them to prevent electrocution\n9 Work In Pairs:  For obvious reasons\n9 Weather: Do not attempt repairs during inclement weather\n9 Jewelry: Do not wear jewelry while working on ‘live’ circuits\n9 Fatigue: Do not work on energized equipment while mentally or physically \nfatigued\n9 Maintain Constant Vigilance:  Know where you are with respect to ‘live’ \ncircuits\n9 Working Knowledge:  Have a general understanding of the rectifier circuit \noperation and basic troubleshooting skills"
+        },
+        {
+            "page_number": 22,
+            "character_count": 40,
+            "word_count": 7,
+            "raw_text": "And Check For Nests And Other Critters!\n",
+            "clean_text": "And Check For Nests And Other Critters!"
+        },
+        {
+            "page_number": 23,
+            "character_count": 353,
+            "word_count": 56,
+            "raw_text": "Troubleshooting Equipment\nDoesn’t have to be elaborate – only functional\nProper tools will give the field technician the ability to make \nall repairs needed.  Recommended tools and equipment \nmight be:\n Digital voltmeter\n Amp clamp\n Heavy shorting cables\n Insulated jumper cables\n Spare calibrated shunt\n Load resistor\n Assorted small hand tools\n",
+            "clean_text": "Troubleshooting Equipment\nDoesn’t have to be elaborate – only functional\nProper tools will give the field technician the ability to make \nall repairs needed.  Recommended tools and equipment \nmight be:\n Digital voltmeter\n Amp clamp\n Heavy shorting cables\n Insulated jumper cables\n Spare calibrated shunt\n Load resistor\n Assorted small hand tools"
+        },
+        {
+            "page_number": 24,
+            "character_count": 197,
+            "word_count": 33,
+            "raw_text": "Troubleshooting\nMost common rectifier problems encountered are:\n¾ No input – or line – voltage\n¾ Blown fuses\n¾ Faulty meters\n¾ Loose or corroded terminals\n¾ Open groundbed leads\n¾ Lightning damage\n",
+            "clean_text": "Troubleshooting\nMost common rectifier problems encountered are:\n¾ No input – or line – voltage\n¾ Blown fuses\n¾ Faulty meters\n¾ Loose or corroded terminals\n¾ Open groundbed leads\n¾ Lightning damage"
+        },
+        {
+            "page_number": 25,
+            "character_count": 26,
+            "word_count": 4,
+            "raw_text": "Most Problems Are Obvious\n",
+            "clean_text": "Most Problems Are Obvious"
+        },
+        {
+            "page_number": 26,
+            "character_count": 33,
+            "word_count": 5,
+            "raw_text": "Some Problems Are Really Obvious\n",
+            "clean_text": "Some Problems Are Really Obvious"
+        },
+        {
+            "page_number": 27,
+            "character_count": 41,
+            "word_count": 6,
+            "raw_text": "Some Problems Are Really, Really Obvious\n",
+            "clean_text": "Some Problems Are Really, Really Obvious"
+        },
+        {
+            "page_number": 28,
+            "character_count": 27,
+            "word_count": 6,
+            "raw_text": "And Some Are Tough To Find\n",
+            "clean_text": "And Some Are Tough To Find"
+        },
+        {
+            "page_number": 29,
+            "character_count": 387,
+            "word_count": 57,
+            "raw_text": "Troubleshooting Tips\n¾ Many rectifier problems are obvious to the experienced \ntechnician upon physical examination.  Look for loose \nconnections, signs of arcing, strange odors or discoloration.\n¾ Carry an inventory of spare parts.  The most common being:\n Breakers\n Fuses\n Diodes\n Bridge rectifiers\n Wire\n Miscellaneous connectors\n Control boards for auto‐controlled rectifiers\n",
+            "clean_text": "Troubleshooting Tips\n¾ Many rectifier problems are obvious to the experienced \ntechnician upon physical examination.  Look for loose \nconnections, signs of arcing, strange odors or discoloration.\n¾ Carry an inventory of spare parts.  The most common being:\n Breakers\n Fuses\n Diodes\n Bridge rectifiers\n Wire\n Miscellaneous connectors\n Control boards for auto‐controlled rectifiers"
+        },
+        {
+            "page_number": 30,
+            "character_count": 725,
+            "word_count": 115,
+            "raw_text": "More Troubleshooting Tips\n• No AC line voltage:  Do not overlook the possibility that \nservice to the rectifier may have been interrupted.\n• Defective Meters:  Never trust the rectifier meters.  \nAlways verify with a portable voltmeter known to be good.\n• Breaker tripped or blown fuse:  If the breaker trips \nrepeatedly even with the output reduced, the cause may be a \nshort circuit in some component (much more on that later).  \nIf the breaker trips occasionally for no obvious reason, the \ncause may be a temporary overload due to groundbed \nresistance fluctuations, line voltage surges, intermittent short \ncircuits due to component breakdown, or the thermal breaker \nmay be affected by sunlight or another heat source.\n",
+            "clean_text": "More Troubleshooting Tips\n• No AC line voltage:  Do not overlook the possibility that \nservice to the rectifier may have been interrupted.\n• Defective Meters:  Never trust the rectifier meters.  \nAlways verify with a portable voltmeter known to be good.\n• Breaker tripped or blown fuse:  If the breaker trips \nrepeatedly even with the output reduced, the cause may be a \nshort circuit in some component (much more on that later).  \nIf the breaker trips occasionally for no obvious reason, the \ncause may be a temporary overload due to groundbed \nresistance fluctuations, line voltage surges, intermittent short \ncircuits due to component breakdown, or the thermal breaker \nmay be affected by sunlight or another heat source."
+        },
+        {
+            "page_number": 31,
+            "character_count": 717,
+            "word_count": 113,
+            "raw_text": "Even More Troubleshooting Tips\n• Open circuit in a component or connection:  Check all \nconnections for cleanliness and soundness.  Check the \nrectifier stack for an open‐circuit condition.  The diodes can \nbe checked with an ohmmeter.  (Again, much more on that \nlater).\n• Defective transformer:  If input voltage is present, check \nfor an audible hum.  If a hum is present, the primary is \nprobably working and the secondary is open.  Disconnect the \nAC input and isolate the transformer.  Check the resistance of \nthe windings with an ohmmeter.  The secondary should have \nless than one ohm resistance.  The primary should have one \nto ten ohms resistance.  If either is high, the transformer \nshould be replaced.\n",
+            "clean_text": "Even More Troubleshooting Tips\n• Open circuit in a component or connection:  Check all \nconnections for cleanliness and soundness.  Check the \nrectifier stack for an open‐circuit condition.  The diodes can \nbe checked with an ohmmeter.  (Again, much more on that \nlater).\n• Defective transformer:  If input voltage is present, check \nfor an audible hum.  If a hum is present, the primary is \nprobably working and the secondary is open.  Disconnect the \nAC input and isolate the transformer.  Check the resistance of \nthe windings with an ohmmeter.  The secondary should have \nless than one ohm resistance.  The primary should have one \nto ten ohms resistance.  If either is high, the transformer \nshould be replaced."
+        },
+        {
+            "page_number": 32,
+            "character_count": 274,
+            "word_count": 43,
+            "raw_text": "The Ultimate Troubleshooting Tip\nWhen expected DC voltage is present at the rectifier \noutput, there is probably no problem with the rectifier \nitself – but rather, the problem is within the external \n(groundbed) circuit.\n‐In Other Words‐\nDC Output Voltage = Good Rectifier\n",
+            "clean_text": "The Ultimate Troubleshooting Tip\nWhen expected DC voltage is present at the rectifier \noutput, there is probably no problem with the rectifier \nitself – but rather, the problem is within the external \n(groundbed) circuit.\n‐In Other Words‐\nDC Output Voltage = Good Rectifier"
+        },
+        {
+            "page_number": 33,
+            "character_count": 1417,
+            "word_count": 252,
+            "raw_text": "Troubleshooting Procedure\nNo Output\n•\nCheck the input voltage.  Us the AC voltage setting of the voltmeter to \nmeasure across the line side of the circuit breaker (A‐A).\n•\nCheck across the load side of the circuit breaker (B‐B).  The measured voltage \nshould be the same as measured on the line side.\n•\nCheck the input voltage change taps for loose or dirty connections.  Verify that \nthe tap change bar is in the proper position (C).\n•\nCheck the transformer secondary with your AC voltmeter (D‐E).\n•\nMeasure the AC voltage supplied to the rectifier stack (F‐G).  This voltage \nshould be the same as was measured at the transformer secondary.\n•\nMeasure the DC voltage at the rectifier stack output (H‐I). The stack can be \nisolated from the rest of the DC circuit by removing either lead at H or I.\n•\nCheck the DC voltage at the rectifier output (J‐K).  If DC voltage is present but \nis much less than expected, the stack will have to be examined.  If the DC \nvoltage is about half of that expected, turn the rectifier off and feel the \nindividual plates of the stack.  If the temperature of the individual plates is not \nuniform, the stack has an open and is half‐waving.  Defective diodes and/or \nassociated wiring will have to be replaced.\n•\nIf DC voltage is present at the stack but not at the output, check for loose \nconnections or open leads between the stack and the output.  Don’t forget \nabout the DC fuse.\n",
+            "clean_text": "Troubleshooting Procedure\nNo Output\n•\nCheck the input voltage.  Us the AC voltage setting of the voltmeter to \nmeasure across the line side of the circuit breaker (A‐A).\n•\nCheck across the load side of the circuit breaker (B‐B).  The measured voltage \nshould be the same as measured on the line side.\n•\nCheck the input voltage change taps for loose or dirty connections.  Verify that \nthe tap change bar is in the proper position (C).\n•\nCheck the transformer secondary with your AC voltmeter (D‐E).\n•\nMeasure the AC voltage supplied to the rectifier stack (F‐G).  This voltage \nshould be the same as was measured at the transformer secondary.\n•\nMeasure the DC voltage at the rectifier stack output (H‐I). The stack can be \nisolated from the rest of the DC circuit by removing either lead at H or I.\n•\nCheck the DC voltage at the rectifier output (J‐K).  If DC voltage is present but \nis much less than expected, the stack will have to be examined.  If the DC \nvoltage is about half of that expected, turn the rectifier off and feel the \nindividual plates of the stack.  If the temperature of the individual plates is not \nuniform, the stack has an open and is half‐waving.  Defective diodes and/or \nassociated wiring will have to be replaced.\n•\nIf DC voltage is present at the stack but not at the output, check for loose \nconnections or open leads between the stack and the output.  Don’t forget \nabout the DC fuse."
+        },
+        {
+            "page_number": 34,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 35,
+            "character_count": 955,
+            "word_count": 166,
+            "raw_text": "Troubleshooting Procedure\nMain Breaker Trips\n•\nRemove the lightning arrestors and try again.\n•\nIf the breaker continues to trip, isolate the breaker from the rectifier by \nremoving either lead from the load side of the main breaker (B‐B).  If the \nbreaker trips, the breaker is defective.  If it holds, the breaker is good.  \nReconnect and try again.\n•\nIf the breaker continues to trip, isolate the transformer from the DC circuit \nby removing either secondary tap link bars (D or E).  Try again.\n•\nIf the breaker continues to trip, the transformer is shorted and will \nprobably have to be replaced or adjusted.  If the breaker does not trip, the \nshort circuit is in the DC circuit.\n•\nRemove either DC lead from the rectifier stack (H or I). If the breaker \ntrips, the rectifier stack will have to be replaced or repaired.  If the breaker \ndoes not trip, the short is still downstream – either in a rectifier output \naccessory, or the groundbed circuit.\n",
+            "clean_text": "Troubleshooting Procedure\nMain Breaker Trips\n•\nRemove the lightning arrestors and try again.\n•\nIf the breaker continues to trip, isolate the breaker from the rectifier by \nremoving either lead from the load side of the main breaker (B‐B).  If the \nbreaker trips, the breaker is defective.  If it holds, the breaker is good.  \nReconnect and try again.\n•\nIf the breaker continues to trip, isolate the transformer from the DC circuit \nby removing either secondary tap link bars (D or E).  Try again.\n•\nIf the breaker continues to trip, the transformer is shorted and will \nprobably have to be replaced or adjusted.  If the breaker does not trip, the \nshort circuit is in the DC circuit.\n•\nRemove either DC lead from the rectifier stack (H or I). If the breaker \ntrips, the rectifier stack will have to be replaced or repaired.  If the breaker \ndoes not trip, the short is still downstream – either in a rectifier output \naccessory, or the groundbed circuit."
+        },
+        {
+            "page_number": 36,
+            "character_count": 37,
+            "word_count": 3,
+            "raw_text": "Dead-Front Rectifier Troubleshooting\n",
+            "clean_text": "Dead-Front Rectifier Troubleshooting"
+        },
+        {
+            "page_number": 37,
+            "character_count": 144,
+            "word_count": 21,
+            "raw_text": "Most Common Cause Of Rectifier Failure\nApproximately 80% Of All Rectifier Failures Occur At The Rectifier Stack\nRectifier Stack\nEverything Else\n",
+            "clean_text": "Most Common Cause Of Rectifier Failure\nApproximately 80% Of All Rectifier Failures Occur At The Rectifier Stack\nRectifier Stack\nEverything Else"
+        },
+        {
+            "page_number": 38,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        },
+        {
+            "page_number": 39,
+            "character_count": 23,
+            "word_count": 4,
+            "raw_text": "Dead Front Stack Check\n",
+            "clean_text": "Dead Front Stack Check"
+        },
+        {
+            "page_number": 40,
+            "character_count": 193,
+            "word_count": 25,
+            "raw_text": "So………… To Summarize\n9Proper Rectifier Selection\n9Know Your Troubleshooting Procedures\n9Know your Troubleshooting Equipment\n9Maintain Constant Vigilance\n9Have A Plan\n9Work Your Plan\n9Good Luck!\n",
+            "clean_text": "So………… To Summarize\n9Proper Rectifier Selection\n9Know Your Troubleshooting Procedures\n9Know your Troubleshooting Equipment\n9Maintain Constant Vigilance\n9Have A Plan\n9Work Your Plan\n9Good Luck!"
+        },
+        {
+            "page_number": 41,
+            "character_count": 0,
+            "word_count": 0,
+            "raw_text": "",
+            "clean_text": ""
+        }
+    ]
+}

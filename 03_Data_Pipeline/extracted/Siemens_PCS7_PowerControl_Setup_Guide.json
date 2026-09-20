@@ -1,0 +1,547 @@
+{
+    "document_name": "Siemens_PCS7_PowerControl_Setup_Guide.pdf",
+    "source_path": "Industrial\\Power_Controller\\Installation_Guides\\Siemens_PCS7_PowerControl_Setup_Guide.pdf",
+    "total_pages": 90,
+    "pages": [
+        {
+            "page_number": 1,
+            "text": "SIMATIC\nProcess Control System PCS 7\nPowerControl Setup Guide\nFunction Manual\n08/2021\nA5E51115883-AA\nSecurity information\n1\nIntroduction and \nInstallation\n2\nProject Engineering \nOverview\n3\nCreating a SIMATIC \nManager Project\n4\nStation Lifebeat Monitoring \nSetup\n5\nDownloading and \nActivating PCS 7 OS Stations\n6\nDelta Engineering\n7\nExtending PCS 7 \nPowerControl\n8\n",
+            "character_count": 364,
+            "word_count": 51
+        },
+        {
+            "page_number": 2,
+            "text": "Legal information\nWarning notice system\nThis manual contains notices you have to observe in order to ensure your personal safety, as well as to prevent damage \nto property. The notices referring to your personal safety are highlighted in the manual by a safety alert symbol, notices \nreferring only to property damage have no safety alert symbol. These notices shown below are graded according to \nthe degree of danger.\nDANGER\nindicates that death or severe personal injury will result if proper precautions are not taken.\nWARNING\nindicates that death or severe personal injury may result if proper precautions are not taken.\nCAUTION\nindicates that minor personal injury can result if proper precautions are not taken.\nNOTICE\nindicates that property damage can result if proper precautions are not taken.\nIf more than one degree of danger is present, the warning notice representing the highest degree of danger will be \nused. A notice warning of injury to persons with a safety alert symbol may also include a warning relating to property \ndamage.\nQualified Personnel\nThe product/system described in this documentation may be operated only by personnel qualified for the specific \ntask in accordance with the relevant documentation, in particular its warning notices and safety instructions. \nQualified personnel are those who, based on their training and experience, are capable of identifying risks and \navoiding potential hazards when working with these products/systems.\nProper use of Siemens products\nNote the following:\nWARNING\nSiemens products may only be used for the applications described in the catalog and in the relevant technical \ndocumentation. If products and components from other manufacturers are used, these must be recommended or \napproved by Siemens. Proper transport, storage, installation, assembly, commissioning, operation and maintenance \nare required to ensure that the products operate safely and without any problems. The permissible ambient \nconditions must be complied with. The information in the relevant documentation must be observed.\nTrademarks\nAll names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication may \nbe trademarks whose use by third parties for their own purposes could violate the rights of the owner.\nDisclaimer of Liability\nWe have reviewed the contents of this publication to ensure consistency with the hardware and software described. \nSince variance cannot be precluded entirely, we cannot guarantee full consistency.  However, the information in this \npublication is reviewed regularly and any necessary corrections are included in subsequent editions.\nSiemens AG\nDigital Industries\nPostfach 48 48\n90026 NÜRNBERG\nGERMANY\nA5E51115883-AA\nⓅ 07/2021 Subject to change\nCopyright © Siemens AG 2021.\nAll rights reserved\n",
+            "character_count": 2821,
+            "word_count": 421
+        },
+        {
+            "page_number": 3,
+            "text": "Table of contents\n1\nSecurity information.............................................................................................................................. 5\n2\nIntroduction and Installation................................................................................................................. 7\n2.1\nSecurity ............................................................................................................................... 7\n2.1.1\nSecurity concept .................................................................................................................. 7\n2.1.2\nPCS 7/PowerControl example................................................................................................ 7\n2.1.3\nGeneral security information................................................................................................ 8\n2.2\nOverview........................................................................................................................... 10\n2.3\nSoftware installation - Overview......................................................................................... 14\n2.3.1\nInstalling the operating system .......................................................................................... 14\n2.3.2\nInstalling Third Party Software............................................................................................ 15\n2.3.3\nInstalling PCS 7 software.................................................................................................... 15\n2.3.4\nInstalling PCS 7/PowerControl Software.............................................................................. 15\n2.3.5\nInstall Authorizations and Licenses..................................................................................... 25\n2.4\nUse cases........................................................................................................................... 27\n2.4.1\nUse cases........................................................................................................................... 27\n3\nProject Engineering Overview............................................................................................................. 29\n3.1\nCreating a PCS 7 PowerControl Project................................................................................ 30\n3.2\nAS/IED Configuration and Programming.............................................................................. 31\n3.3\nIntegrating PCS 7 PowerControl with IEC 61850 Intelligent Automation Devices (IEDs)........ 32\n3.4\nConfiguring PCS 7 PowerControl OS Stations....................................................................... 33\n3.4.1\nCompleting the PCS 7 OS Database Configuration............................................................... 33\n3.4.1.1\nCompleting Graphic Displays.............................................................................................. 33\n3.4.1.2\nStation Lifebeat Monitoring Configuration .......................................................................... 33\n3.4.1.3\nUser Administration ........................................................................................................... 33\n3.4.1.4\nSpecial Instructions for Configuring a Backup OS Server...................................................... 35\n3.4.1.5\nDownloading..................................................................................................................... 36\n4\nCreating a SIMATIC Manager Project................................................................................................... 37\n4.1\nCreate a New Project in SIMATIC Manager........................................................................... 38\n4.2\nServer Project Setup........................................................................................................... 43\n4.2.1\nCreate Shared Folders ........................................................................................................ 43\n4.2.2\nConfigure Primary Station .................................................................................................. 44\n4.2.3\nConfigure Standby Station.................................................................................................. 46\n4.2.4\nRun OS Project Editor ......................................................................................................... 48\n4.2.5\nGenerate Server Data......................................................................................................... 49\n4.2.6\nLifebeat Monitoring Setup.................................................................................................. 50\n4.2.7\nConfigure Alarm Logging ................................................................................................... 50\n4.2.8\nConfigure Tag Logging ....................................................................................................... 51\n4.3\nClient Project Setup............................................................................................................ 52\n4.3.1\nCreate Shared Folders ........................................................................................................ 52\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n3\n",
+            "character_count": 5271,
+            "word_count": 244
+        },
+        {
+            "page_number": 4,
+            "text": "4.3.2\nConfigure Client Station ..................................................................................................... 53\n4.3.3\nAssign OS Server................................................................................................................ 55\n4.3.4\nConfigure a Standard Server............................................................................................... 56\n4.3.5\nConfigure a Preferred Server............................................................................................... 56\n4.3.6\nRun OS Project Editor (optional) ......................................................................................... 56\n4.3.7\nLifebeat Monitoring Setup.................................................................................................. 58\n4.4\nConfigure the Terminal Bus ................................................................................................ 61\n4.5\nTime Synchronization Setup............................................................................................... 62\n4.6\nUser Administration ........................................................................................................... 63\n4.7\nData Security and Backup................................................................................................... 64\n5\nStation Lifebeat Monitoring Setup ...................................................................................................... 67\n6\nDownloading and Activating PCS 7 OS Stations .................................................................................. 73\n6.1\nDownload the Project to the Primary Server........................................................................ 74\n6.2\nDownload the Project to the Standby Server ....................................................................... 75\n6.3\nDownload the Project to the Client Station.......................................................................... 76\n6.4\nActivating Server Projects................................................................................................... 77\n6.5\nRestarting an OS Server ..................................................................................................... 78\n7\nDelta Engineering................................................................................................................................ 79\n7.1\nOverall Steps...................................................................................................................... 80\n7.2\nMaking Changes to the AS Configuration............................................................................ 81\n7.3\nMaking Changes to the DBA Configuration ......................................................................... 82\n7.4\nModify the Project in WinCC ............................................................................................... 83\n7.5\nDownload Changes............................................................................................................ 84\n7.5.1\nFull Download.................................................................................................................... 84\n7.5.1.1\nDownload the Project to the Standby Server ....................................................................... 84\n7.5.1.2\nDownload the Project to the Primary Server........................................................................ 84\n7.5.2\nDownloading Changes ....................................................................................................... 85\n7.5.2.1\nDownload Change Overview .............................................................................................. 85\n8\nExtending PCS 7 PowerControl ............................................................................................................ 87\n8.1\nCreating New Technological Object Types........................................................................... 88\n8.2\nCreating New Faceplates and Symbols................................................................................ 89\nTable of contents\nPowerControl Setup Guide\n4\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 4164,
+            "word_count": 219
+        },
+        {
+            "page_number": 5,
+            "text": "Security information\n1\nSiemens provides products and solutions with industrial security functions that support the \nsecure operation of plants, systems, machines and networks.\nIn order to protect plants, systems, machines and networks against cyber threats, it is necessary \nto implement – and continuously maintain – a holistic, state-of-the-art industrial security \nconcept. Siemens’ products and solutions constitute one element of such a concept.\nCustomers are responsible for preventing unauthorized access to their plants, systems, \nmachines and networks. Such systems, machines and components should only be connected to \nan enterprise network or the internet if and to the extent such a connection is necessary and only \nwhen appropriate security measures (e.g. firewalls and/or network segmentation) are in place.\nFor additional information on industrial security measures that may be implemented, please \nvisit \nhttps://www.siemens.com/industrialsecurity. \nSiemens’ products and solutions undergo continuous development to make them more secure. \nSiemens strongly recommends that product updates are applied as soon as they are available \nand that the latest product versions are used. Use of product versions that are no longer \nsupported, and failure to apply the latest updates may increase customer’s exposure to cyber \nthreats.\nTo stay informed about product updates, subscribe to the Siemens Industrial Security RSS Feed \nunder \nhttps://www.siemens.com/industrialsecurity. \nPurpose of the Manual\nThis manual helps you to connect PCS 7 operator stations with PowerControl stations via PCS 7 \nPowerControl.\nAims\nThis manual provides you with the following information:\n•\nInstalling PCS 7 PowerControl\n•\nCreating and configuring SIMATIC Manager projects\n•\nIntegrating PCS 7 PowerControl in IEC 61850 Intelligent Electronic Devices (IEDs)\nIt is assumed that you are thoroughly familiar with your programs and development \nenvironment.\nScope of This Manual\nThis manual applies to the following software versions:\n•\nPCS 7 PowerControl V9.1\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n5\n",
+            "character_count": 2118,
+            "word_count": 296
+        },
+        {
+            "page_number": 6,
+            "text": "Structure of the Documentation\nThe PCS 7 PowerControl documentation includes the following:\n•\nPCS 7 PowerControl Setup Guide (this document)\n•\nPCS 7 PowerControl library objects manual\n–\nDescribes how to use and configure technological and diagnostic objects from \nPowerControl\n•\nPCS 7 PowerControl DBA manual\n–\nDescribes the process and integration of technological and diagnostic objects of \nPowerControl into PCS 7 operator stations\n•\nPCS 7 PowerControl Type Editor manual\n–\nDescribes the process and expansion of PCS 7 PowerControl by adding customer-defined \ntypes\n•\nReadme.txt files on the PCS 7 PowerControl installation media\nSecurity information\nPowerControl Setup Guide\n6\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 723,
+            "word_count": 105
+        },
+        {
+            "page_number": 7,
+            "text": "Introduction and Installation\n2\n2.1\nSecurity\n2.1.1\nSecurity concept\nThe security concept of SIMATIC PCS 7 should be considered a set of recommendations and is \nintended to support SIMATIC customers in creating a network for production plants fulfilling \nhigher security requirements. The recommendations are based on the latest technology, current \nstandards and the features of the employed products.\nBecause the threat to security is constantly changing, even a complete implementation of the \nsecurity concept cannot permanently guarantee complete and one hundred percent protection. \nWe therefore recommend a regular evaluation of the measures implemented as part of the \nsecurity concept.\nPCS 7 Security Concept Recommendations and Notes:\nhttp://support.automation.siemens.com/WW/view/en/22229786 (http://\nsupport.automation.siemens.com/WW/view/en/22229786)\n2.1.2\nPCS 7/PowerControl example\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n7\n",
+            "character_count": 964,
+            "word_count": 121
+        },
+        {
+            "page_number": 8,
+            "text": "2.1.3\nGeneral security information\nSiemens offers IT security mechanisms for its automation and drive product portfolio in order to \nsupport the safe operation of the plant and machine. Moreover, our products are continuously \ndeveloped further with regard to IT security. We therefore recommend that you keep informed \nabout updates and upgrades for our products and always use the most recent version of each \nproduct. For more information, go to:\nhttp://support.automation.siemens.com (http://support.automation.siemens.com) \nYou can also register for a product-specific newsletter here.\nFor the safe operation of a plant or machine, however, it is also necessary to integrate the \nautomation components into an overall IT security concept for the entire plant or machine which \ncorresponds to state-of-the-art IT technology.\nFor more information, go to: \nIntroduction and Installation\n2.1 Security\nPowerControl Setup Guide\n8\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 970,
+            "word_count": 135
+        },
+        {
+            "page_number": 9,
+            "text": "http://www.siemens.com/industrialsecurity (http://www.siemens.com/industrialsecurity)\nProducts of other manufacturers should also be taken into account.\nThe following section provides a list of security aspects to which particular attention should be \npaid when installing and using PCS 7/PowerControl:\n•\nEnsure the integrity of the data exchanged between the systems. It is particularly important \nto taken adequate measures to ensure that the data in these files cannot be manipulated. This \napplies, for example, to files of other systems that can be read by PCS 7/PowerControl, such \nas CSV files with configuration data. Other examples are XML, CSV and ZIP files that are \nsupplied by the PCS 7/PowerControl system, such as DBA archive files and exports from DBA. \nConsider using a password-protected container for the exchange of such files.\n•\nDo not change the PCS 7/PowerControl installation/upgrade files. For correct installation or \ncorrect upgrade of the PCS 7/PowerControl system with the required integrated security, it is \nimportant that these files are not changed. Therefore, the customer is responsible for \nensuring that the person in charge of this process understands this measure. In some \nexceptional cases, the documentation describes that some files can be changed manually. \nThe instructions for manual changes must be adhered to strictly. No other changes are \npermitted. If you have problems with specific files, please contact Siemens Support.\n•\nThe engineering and runtime components of PCS 7/PowerControl only function if the user \ncurrently logged on is configured as a member of the \"SIMATIC HMI\" user group. For data \nfiles that access these components we recommend that the folders containing such files are \nalso configured with similar access rights to ensure that these files are not manipulated. \nExamples are the .DBA project file (Engineering) and WinCC project folders including all \nsubfolders (Runtime).\n•\nThe disposal of PCS 7 PowerControl systems and components should be done following the \nmeasures as described in the Process Control System PCS 7 Compendium Part F - Industrial \nSecurity Configuration Manual, chapter 11 (Disposal of systems and components).\nIntroduction and Installation\n2.1 Security\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n9\n",
+            "character_count": 2320,
+            "word_count": 341
+        },
+        {
+            "page_number": 10,
+            "text": "2.2\nOverview\nIntroduction\nHistorically there has been a strict separation between Process Automation systems and Power \nAutomation Systems. PCS 7 PowerControl combines Process Automation and Power Automation \nwithin one system. \nPCS 7 PowerControl is a set of applications to allow the integration of intelligent electronic \ndevices (IEDs) (e.g. SIPROTEC protection devices) into a PCS 7 automation system.\nPCS 7 PowerControl can be used on:\n•\nA PCS 7 Single Station system\n•\nA single or redundant PCS 7 OS Server\n•\nA single or redundant PCS 7 OS Server that also connects to PCS 7 S7-400s\nPCS 7 PowerControl supports the IEC 61850 communication protocol. The PCS 7 PowerControl \nserver includes a new driver (channel), which is acting as IEC 61850 client for the IEC 61850 \nserver devices (IEDs). The communication channel is using MMS (Manufacturing Message \nSpecification) based on TCP/IP.\nThe picture below shows a configuration with redundant PCS 7 OS Servers.\nIntroduction and Installation\n2.2 Overview\nPowerControl Setup Guide\n10\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1078,
+            "word_count": 166
+        },
+        {
+            "page_number": 11,
+            "text": "Benefits\nThe integration of Process Automation and Power Automation into one system offers the \nfollowing benefits:\n•\nCommon look and feel for graphical elements (usage of PCS 7 APL style symbols and \nfaceplates) leads to reduced risk of operation failures\n•\nSupport of plant hierarchy for picture navigation and group alarms\n•\nCommon operator philosophy (e.g. for alarms)\n•\nLess engineering- & maintenance effort\n•\nUniform software platform\n•\nPowerful BULK-Engineering (for 3rd party IEDs as well)\n•\ndue to high standardization level of IEC 61850 PCS 7 PowerControl can integrate all IED’s \nwhich conform to the standard\n•\nSiemens provides a large variety of IEDs as devices of the SIPROTEC product line\nProcessing Functions\nIn many cases, IEDs provide limited processing capability compared to the functions of a DCS \ncontroller. PCS 7 PowerControl adds the capability to incorporate Visual Basic Scripts that can \nperform preprocessing of IED raw data.\nPCS 7 PowerControl Library contains symbols and faceplates for the SIPROTEC family of IED’s. \n(Refer to the PCS 7/PowerContorl Library Objects Guide for details).\nIntroduction and Installation\n2.2 Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n11\n",
+            "character_count": 1231,
+            "word_count": 187
+        },
+        {
+            "page_number": 12,
+            "text": "Diagnostic Objects\nPCS 7 PowerControl offers various diagnostic functions available for each IED:\n•\nMain and backup connection state\n•\nGeneral request state\n•\nIED time sync state\n•\nMessage counters\n–\nSuccessful transmissions\n–\nUnsuccessful transmissions\n–\nRetries\nOn connection failure:\n•\nAll process objects of affected IEDs are marked as invalid\n•\nCommands are blocked\nPCS 7 PowerControl Engineering\nThe PCS 7 PowerControl engineering offers the following features:\n•\nObject orientated (type/instance concept)\n•\nOS Object library with function blocks , symbols and faceplates\n•\nAutomatic generation of OS object data (tags, alarms, graphical elements)\n•\nIntegration of additional IEC 61850 devices by importing device description files\n•\n(ICD files) containing information regarding object types and instances\n•\nMatching algorithm checks imported objects, whether they can be mapped to already \nexisting PCS 7 PowerControl object types\n•\nPCS 7 PowerControl instance editor enables creation of new additional data objects if no \nmatch / partial match of imported objects\n•\nIEC-61850 IED cloning offers creation of complete replica of the IED, including all object \ninstances, attribute configuration and plant view assignment\nThe following picture demonstrates the overall engineering workflow:\nIntroduction and Installation\n2.2 Overview\nPowerControl Setup Guide\n12\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1408,
+            "word_count": 203
+        },
+        {
+            "page_number": 13,
+            "text": "Introduction and Installation\n2.2 Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n13\n",
+            "character_count": 112,
+            "word_count": 13
+        },
+        {
+            "page_number": 14,
+            "text": "2.3\nSoftware installation - Overview\nPCS 7 PowerControl  can be installed as a PCS 7 Single Station or in single or redundant client \nserver architectures.\nThe table below describes the various components that need to be installed. Depending on the \narchitecture of your system, these components may need to be installed on the different \ncomputer nodes in the architecture.\nNote that all steps might not be required: \n•\nIf your computers have been pre-installed with the correct version of the Operating System, \nthe installation of the Operating System is not required and Step 1 can be skipped.\n•\nIf you require no third-party software, step 2 can be skipped.\nStep\nProcedure\n1\nInstalling the operating system (Page 14) \n2\nInstalling Third Party Software (Page 15) \n3\nInstalling PCS 7 software (Page 15) \n4\nInstalling PCS 7/PowerControl Software (Page 15) \n5\nInstall Authorizations and Licenses (Page 25) \nNote\nIf you are upgrading an existing project, ensure that you have archived your project and saved \nthe archive to media or another computer before installing software on your stations.\nNote\nAdministrator rights are required to install the software. In addition, disable any virus protection \nsoftware that is currently running.\nNote\nAll computers on the network must have the same user accounts and passwords.\n2.3.1\nInstalling the operating system\nThe following operating systems are supported by PCS 7/PowerControl:\n•\nMicrosoft Windows 2019 LTSC\n•\nMicrosoft Windows Server 2019\nYou can find detailed instructions on installing the operating system here: \n•\npcs7-readme.mht file in the root directory of PCS 7 installation DVD1 of 2 (PCS7 V9.0)\n•\nSIMATIC PCS 7 DVD 1/2 in the folder _Manuals\\English \"PCS 7 - PC configuration.pdf\"\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n14\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1877,
+            "word_count": 292
+        },
+        {
+            "page_number": 15,
+            "text": "2.3.2\nInstalling Third Party Software\nThird party software (e.g. Microsoft Office, PC Anywhere, Virus software, etc.) should be \ninstalled prior to installing PCS 7. Refer to the PCS 7 Readme and PC Configuration and \nAuthorization .PDF file for further information.\nAny third-party Engineering Tools (e.g. Modbus, IEC, DNP3) should also be installed at this point.\n2.3.3\nInstalling PCS 7 software\nFor detailed installation instructions, refer to: \n•\npcs7-readme.mht file in the root directory of PCS 7 USB flash drive\n•\nSIMATIC PCS 7 USB in the folder _Manuals\\English \"PCS 7 - PC configuration.pdf\"\n2.3.4\nInstalling PCS 7/PowerControl Software\nNote\nBefore installing this software you must log in with administrator rights and deactivate all anti-\nvirus software that may be running at that time. Furthermore, this software should only be \ninstalled after all other PCS 7 software. Make sure that all login activity for PCS 7 is completed. \nYou can find further information in the PowerControl file \"Readme.wri\" on the USB flash drive.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n15\n",
+            "character_count": 1174,
+            "word_count": 178
+        },
+        {
+            "page_number": 16,
+            "text": "1. Place the PCS 7 PowerControl  CD into the CD-ROM drive.\nThe setup program starts automatically. A dialog box for selecting the language opens.\nChoose the desired installation language (English or German). \nThe welcome screen opens.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n16\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 371,
+            "word_count": 52
+        },
+        {
+            "page_number": 17,
+            "text": "2. Click the Next button to continue. The Product Notice dialog opens.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n17\n",
+            "character_count": 207,
+            "word_count": 28
+        },
+        {
+            "page_number": 18,
+            "text": "Introduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n18\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 136,
+            "word_count": 16
+        },
+        {
+            "page_number": 19,
+            "text": "3. To display the release information click on the button with the text Yes, I would like to read \nthe notes.\n Click the Next button to continue. \nThe License agreements dialog box opens.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n19\n",
+            "character_count": 324,
+            "word_count": 49
+        },
+        {
+            "page_number": 20,
+            "text": "4. Read the license agreement.\nChoose the option button I accept the conditions of this license agreement.\nClick the Next button to continue. \nThe Setup type window opens.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n20\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 308,
+            "word_count": 44
+        },
+        {
+            "page_number": 21,
+            "text": "5. Select the setup type. Click the Continue button to progress.\nThe User information dialog box opens.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n21\n",
+            "character_count": 240,
+            "word_count": 33
+        },
+        {
+            "page_number": 22,
+            "text": "6. Enter the username and organization. Click the Continue button to progress.\nThe Installation type dialog box opens.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n22\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 255,
+            "word_count": 34
+        },
+        {
+            "page_number": 23,
+            "text": "7. Select the installation type and click on the Next button. When the Package Installation is \nselected, the Program packages dialog box opens.  When User-Defined installation is \nselected, the installation program continues directly with the \"Programs\" dialog box (step 8).\nThe top-level package PowerControl Library (PCL) applies to use cases 3, 4, and 5 as described \nin Use cases (Page 27). Select the relevant subpackage based on the type of station on \nwhich the package should be installed.\nThe top-level package PowerControl OS applies to use case 1 as described in Use cases \n(Page 27). Select the relevant subpackage based on the type of station on which the \npackage should be installed.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n23\n",
+            "character_count": 836,
+            "word_count": 128
+        },
+        {
+            "page_number": 24,
+            "text": "8. Click on the relevant checkbox to select the package appropriate for the computer on which \nthis installation is to be performed.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n24\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 269,
+            "word_count": 38
+        },
+        {
+            "page_number": 25,
+            "text": "9. You can find the right components for the installation on a station in the table in PCS 7 \nPowerControl . The selection depends on the station type (e.g. client or server) on which to \nbe installed.\nClick on Next to adopt the programs selected. \nThe Ready to Install the Selection dialog box opens.\n10.Click Install to start the installation process. The package installation begins.\nThe installation is performed through to completion. At the end of the installation you may \nbe asked to restart the computer.\n2.3.5\nInstall Authorizations and Licenses\nNote\nEach PCS 7/PowerControl Software package may include a License Key memory stick. As you \ninstall the various packages, be sure to install the license disk with that package.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n25\n",
+            "character_count": 871,
+            "word_count": 136
+        },
+        {
+            "page_number": 26,
+            "text": "1. Insert the License Key memory stick that came with your software into USB port.\n2. From the Windows taskbar, click Start button > SIMATIC > License Management > \nAutomation License Manager.\n3. Double-click the USB drive containing the License Key memory stick.\n4. Select all of the authorizations.\n5. Transfer the authorizations from the USB drive to the target drive.\n6. Remove the License Key memory stick from the USB port.\nIntroduction and Installation\n2.3 Software installation - Overview\nPowerControl Setup Guide\n26\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 566,
+            "word_count": 88
+        },
+        {
+            "page_number": 27,
+            "text": "2.4\nUse cases\n2.4.1\nUse cases\nUse cases\nWe can basically distinguish between five use cases. Cases 1 to 4 are based on the industrial \nstandard IEC 61850, whereas case 5 describes the classic integration of protection devices via \nPROFIBUS DP.\n Use case 1           \nIEC 61850 IEDs connected directly to the SIMATIC PCS 7 plant bus are only operated and \nmonitored by the PCS 7 operator station. There are no connections to functions in a PCS 7 \nautomation system, e.g. interlocks.\nDocuments:\n•\nPCS 7 PowerControl DBA User Manual\n•\nPCS 7 PowerControl DBA Type Editor\n•\nPCS 7 PowerControl Library Objects\n•\nPCS 7 PowerControl Setup Guide\n•\nPCS 7 Technological Objects for PowerControl\nIntroduction and Installation\n2.4 Use cases\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n27\n",
+            "character_count": 797,
+            "word_count": 129
+        },
+        {
+            "page_number": 28,
+            "text": "Use case 2           \nUse of IEC 61850 IEDs which are connected to a PCS 7 automation system, e.g. for interlocks. \nDue to higher availability requirements, the automation system and the Station Gateway are \nredundantly configured.\nDocuments:\n•\nPowerControl Library AS Manual\nUse case 3           \nUse of IEC 61850 IEDs which are connected to a PCS 7 automation system, e.g. for interlocks. The \nautomation system is a modular PCS 7 standard controller together with a Station Gateway.\nDocuments:\n•\nPowerControl Library AS Manual\nUse case 4           \nUse of IEC 61850 IEDs which are connected to a PCS 7 automation system, e.g. for interlocks. The \nautomation system is designed in the form of a station controller.\nDocuments:\n•\nPowerControl Library AS Manual\nUse case 5\nUse of SIPROTEC protection devices with PROFIBUS DP interface which are connected to a PCS 7 \nautomation system via PROFIBUS.\n                 \nDocuments:\n•\nPROFIBUS DP Driver Blocks for PowerControl\nAdditional information:\nhttps://www.automation.siemens.com/w2/efiles/pcs7/pdf/00/\nbr_powercontrol_2013_de_Web.pdf\nIntroduction and Installation\n2.4 Use cases\nPowerControl Setup Guide\n28\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1199,
+            "word_count": 169
+        },
+        {
+            "page_number": 29,
+            "text": "Project Engineering Overview\n3\nEngineering a PowerControl project can be divided into the following high level tasks:\nTask\nDescription\nSection\n1\nCreating a PCS 7 PowerControl Project (Page 30)\n3.1\n2\nAS/IED Configuration and Programming (Page 31) \n3.2\n3\nIntegrating PCS 7 PowerControl with IEC 61850 Intelligent \nAutomation Devices (IEDs) (Page 32) \n3.3\n4\nConfiguring PCS 7 PowerControl OS Stations (Page 33) \n3.4\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n29\n",
+            "character_count": 482,
+            "word_count": 71
+        },
+        {
+            "page_number": 30,
+            "text": "3.1\nCreating a PCS 7 PowerControl Project\nA PCS 7 PowerControl project is created using SIMATIC Manager. The process is described in \ndetail in Creating a SIMATIC Manager Project (Page 37). This includes descriptions of how to \nconfigure all of the PC Stations in your system. Once these steps have been completed, the \nframework for additional engineering and maintaining your system is in place.\nProject Engineering Overview\n3.1 Creating a PCS 7 PowerControl Project\nPowerControl Setup Guide\n30\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 538,
+            "word_count": 82
+        },
+        {
+            "page_number": 31,
+            "text": "3.2\nAS/IED Configuration and Programming\nFor configuring and programming the S7 family of controllers for Process Control applications, \nuse SIMATIC CFC/SFC and STEP 7.\nConfiguring and programming objects and object behavior in IEC 61850 IEDs is beyond the \nscope of this guide. For configuring SIPROTEC IED devices, use DIGSI 4. For configuring and \nprogramming third party IEC 61850 IED’s use the programming tool(s) provided with the \nhardware.\nProject Engineering Overview\n3.2 AS/IED Configuration and Programming\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n31\n",
+            "character_count": 587,
+            "word_count": 83
+        },
+        {
+            "page_number": 32,
+            "text": "3.3\nIntegrating PCS 7 PowerControl with IEC 61850 Intelligent \nAutomation Devices (IEDs)\nPCS 7 PowerControl can be integrated with Intelligent Automation Devices (IEDs).\nIn order to integrate an IED it is necessary to have access to an ICD (IED Capability Description ) \nor SCD (System Capability Description) file that defines the device using the IEC 61850 \nSubstation Configuration Language (SCL). In addition, the following parameters about the \ndevice must be known (for some devices this information is stored within the ICD/SCD file and \nwill be extracted automatically as needed by PCS 7/PowerControl:\n•\nTCP/IP Address\n•\nOSI Parameters\n•\nAuthorization information (if authorization is enabled for the device)\nSee also\nCreating a SIMATIC Manager Project (Page 37)\nProject Engineering Overview\n3.3 Integrating PCS 7 PowerControl with IEC 61850 Intelligent Automation Devices (IEDs)\nPowerControl Setup Guide\n32\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 957,
+            "word_count": 140
+        },
+        {
+            "page_number": 33,
+            "text": "3.4\nConfiguring PCS 7 PowerControl OS Stations\nOnce IED objects have been created and programmed, the objects must be made accessible in \nPCS 7 PowerControl OS stations.\nTo do this, a mapping tool is provided, PCS 7 PowerControl DBA, that simplifies this process.\nDBA provides:\n•\nAutomatic generation of the PCS 7 PowerControl OS database including display hierarchy, \nneeded variables, alarms, alarm-messages and priorities as well as function block symbols \nand faceplates.\n•\nAutomatic assignment of objects to the plant view and automatic placement of a symbol for \nthe object on a picture.\nThe details of using DBA are provided in the PCS 7 PowerControl DBA User’s Guide (Document \nNumber A5E03987152-01).\nThis document includes step-by-step instructions for the basic workflow for defining and \ndirecting the mapping process.\n3.4.1\nCompleting the PCS 7 OS Database Configuration\nOnce the PCS 7 OS database has been generated by DBA, the following additional configuration \nsteps complete the PCS 7 OS database configuration.\n3.4.1.1\nCompleting Graphic Displays\nBased on the system hierarchy configured in DBA, and the placement of AS objects within this \nhierarchy, DBA automatically creates the dynamic portion of all graphic displays. Symbols for \neach object are automatically placed, in a tiled manner, in each picture.\nTo complete the graphic displays, create the appropriate static elements (pipes, tanks, etc.) and \nmove the already-created dynamic symbols to the desired position on the graphic.\n3.4.1.2\nStation Lifebeat Monitoring Configuration\nA Lifebeat Monitoring capability is provided that offers at-a-glance status information for all of \nthe PC Stations, AS Stations, and AS connecting devices in your system. The basic variables \nneeded to provide this capability are created by DBA in the PCS 7 OS database. An additional \nconfiguration step is required to complete the Lifebeat Monitoring configuration. Refer \nto Station Lifebeat Monitoring Setup (Page 67), for details regarding this configuration step.\n3.4.1.3\nUser Administration\nPCS 7 allows user rights to be established based on the layout of the system hierarchy. The \nhighest level of this hierarchy is divided into Areas. This hierarchy, once configured in DBA, is \nautomatically created in the PCS 7 database.\nFor more details on configuring Area-based User Administration, refer to the help file:\nProject Engineering Overview\n3.4 Configuring PCS 7 PowerControl OS Stations\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n33\n",
+            "character_count": 2528,
+            "word_count": 378
+        },
+        {
+            "page_number": 34,
+            "text": "Start>Simatic>WinCC>WinCC Information System>Working With WinCC>Setting up User \nAdministration\nProject Engineering Overview\n3.4 Configuring PCS 7 PowerControl OS Stations\nPowerControl Setup Guide\n34\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 241,
+            "word_count": 26
+        },
+        {
+            "page_number": 35,
+            "text": "3.4.1.4\nSpecial Instructions for Configuring a Backup OS Server\nSpecial Instructions for Configuring a Backup OS Server\nIn redundant OS systems, an additional setup step is required to enable proper operation of \narchives.\n1. From the Windows Control Panel, select System to invoke the System Properties dialog and \nselect the Advanced tab.\n2. Select the Settings button under Startup and Recovery.\nProject Engineering Overview\n3.4 Configuring PCS 7 PowerControl OS Stations\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n35\n",
+            "character_count": 544,
+            "word_count": 79
+        },
+        {
+            "page_number": 36,
+            "text": "3. Be sure that the \"Time to display list of operating systems\" entry is checked and use the listbox \nto select a value of 240 seconds.\nThis will ensure that when both servers are started up simultaneously, the standby server will \nnot complete initialization until the master server is up and running. This is necessary to ensure \nthat the archives are synchronized properly when both servers are started up simultaneously.\n3.4.1.5\nDownloading\nIn a client/server architecture, all PCS 7 OS databases (both client and server) need to be \ndownloaded to the OS stations.\nThe process of downloading PCS 7 OS projects to PC Stations is described in detail in Chapter \nDownloading and Activating PCS 7 OS Stations (Page 73).\nProject Engineering Overview\n3.4 Configuring PCS 7 PowerControl OS Stations\nPowerControl Setup Guide\n36\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 865,
+            "word_count": 137
+        },
+        {
+            "page_number": 37,
+            "text": "Creating a SIMATIC Manager Project\n4\nNote\nOn a Single Station, project engineering is done on the Single Station using SIMATIC Manager, \nand downloading to other stations is not required. In a single or redundant client server \narchitecture, project engineering is done on the Engineering Station (ES). The project is then \ndownloaded to all OS Server nodes and all OS clients from the ES.\nThe project steps described below assume a single project with a redundant server pair and one \nclient.\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n37\n",
+            "character_count": 563,
+            "word_count": 89
+        },
+        {
+            "page_number": 38,
+            "text": "4.1\nCreate a New Project in SIMATIC Manager\n1. Open SIMATIC Manager, Start > SIMATIC > SIMATIC Manager\nThe PCS 7 Wizard ‘New Project’ dialog box opens.\nNote\nPress the F1 function key for help on each screen of the PCS 7 New Project Wizard.\n2. Click the Next button.\nThe Which CPU are you using in your project? dialog box opens. \nCreating a SIMATIC Manager Project\n4.1 Create a New Project in SIMATIC Manager\nPowerControl Setup Guide\n38\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 478,
+            "word_count": 83
+        },
+        {
+            "page_number": 39,
+            "text": "The selections on this page are only relevant for dual channel projects (which include S7 \ncontrollers configured in Simatic Manager in addition to AS nodes configured with DBA). For \nprojects that don’t include S7 controllers, accept the default settings. For projects that do \ninclude S7 controllers refer to the S7 user documentation or press the Help button for more \ndetails.\nCreating a SIMATIC Manager Project\n4.1 Create a New Project in SIMATIC Manager\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n39\n",
+            "character_count": 529,
+            "word_count": 81
+        },
+        {
+            "page_number": 40,
+            "text": "3. Click the Next button to accept the default.\nThe dialog box labeled Which objects are you still using? opens. \n–\nIn the Plant hierarchy area, the Number of levels should be configured when using \nS7-400 controllers in the same OS project as DBA-configured AS Nodes. It should be set \nto the same value used in DBA.\n–\nIn the AS objects area, clear CFC chart and SFC chart check boxes. The CFC and SFC \nselections on this page are only relevant for S7 projects. For S7 projects refer to the S7 user \ndocumentation or press the Help button for assistance.\n–\nIn the OS objects area, select the PCS7 OS check box, and the appropriate system type.\nSingle station system – a single PC station will be created with an OS project. \nMultiple station system – two PC stations will be created, an OS server project, and an \nOS client project. \nMultiple station system redundant – three PC stations will be created, two OS server \nprojects and an OS client project.\nNote\nIf your project requires additional server or client stations, they can be added once the \nwizard steps have completed. Refer to Process Control System PCS 7 Engineering System \nConfiguration Manual for details regarding adding additional PC Stations.\nCreating a SIMATIC Manager Project\n4.1 Create a New Project in SIMATIC Manager\nPowerControl Setup Guide\n40\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1361,
+            "word_count": 231
+        },
+        {
+            "page_number": 41,
+            "text": "4. Click the Next button.\nThe dialog box labeled Where do you want to store the project? (or multiproject) opens. \n–\nIn the Directory name box, enter a directory folder name or accept the default. This is the \nfolder name for the directory under which the client/server projects will be created.\n–\nIn the Storage location (path) box, enter a path or accept the default. This path is where \nthe directory folder will be located. This is the path for the master project on the \nengineering station.\nCreating a SIMATIC Manager Project\n4.1 Create a New Project in SIMATIC Manager\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n41\n",
+            "character_count": 645,
+            "word_count": 108
+        },
+        {
+            "page_number": 42,
+            "text": "5. Click the Finish button.\nThe Message Number Assignment Selection dialog box opens. \n6. Accept the default. Click the OK button.\nThe project is created. This setting applies to projects that include S7-400 controllers and \ndoes not apply to messages created by DBA. \nCreating a SIMATIC Manager Project\n4.1 Create a New Project in SIMATIC Manager\nPowerControl Setup Guide\n42\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 417,
+            "word_count": 64
+        },
+        {
+            "page_number": 43,
+            "text": "4.2\nServer Project Setup\nThe following steps are required to configure a PCS 7 OS Server project in SIMATIC Manager:\nStep\nSection\nCreate Shared Folders (Page 43) \n4.2.1\nConfigure Primary Station (Page 44) \n4.2.2\nConfigure Standby Station (Page 46) \n4.2.3\nRun OS Project Editor (Page 48) \n4.2.4\nGenerate Server Data (Page 49) \n4.2.5\nLifebeat Monitoring Setup (Page 50) \n4.2.6\nConfigure Alarm Logging (Page 50) \n4.2.7\nConfigure Tag Logging (Page 51) \n4.2.8\nNote\nPCS 7 OS stations must also be configured under PC Stations in your corresponding DBA Project. \nRefer to Chapter 5 of the PCS 7 PowerControl DBA User’s Guide for details concerning the \nconfiguration of PC Stations in DBA.\n4.2.1\nCreate Shared Folders\nShared folders on the servers are needed to store the project created on the Engineering Station. \nWhen the project is downloaded, it will be transferred from the Engineering Station to these \nfolders. You cannot configure your stations in SIMATIC Manager until these folders are created \nand properly set up. Follow these steps to create and set up these folders, if they don’t already \nexist.\nShared folders must be created for both Primary and Standby Servers. Folllow the steps in the \nfollowing section to create a shared folder on each server.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n43\n",
+            "character_count": 1390,
+            "word_count": 221
+        },
+        {
+            "page_number": 44,
+            "text": "Procedure for Creating a Shared Folder\n1. Using Windows Explorer, create a new folder such as \"PROJECT\" on one of the station’s drives. \nProjects created on the Engineering Station shall be downloaded to this folder on each node. \nIf desired, you may create a \"Projects\" folder under \\Program Files\\Siemens\\Step7\\ s7proj\\ \nfor your projects. However, the name of the folder and where you place it is up to you.\n2. Set up sharing on the newly created PROJECT folder. Right-click the PROJECT folder and \nselect Sharing… The PROJECT Properties dialog box opens.\n3. Select the Sharing tab, select the Share this folder radio button.\n4. Click the Permissions button. The Permissions window opens. Select Everyone, and then \nclick the Full Control check box in the Allow column.\n5. Click OK to close the Permissions window.\n6. Click the OK button to close the Project Properties dialog box.\n4.2.2\nConfigure Primary Station\nIdentify the path to which the project will be downloaded on the Primary Server.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\n44\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1127,
+            "word_count": 181
+        },
+        {
+            "page_number": 45,
+            "text": "Follow these steps:\n1. In the Component View of SIMATIC Manager, right-click the PC Station that is the Primary \nServer and select Object Properties. For example, if your Primary Server PC Station is \nSIMATIC PC Station(1) in the figure below, right-click on SIMATIC PC Station(1).\n2. In the General tab, enter the computer name of the primary computer in both the Name \nand Computer name fields. These names must be entered in ALL CAPS. Click the OK button.\n3. Right-click OS(1), and select Object Properties.\n4. The Properties dialog box opens.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n45\n",
+            "character_count": 676,
+            "word_count": 108
+        },
+        {
+            "page_number": 46,
+            "text": "5. Rename, as desired, the OS(1) to the Server Project name.\n6. Click the Target OS and Standby OS Computer tab.\n7. Select the Network button to browse and map to the shared project folder on OS Server. If a \nmapped drive already exists, select it from the available drives listed in the Load In list box. \nThis is the path to the folder on your primary server where you will store and operate the \nproject. This path must include the network name of the target computer.\nNote: This folder must already exist on the primary and standby servers and be shared. This \nfolder’s permissions should be set to Full Control for Everyone. Refer to section Create New \nFolders on the Primary and Standby Servers and All Clients in this document.\n8. Click the OK button.\n4.2.3\nConfigure Standby Station\nIdentify the path to which the project will be downloaded on the Standby Server.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\n46\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1002,
+            "word_count": 171
+        },
+        {
+            "page_number": 47,
+            "text": "Follow these steps:\n1. In the Component View of SIMATIC Manager, right-click the PC Station that is the Standby \nServer and select Object Properties.  For example, if your Standby Server PC Stations is \nSIMATIC PC Station(2) in the figure below, right-click on SIMATIC PC Station(2).\n2. In the General tab, enter the computer name of the standby computer in both the Name \nand Computer name fields. These names must be entered in ALL CAPS. Click the OK button.\n3. Right-click OS(1)_StBy, and select Object Properties. The default project name of Primary \nServer/Project Name_StBy must be used.\nThe Properties dialog box opens. \nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n47\n",
+            "character_count": 757,
+            "word_count": 118
+        },
+        {
+            "page_number": 48,
+            "text": "4. Click the Target OS and Master OS Computers tab.\n5. Select the Network button to browse and map to the shared project folder on OS Server. If a \nmapped drive already exists, select it from the available drives listed in the Load In list box. \nThis is the path to the folder on your primary server where you will store and operate the \nproject. This path must include the network name of the target computer.\nNote: This folder must already exist on the primary and standby servers and be shared. This \nfolder’s permissions should be set to Full Control for Everyone. Refer to section Create New \nFolders on the Primary and Standby Servers and All Clients in this document.\n6. Click the OK button.\n4.2.4\nRun OS Project Editor\nFrom WinCC Explorer, run the OS Project editor in order to define the layout, screen resolution, \nmonitor configuration, message configuration, message display, area, runtime window, and \nbasic data. This step is also necessary in update your project to include all necessary library \nfaceplate and symbols. \nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\n48\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1165,
+            "word_count": 192
+        },
+        {
+            "page_number": 49,
+            "text": "To run the OS Project Editor:\n1. In the Component view of SIMATIC Manager, right-click the WinCC OS application and \nselect Open Object. For example, if you want to run the OS Project Editor on the application \nOS(1) in the figure below, right-click on OS(1). This will open the application using WinCC \nExplorer.\n2. Select the OS Project Editor and make any desired changes. Refer to online help as you are \nrunning the OS Project Editor for more details.\n4.2.5\nGenerate Server Data\n1. From the Component view in SIMATIC Manager, right-click the primary OS server project, and \nselect Generate Server Data.\nWhen the procedure is complete, a window opens containing the message, The server data \nare generated successfully. \n2. Perform this procedure for each primary OS server.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n49\n",
+            "character_count": 908,
+            "word_count": 145
+        },
+        {
+            "page_number": 50,
+            "text": "4.2.6\nLifebeat Monitoring Setup\nNote\nImportant\nOnly one single manual procedure is required for integrating the symbols of the PCS 7 option \nLifebeat Monitoring in SIMATIC PCS 7. This step only has to be performed once on the system of \nyour first server project and not repeated again subsequently.\n1. Open the OS server project in SIMATIC Manager. In the component view right-click OS \nMaster Serverand select Open Object. Your project is opened in WinCC Explorer.\n2. In the left section of the WinCC Explorer window click on the Graphics Designer icon.\nIn the right section of the window a list with picture files (with the file name extension .PDL) \nis displayed. In the right pane right-click on the file @@PowerControlConfigTypicals.PDL. \nSelect Open Picture in the drop-down menu. The Graphics Designer opens the picture for \nediting.\n3. Select all the symbols in the file @@PowerControlConfigTypicals.pdl. Select the following \nin the menu bar of the program:\nEdit > Select All\nEdit > Copy\n4. Close the graphic. In response to the question whether the changes are to be saved, \nselect No. The file is closed.\n5. Open the @@ConfigTypicals.pdl file. Insert the PowerControl  symbols into the \nfile @@ConfigTypicals.pdl with Paste. To do this click on the empty space on the right next \nto the respective PCS 7 symbol and select Edit > Paste. While the symbols continue to be \ndisplayed as selected, move the entire selection to the right, if necessary, so that these can \nbe displayed apart from the original PCS 7 symbols.\n6. In order for all future projects to contain the right typicals for the Lifebeat Monitoring with \nPowerControl , copy the file created in step 5 into the following directory: ProgramFiles\n\\SIEMENS\\WinCC\\options\\pdl\\base_Data_Pool\\@@ConfigTypicals.PDL.\nNote\nIf you do not perform this step you have to repeat this procedure for each additional server \nproject created in the future.\n7. Select File > Close and then Save. A Performance Alarm dialog box opens The alarm \nmessage says the file contains cyclical triggers. It is safe to ignore this warning. Click OK. \nClose the Graphics Designer.\n4.2.7\nConfigure Alarm Logging\nFor further information, refer to the help file Start > SIMATIC > WinCC > WinCC Information \nSystem > Working with WinCC > Setting Up a Message System.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\n50\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 2436,
+            "word_count": 392
+        },
+        {
+            "page_number": 51,
+            "text": "4.2.8\nConfigure Tag Logging\nFor further information, refer to the help file Start > SIMATIC > WinCC > WinCC Information \nSystem > Working with WinCC > Archiving Process Values.\nNote\nWhen using the Tag Logging Wizard, it is recommended that you name the \narchive SystemArchive for compatibility with PCS 7 trending faceplates.\nCreating a SIMATIC Manager Project\n4.2 Server Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n51\n",
+            "character_count": 455,
+            "word_count": 69
+        },
+        {
+            "page_number": 52,
+            "text": "4.3\nClient Project Setup\nFor every client in the system, the following configuration steps are required:\nStep\nSection\nCreate Shared Folders (Page 52) \n4.3.1\nConfigure Client Station (Page 53) \n4.3.2\nAssign OS Server (Page 55) \n4.3.3\nConfigure a Standard Server (Page 56) \n4.3.4\nConfigure a Preferred Server (Page 56) \n4.3.5\nRun OS Project Editor (optional) (Page 56) \n4.3.6\nLifebeat Monitoring Setup (Page 58) \n4.3.7\n4.3.1\nCreate Shared Folders\nShared folders on the clients are needed to store the project created on the Engineering Station. \nWhen the project is downloaded, it will be transferred from the Engineering Station to these \nfolders. You cannot configure your stations in SIMATIC Manager until these folders are created \nand properly set up. Follow these steps to create and set up these folders, if they don’t already \nexist.\nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\n52\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 969,
+            "word_count": 149
+        },
+        {
+            "page_number": 53,
+            "text": "Shared folders must be created for all Clients. Follow the procedure described in Section 3.2.1  \n(Page 43) to create a shared folder.\n1. Using Windows Explorer, create a new folder such as \"PROJECT\" on one of the drives of the \nPrimary and Standby servers, as well as all clients. The client and server projects created on \nthe Engineering Station shall be downloaded to this folder on each node. If desired, you may \ncreate a \"Projects\" folder under \\Program Files\\Siemens\\Step7\\s7proj\\ for your projects. \nHowever, the name of the folder and where you place it is up to you.\n2. Set up sharing on the newly created PROJECT folder. Right-click the PROJECT folder and \nselect Sharing… The PROJECT Properties dialog box opens.\n3. Select the Sharing tab, select the Share this folder radio button.\n4. Click the Permissions button. The Permissions window opens. Select Everyone, and then \nclick the Full Control check box in the Allow column.\n5. Click OK to close the Permissions window.\n6. Click the OK button to close the Project Properties dialog box.\n4.3.2\nConfigure Client Station\nIdentify the path to which the project will be downloaded on the Client.\nNote\nIf your client is not the same computer as your OS Engineering Station, then perform the \nfollowing steps.\nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n53\n",
+            "character_count": 1397,
+            "word_count": 228
+        },
+        {
+            "page_number": 54,
+            "text": "Follow these steps:\n1. In the Component View of SIMATIC Manager, right-click the PC Station that is the Client to be \nconfigured and select Object Properties. For example, if your Client Server PC Stations is \nSIMATIC PC Station (3) in the figure below, right-click on SIMATIC PC Station(3).\n2. In the General tab, enter the computer name of the client computer in both the Name and \nComputer name fields. These names must be entered in ALL CAPS. Click the OK button.\n3. Right-click OSC(3), and select Object Properties.\nThe Properties dialog box opens. \n4. Rename, as desired, the OSC(3) to the client project name.\nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\n54\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 746,
+            "word_count": 121
+        },
+        {
+            "page_number": 55,
+            "text": "5. Click the Target OS tab.\n6. Select the Network button to browse and map to the shared project folder on OS Server. If a \nmapped drive already exists, select it from the available drives listed in the Load In list box. \nThis is the path to the folder on your primary server where you will store and operate the \nproject. This path must include the network name of the target computer.\nNote: This folder must already exist on the primary and standby servers and be shared. This \nfolder’s permissions should be set to Full Control for Everyone. Refer to section Create New \nFolders on the Primary and Standby Servers and All Clients in this document. Click the OK \nbutton.\n7. From the Component view, add and configure additional clients, servers, and server pairs as \nneeded. You can add up to a total of 32 clients and 12 server pairs.\n4.3.3\nAssign OS Server\n1. From the Component view in SIMATIC Manager, right-click OS Client and select Assign OS \nserver… The OS server assignment window opens.\n2. Check the project check box for each server as needed, and click the OK button. A progress \nbar indicating the status opens. When the procedure is complete, a window opens with the \nmessage, The Procedure was complete without error.\n3. Click the OK button.\nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n55\n",
+            "character_count": 1388,
+            "word_count": 238
+        },
+        {
+            "page_number": 56,
+            "text": "4.3.4\nConfigure a Standard Server\nNote\nThe \"Standard Server\" represents the Server or Server pair that will store all operator actions and \nRuntime Trends.  If a Standard Server is not configured, operator actions will be stored on the \nlocal machine instead of on the \"Server\". In addition, any Runtime Trends created will only be \nviewable from the client on which they are created.\nOn the OS Engineering Station, open the OS client project from SIMATIC Manager. Set up a \nstandard server for Alarms and Split Screen Manager (SSM). \n1. Right-click on Server Data.\n2. Select Standard Server.\n3. Click on the Symb. Computer Name field next to the Alarms Component. From the drop-\ndown list, select the package that is the server for this client and is providing alarms for the \nclient you are currently configuring.\n4. Repeat step 3 for the SSM component.\n5. Click the OK button.\nThis step can also be performed on the client after downloading the project to redefine the \nstandard server for a particular client station. This customization will be overwritten during a \nsubsequent download. \n4.3.5\nConfigure a Preferred Server\nFor further information, please refer to the help file Start > SIMATIC > WinCC > WinCC \nInformation System > Options > Options for Process Control > Preferred Server.\nThis step can also be performed on the client after downloading the project to customize the \npreferred server connection for a particular client station. This customization will be overwritten \nduring a subsequent download.\n4.3.6\nRun OS Project Editor (optional)\nIf you want to change your layout, screen resolution, monitor configuration, message \nconfiguration, message display, area, runtime window, or basic data, run the OS project editor \nfrom WinCC Explorer. \nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\n56\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1892,
+            "word_count": 299
+        },
+        {
+            "page_number": 57,
+            "text": "To run the OS Project Editor:\n1. In the Component view of SIMATIC Manager, right-click the WinCC OS application and \nselect Open Object. For example, if you want to run the OS Project Editor on the application \nOSC(3) in the figure below, right-click on OSC(3). This will open the application using WinCC \nExplorer.\n2. Select the OS Project Editor and make any desired changes. Refer to online help as you are \nrunning the OS Project Editor for more details.\nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n57\n",
+            "character_count": 588,
+            "word_count": 96
+        },
+        {
+            "page_number": 58,
+            "text": "4.3.7\nLifebeat Monitoring Setup\n1. Open the client project. From the Component view in SIMATIC Manager, right-click on the OS \nclient project and select Open Object. \nThe project opens in WinCC Explorer.\n2. Right-click Lifebeat Monitoring and select Open. \nThe Lifebeat Monitoring window is displayed.\nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\n58\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 431,
+            "word_count": 62
+        },
+        {
+            "page_number": 59,
+            "text": "Creating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n59\n",
+            "character_count": 129,
+            "word_count": 17
+        },
+        {
+            "page_number": 60,
+            "text": "3. Set the Device positioning in the system configuration to automatic. Select a Monitoring \nCycle time, and then click the Update button.\nWhen complete, the system configuration section will update. See the Lifebeat Monitoring \nwindow below.\n4. Lifebeat Monitor setup on the client is complete. Click the Close button to close Lifebeat \nMonitoring. \nCreating a SIMATIC Manager Project\n4.3 Client Project Setup\nPowerControl Setup Guide\n60\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 480,
+            "word_count": 70
+        },
+        {
+            "page_number": 61,
+            "text": "4.4\nConfigure the Terminal Bus\nFor Engineering Station, Central Archive Server and Client and Server PCs:\nIf the PC (computer) has more than one network adapter, configure WinCC for the network \nadapter it will be using. \n1. Open Windows Explorer and select My Computer > SIMATIC Shell > Settings. \nThe Terminal bus selection window opens.\n2. Select the appropriate network adapter.  Click OK.\nThe message box Network communications need to be initialized opens. \n3. Click Yes.\nWinCC Communications Configurator\nThe WinCC Communications Configurator configures WinCC to use different network speeds \n(e.g. for dial-up or radio)\n1. To start, click Start > Simatic > WinCC > Tools > Communication Configurator.\n–\nSlide bar should be set to reflect network speed.\n–\n\"Server Pings Client\" should be set unless there are dial-up clients.\n–\nSettings should only be changed if CCAgent, CCClient, and CCServer processes have been \n(manually) stopped.\nNote\nRefer to WinCC Help for additional details regarding WinCC Communication Configurator.\nCreating a SIMATIC Manager Project\n4.4 Configure the Terminal Bus\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n61\n",
+            "character_count": 1170,
+            "word_count": 177
+        },
+        {
+            "page_number": 62,
+            "text": "4.5\nTime Synchronization Setup\nFor Clients and Server PCs: \nFor further information, please refer to the help file Start > SIMATIC > WinCC > WinCC \nInformation System > Options > Options for Process Control > Time Synchronization. \nCreating a SIMATIC Manager Project\n4.5 Time Synchronization Setup\nPowerControl Setup Guide\n62\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 367,
+            "word_count": 54
+        },
+        {
+            "page_number": 63,
+            "text": "4.6\nUser Administration\nIt is possible to configure all user accounts.  For more details on configuring user accounts, refer \nto the help file:\nStart>Simatic>WinCC>WinCC Information System>Working With WinCC>Setting up User \nAdministration \nCreating a SIMATIC Manager Project\n4.6 User Administration\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n63\n",
+            "character_count": 369,
+            "word_count": 47
+        },
+        {
+            "page_number": 64,
+            "text": "4.7\nData Security and Backup\nRecommendation\nSave the various project states.\nCreate a backup in the following situations:\n•\nAfter configuration changes\n•\nBefore and after system component upgrades\n•\nBefore and after the software update of the configuration software\nAdditional Information\nYou will find a step-by-step description of saving and backing up ES and OS project data in the \nmanual Process Control System PCS 7; Service Support and Diagnostics.\nImportant\nTo insure that your DBA project is properly backed up using the standard steps for saving and \nbackup up an ES project, it is recommended that your DBA project be stored in a folder within \nyour SIMATIC Manager project folder. For example, if you create a SIMATIC Manager project \ncalled S7Pro_1, a folder hierarchy is automatically created:\nExpanding the S7Pr_Prj directory shows many additional subfolders that are created \nautomatically.\nCreating a SIMATIC Manager Project\n4.7 Data Security and Backup\nPowerControl Setup Guide\n64\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1040,
+            "word_count": 158
+        },
+        {
+            "page_number": 65,
+            "text": "Create a new folder called DBA in the S7Pr_Prj subdirectory:\nYour DBA project should be created in this subdirectory. This ensures that the DBA project will be \nautomatically backed up and restored using the standard backup and restore procedures \ndescribed in Process Control System PCS 7; Service Support and Diagnostics.\nNote\nIt is highly recommended to backup user projects on a separate disk drive or partition.\nCreating a SIMATIC Manager Project\n4.7 Data Security and Backup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n65\n",
+            "character_count": 550,
+            "word_count": 84
+        },
+        {
+            "page_number": 66,
+            "text": "Creating a SIMATIC Manager Project\n4.7 Data Security and Backup\nPowerControl Setup Guide\n66\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 133,
+            "word_count": 18
+        },
+        {
+            "page_number": 67,
+            "text": "Station Lifebeat Monitoring Setup\n5\nOnce you have used DBA to create your PCS 7 PowerControl database(s), you can configure a \nLifebeat Monitoring typical for each IED station and connecting device in the system. By \nfollowing the simple procedure described below, a single graphic display is created \nautomatically that provides a thumbnail representation of the connectivity of every hardware \nstation in the system.\n1. Open the OS server project in SIMATIC Manager. From the Component view, right-click on \nthe Primary OS Server and select Open Object. Your project opens in WinCC Explorer.\n2. In the left pane of WinCC Explorer, right-click Lifebeat Monitoring. Click Open.\nThe Lifebeat Monitoring window opens.\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n67\n",
+            "character_count": 785,
+            "word_count": 118
+        },
+        {
+            "page_number": 68,
+            "text": "Station Lifebeat Monitoring Setup\nPowerControl Setup Guide\n68\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 103,
+            "word_count": 12
+        },
+        {
+            "page_number": 69,
+            "text": "3. In row 1, double-click the cell under Device Name. Enter the name of the station that you \nwant to be monitored, make sure this is the name of the station defined in your DBA project.\nStation Lifebeat Monitoring Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n69\n",
+            "character_count": 290,
+            "word_count": 48
+        },
+        {
+            "page_number": 70,
+            "text": "4. Double-click the cell under Device Type, and select IED – IEC850 IED from the dropdown list.\n5. Repeat steps 2-4 for each station that you want monitored.\n6. Under the Device positioning in the system configuration section, select automatic.\n7. Select a Monitoring Cycle time. The default is 10 seconds.\n8. When complete, select the Update button. The following dialog box is displayed.\nStation Lifebeat Monitoring Setup\nPowerControl Setup Guide\n70\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 493,
+            "word_count": 76
+        },
+        {
+            "page_number": 71,
+            "text": "9. Click the Yes button. When complete, the Lifebeat Monitoring dialog box may appear \nindicating that the CCLBMRTServer.exe could not be entered into the start up list of the server \ncomputer <computername>.\n10.This message can be safely ignored. Click the OK button to continue.\n11.Click the Close button to close the Lifebeat Monitoring window.\n12.The system may respond with the following message \"The process picture has not been \nupdated, do you want to update before closing?\" Click Yes.\n13.The following dialog box may be displayed. Click Yes.\n14.The following dialog box is displayed. Click OK.\n15.To configure Lifebeat Monitoring to view the health of other system resources such as \ncomputers, for example OS Servers and the Archive Server, refer to Start > SIMATIC > WinCC \n> WinCC Information System > Options > Options for Process Control > Lifebeat \nMonitoring > How to configure lifebeat monitoring with OPC connection. \nStation Lifebeat Monitoring Setup\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n71\n",
+            "character_count": 1040,
+            "word_count": 160
+        },
+        {
+            "page_number": 72,
+            "text": "Station Lifebeat Monitoring Setup\nPowerControl Setup Guide\n72\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 103,
+            "word_count": 12
+        },
+        {
+            "page_number": 73,
+            "text": "Downloading and Activating PCS 7 OS Stations\n6\nDownloading\nProcedures vary depending upon the target of the download.\nActivating and Reactivating\nPerform activation and reactivation in the prescribed order. \nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n73\n",
+            "character_count": 277,
+            "word_count": 37
+        },
+        {
+            "page_number": 74,
+            "text": "6.1\nDownload the Project to the Primary Server\n1. From SIMATIC Manager component view, right-click the Primary Server OS (PC Station 1), \nand select PLC > Download.\n2. Ensure that The Entire WinCC Project radio button is selected. \n3. Click OK to download the project. \n4. A success window is displayed. Click OK to acknowledge that the download has completed.\nDownloading and Activating PCS 7 OS Stations\n6.1 Download the Project to the Primary Server\nPowerControl Setup Guide\n74\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 522,
+            "word_count": 83
+        },
+        {
+            "page_number": 75,
+            "text": "6.2\nDownload the Project to the Standby Server\n1. From SIMATIC Manager component view, right-click the Standby Server OS (PC Station 2), \nand select PLC > Download.\n2. Ensure that The Entire WinCC Project radio button is selected. \n3. Click OK to download the project. \n4. A success window is displayed. Click OK to acknowledge that the download has completed.\nDownloading and Activating PCS 7 OS Stations\n6.2 Download the Project to the Standby Server\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n75\n",
+            "character_count": 522,
+            "word_count": 83
+        },
+        {
+            "page_number": 76,
+            "text": "6.3\nDownload the Project to the Client Station\n1. From SIMATIC Manager component view, right-click the Client Station OS (PC Station 3), and \nselect PLC > Download.\n2. Ensure that The Entire WinCC Project radio button is selected. \n3. Click OK to download the project. \n4. A success window is displayed. Click OK to acknowledge that the download has completed.\nDownloading and Activating PCS 7 OS Stations\n6.3 Download the Project to the Client Station\nPowerControl Setup Guide\n76\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 522,
+            "word_count": 83
+        },
+        {
+            "page_number": 77,
+            "text": "6.4\nActivating Server Projects\nNote\nProjects can be automatically activated when the operating system starts using the AutoStart \nUtility. For more information, refer to the help file within WinCC Explorer, or Internet Link (https://\nsupport.industry.siemens.com/cs/ww/en/view/19249315).\n1. Activate the project on the primary server.\n2. Wait four minutes for the project to fully start.\n3. Activate the project on the backup server.\n4. Wait four minutes for the project to fully start.\n5. Activate the project on the client.\nDownloading and Activating PCS 7 OS Stations\n6.4 Activating Server Projects\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n77\n",
+            "character_count": 671,
+            "word_count": 97
+        },
+        {
+            "page_number": 78,
+            "text": "6.5\nRestarting an OS Server\nWait five minutes before reactivating the WinCC runtime of an OS Server associated with a \nredundant pair to ensure that all synchronization activities will start-up properly. \nDownloading and Activating PCS 7 OS Stations\n6.5 Restarting an OS Server\nPowerControl Setup Guide\n78\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 347,
+            "word_count": 51
+        },
+        {
+            "page_number": 79,
+            "text": "Delta Engineering\n7\nThis section describes how to make changes to an existing project from the Engineering Station, \nand then downloading those changes into the servers and client. These changes may include:\n•\nMaking changes to an AS program\n•\nAdding or removing a station\n•\nMaking changes to the plant view in DBA\n•\nMaking changes to the project in SIMATIC Manager\n•\nMaking changes to the project in WinCC\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n79\n",
+            "character_count": 476,
+            "word_count": 79
+        },
+        {
+            "page_number": 80,
+            "text": "7.1\nOverall Steps\n1. Make changes. Ensure that DBA changes have been compiled. \n2. Download changes to your stations. \nDelta Engineering\n7.1 Overall Steps\nPowerControl Setup Guide\n80\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 224,
+            "word_count": 32
+        },
+        {
+            "page_number": 81,
+            "text": "7.2\nMaking Changes to the AS Configuration\nIf necessary, use the appropriate Siemens or third-party tools to make changes to AS Station \nprograms or hardware configurartion.\nDelta Engineering\n7.2 Making Changes to the AS Configuration\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n81\n",
+            "character_count": 304,
+            "word_count": 43
+        },
+        {
+            "page_number": 82,
+            "text": "7.3\nMaking Changes to the DBA Configuration\n1. If you have made changes to your AS programs or hardware configuration, make any \nnecessary corresponding changes to your DBA project (e.g. adding new object instances).\n2. Use DBA to make any additional changes desired, such as\n–\nFine-tuning of the Plant View assignments\n–\nRenaming folders or graphic files assigned to folders\n–\nEditing of AS Object attributes such as Symbol Names and Alarm Priorities (see DBA Help \nFile, section Object Attributes, for more details)\n3. From DBA, select Compile. If you have made changes to any DBA Types using the Type Editor, \nchoose the \"Entire OS\" option. Otherwise, you may choose the \"Changes\" option on \nthe Compile dialog box:\nDelta Engineering\n7.3 Making Changes to the DBA Configuration\nPowerControl Setup Guide\n82\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 850,
+            "word_count": 136
+        },
+        {
+            "page_number": 83,
+            "text": "7.4\nModify the Project in WinCC\n1. On the OS Engineering Station, start WinCC Explorer and open the OS Server project.\n2. Make any new changes to the project that you need (for example, create new graphics, \nmodify existing graphics, etc.).\nNote\nAll changes must be made on the OS Engineering Station to preserve the Changes Only \ndownload. Changes made on another station cannot be downloaded to the other stations via \nSIMATIC Manager. These changes would have to be downloaded manually. Changes made on \nany station other than the Engineering Station will require a full download when future changes \nare made. \nDelta Engineering\n7.4 Modify the Project in WinCC\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n83\n",
+            "character_count": 734,
+            "word_count": 117
+        },
+        {
+            "page_number": 84,
+            "text": "7.5\nDownload Changes\nThere are two methods to download changes:\n•\nLoad Online Changes (Delta Download)\nNote\nImportant\nIf you have removed objects from the plant view in DBA, have loaded online changes, and \nhave later inserted the same objects back into the plant view in DBA, do not load these \nchanges with the Downloading Changes Online function. For these objects to function \nproperly in runtime, these changes must be loaded as part of a full downloading procedure. \n•\nFull Download\nNote\nCertain changes made in DBA  will require that the Full Compile method be used. You will be \nwarned within DBA  when attempting to make such changes that a Full Compile will be \nrequired.\n7.5.1\nFull Download\n7.5.1.1\nDownload the Project to the Standby Server\n1. From SIMATIC Manager component view, right-click the Standby Server OS (PC Station 2), \nand select PLC > Download.\n2. Ensure that The Entire WinCC Project radio button is selected. \n3. Click OK to download the project. \n4. A success window is displayed. Click OK to acknowledge that the download has completed.\n7.5.1.2\nDownload the Project to the Primary Server\n1. From SIMATIC Manager component view, right-click the Primary Server OS (PC Station 1), \nand select PLC > Download.\n2. Ensure that The Entire WinCC Project radio button is selected. \n3. Click OK to download the project. \n4. A success window is displayed. Click OK to acknowledge that the download has completed.\nDelta Engineering\n7.5 Download Changes\nPowerControl Setup Guide\n84\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 1540,
+            "word_count": 251
+        },
+        {
+            "page_number": 85,
+            "text": "7.5.2\nDownloading Changes\n7.5.2.1\nDownload Change Overview\nLoad Online Changes (Delta Download)\n1. From SIMATIC Manager component view, right-click the Primary Server OS (PC Station and \nselect PLC > Download.\n2. Ensure that \"Changes\" radio button is selected. (Note : In a redundant system, this choice is \nonly available if both the Master and Standby are both online.\n3. Click OK to download the changes. When downloading to redundant servers, the configured \nStandby will be downloaded first).\n4. A success window is displayed. Click OK to acknowledge that the download has completed.\n5. In a redundant system, the configured Master will then be downloaded and the OK button \nwill again become available once this download is complete. Select OK to acknowledge the \ndownload.\nFor more details concerning Loading Online Changes, refer to SIMATIC Process Control System \nPCS 7 V9.1 Operator Station Configuration Manual.\nDelta Engineering\n7.5 Download Changes\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n85\n",
+            "character_count": 1031,
+            "word_count": 156
+        },
+        {
+            "page_number": 86,
+            "text": "Delta Engineering\n7.5 Download Changes\nPowerControl Setup Guide\n86\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 108,
+            "word_count": 13
+        },
+        {
+            "page_number": 87,
+            "text": "Extending PCS 7 PowerControl\n8\nWhile PCS 7 PowerControl provides a set of typicals used to engineer a PowerControl system, it \nis possible to extend the system by creating your own typicals.\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n87\n",
+            "character_count": 260,
+            "word_count": 40
+        },
+        {
+            "page_number": 88,
+            "text": "8.1\nCreating New Technological Object Types\nPCS 7 PowerControl DBA includes a powerful engineering environment, the DBA Type Editor, \nthat allows user defined object types to be created. These can be created from \"scratch\", or \nextended based on the standard provided types. Refer to the PCS 7 PowerControl DBA Type \nEditor manual for complete details on how to create and modify object types.\nExtending PCS 7 PowerControl\n8.1 Creating New Technological Object Types\nPowerControl Setup Guide\n88\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 536,
+            "word_count": 81
+        },
+        {
+            "page_number": 89,
+            "text": "8.2\nCreating New Faceplates and Symbols\nNote\nFor creating and modifying APL-style faceplates and symbols, refer to PCS 7 Libraries APL Style \nGuide.\nWhen creating new object types, it is usually necessary to create a faceplate and one or more \nsymbols that allow the HMI to interact with these objects.\nUsually the best approach is to select a similar object from the standard library of objects and to \n\"clone\" the faceplate and symbol.\nThe following procedure describes this cloning process.\n1. Select a standard faceplate that is most like the one you wish to create\nNote: This exercise assumes you have selected the TC_COUNTER faceplate and symbol, and \nthat you want to create a CUSTOM1_ faceplate and symbol from it.\n2. If the new CUSTOM1_ faceplate is for a specific WinCC project, select the PDL files from the \nGraCS folder of the WinCC project.\nIf the modifications are to be global for all WinCC projects, select the files from the SIEMENS\n\\WINCC\\options\\pdl\\FaceplateDesigner_V6 folder. \nAny newly created WinCC project initially gets its files from the SIEMENS\\WINCC\\options\\pdl\n\\FaceplateDesigner_V6 folder.\nCreating New Faceplates\n1. Using the WinCC Graphics Designer, open up the following PDL files, and use the File > Save \nAs.. menu option to save a copy of the file under a new name.\nOriginal File Name\nNew Customized File Name\n@PG_ TC_COUNTER.pdl\n@PG_CUSTOM1_.pdl\n@PG_ TC_COUNTER _OVERVIEW.pdl\n@PG_CUSTOM1_OVERVIEW.pdl\n@PG_ TC_COUNTER _STANDARD.pdl\n@PG_CUSTOM1_STANDARD.pdl\n@PG_ TC_COUNTER _VIEWLIST.pdl\n@PG_CUSTOM1_VIEWLIST.pdl\n@PL_ TC_COUNTER.PDL\n@PL_CUSTOM1_.PDL\n1. All references to the old TC_COUNTER type need to be changed to reference the new \nCUSTOM1_ type. These changes are made in WinCC Graphics Designer by opening the PDL \nfile, and modifying the reference using the object's property dialog box.\nThe following table lists all of the references that must be changed. \nPDL FileName\nObject Name\nProperty Name\n@PG_ TC_COUNTER.pdl\n@Faceplate\nFirstView\n@PG_ TC_COUNTER.pdl\nViewList\nPicture Name\n@PG_ TC_COUNTER.pdl\nBlockType\nOutput Value\n@PL_ TC_COUNTER.pdl\nOverviewWindow\nPicture Name\n@PL_ TC_COUNTER.pdl\nView1\nPicture Name\n@PL_ TC_COUNTER.pdl\nBlockType\nOutput Value\nExtending PCS 7 PowerControl\n8.2 Creating New Faceplates and Symbols\nPowerControl Setup Guide\nFunction Manual, 08/2021, A5E51115883-AA\n89\n",
+            "character_count": 2336,
+            "word_count": 343
+        },
+        {
+            "page_number": 90,
+            "text": "The result is a copy of the TC_COUNTER faceplate that supports the new CUSTOM1_ type.\nThe objects on the new PDL files can now be added/deleted/modified. How to modify the PDL \nfiles is now up to the user, and is beyond the scope of this document.\nCreating New Symbols\n1. Using the WinCC Graphics Designer, open up the @@PowerControlTypicals.PDL file.\n2. Save this under the new name @PowerControlTypicals.PDL.\n3. Make a copy of the @ TC_COUNTER/2 object and name it @CUSTOM1_/1.\n4. Using the property dialog box for the new @CUSTOM1_/1 object, change all references to the \nold TC_COUNTER type to reference the new CUSTOM1_ type.\n5. The following properties must be changed:\n–\nType\n–\nServer name\nThe result is a new symbol that will be used for the new CUSTOM1_ type.\nExtending PCS 7 PowerControl\n8.2 Creating New Faceplates and Symbols\nPowerControl Setup Guide\n90\nFunction Manual, 08/2021, A5E51115883-AA\n",
+            "character_count": 907,
+            "word_count": 151
+        }
+    ]
+}

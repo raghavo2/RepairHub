@@ -1,0 +1,1036 @@
+{
+    "document_name": "OmniOn_Galaxy_Power_Systems_Installation_Guide.pdf",
+    "source_path": "Industrial\\Power_Rectifiers\\Installation_Guides\\OmniOn_Galaxy_Power_Systems_Installation_Guide.pdf",
+    "total_pages": 147,
+    "pages": [
+        {
+            "page_number": 1,
+            "character_count": 47,
+            "word_count": 6,
+            "raw_text": " \nInstallation Guide for Galaxy Power Systems \n",
+            "clean_text": "Installation Guide for Galaxy Power Systems"
+        },
+        {
+            "page_number": 2,
+            "character_count": 22,
+            "word_count": 3,
+            "raw_text": " \nList of contents   \n",
+            "clean_text": "List of contents"
+        },
+        {
+            "page_number": 3,
+            "character_count": 33,
+            "word_count": 4,
+            "raw_text": " \nList of contents (continued)  \n",
+            "clean_text": "List of contents (continued)"
+        },
+        {
+            "page_number": 4,
+            "character_count": 33,
+            "word_count": 4,
+            "raw_text": " \nList of contents (continued)  \n",
+            "clean_text": "List of contents (continued)"
+        },
+        {
+            "page_number": 5,
+            "character_count": 33,
+            "word_count": 4,
+            "raw_text": " \nList of contents (continued)  \n",
+            "clean_text": "List of contents (continued)"
+        },
+        {
+            "page_number": 6,
+            "character_count": 20,
+            "word_count": 2,
+            "raw_text": " \n1. \nIntroduction \n",
+            "clean_text": "1.\nIntroduction"
+        },
+        {
+            "page_number": 7,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 8,
+            "character_count": 39,
+            "word_count": 10,
+            "raw_text": " \n2. \nSafety  \n• \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "2.\nSafety\n•\n•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 9,
+            "character_count": 38,
+            "word_count": 12,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 10,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 11,
+            "character_count": 23,
+            "word_count": 7,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 12,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 13,
+            "character_count": 38,
+            "word_count": 12,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 14,
+            "character_count": 23,
+            "word_count": 7,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 15,
+            "character_count": 20,
+            "word_count": 6,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 16,
+            "character_count": 23,
+            "word_count": 7,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 17,
+            "character_count": 20,
+            "word_count": 6,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 18,
+            "character_count": 23,
+            "word_count": 7,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 19,
+            "character_count": 20,
+            "word_count": 6,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 20,
+            "character_count": 65,
+            "word_count": 17,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n3. \nGetting Started \n• \n• \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•\n3.\nGetting Started\n•\n•\n•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 21,
+            "character_count": 14,
+            "word_count": 4,
+            "raw_text": " \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•"
+        },
+        {
+            "page_number": 22,
+            "character_count": 47,
+            "word_count": 5,
+            "raw_text": " \n4. \nSystem Electrical Architecture Overview \n",
+            "clean_text": "4.\nSystem Electrical Architecture Overview"
+        },
+        {
+            "page_number": 23,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 24,
+            "character_count": 4,
+            "word_count": 0,
+            "raw_text": " \n \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 25,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 26,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 27,
+            "character_count": 44,
+            "word_count": 6,
+            "raw_text": " \n5. \nCabinet Floor Mounting and Grounding \n",
+            "clean_text": "5.\nCabinet Floor Mounting and Grounding"
+        },
+        {
+            "page_number": 28,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 29,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 30,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 31,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 32,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 33,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 34,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 35,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 36,
+            "character_count": 68,
+            "word_count": 9,
+            "raw_text": " \n6. \nCentralized or Distributed Architecture Connections \n• \n• \n• \n",
+            "clean_text": "6.\nCentralized or Distributed Architecture Connections\n•\n•\n•"
+        },
+        {
+            "page_number": 37,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 38,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 39,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 40,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 41,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 42,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 43,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 44,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 45,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 46,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 47,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 48,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 49,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 50,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 51,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 52,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 53,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 54,
+            "character_count": 20,
+            "word_count": 6,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 55,
+            "character_count": 41,
+            "word_count": 8,
+            "raw_text": " \n7. \nAC Connection and Wiring \n• \n• \n• \n",
+            "clean_text": "7.\nAC Connection and Wiring\n•\n•\n•"
+        },
+        {
+            "page_number": 56,
+            "character_count": 20,
+            "word_count": 6,
+            "raw_text": " \n• \n• \n• \n• \n• \n• \n",
+            "clean_text": "•\n•\n•\n•\n•\n•"
+        },
+        {
+            "page_number": 57,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 58,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 59,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 60,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 61,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 62,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 63,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 64,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 65,
+            "character_count": 4,
+            "word_count": 0,
+            "raw_text": " \n \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 66,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 67,
+            "character_count": 4,
+            "word_count": 0,
+            "raw_text": " \n \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 68,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 69,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 70,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 71,
+            "character_count": 182,
+            "word_count": 32,
+            "raw_text": " \nL1    L2/N L2    L3/N L3    L1/N L1    L2/N L2    L3/N L3    L1/N L1    L2/N L2    L3/N L3    L1/N \nL1    L2/N L2    L3/N L3    L1/N \nL1    L2/N L2    L3/N L3    L1/N \nL1    L2/N \n",
+            "clean_text": "L1 L2/N L2 L3/N L3 L1/N L1 L2/N L2 L3/N L3 L1/N L1 L2/N L2 L3/N L3 L1/N\nL1 L2/N L2 L3/N L3 L1/N\nL1 L2/N L2 L3/N L3 L1/N\nL1 L2/N"
+        },
+        {
+            "page_number": 72,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 73,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 74,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 75,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 76,
+            "character_count": 4,
+            "word_count": 0,
+            "raw_text": " \n \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 77,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 78,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 79,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 80,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 81,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 82,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 83,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 84,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 85,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 86,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 87,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 88,
+            "character_count": 48,
+            "word_count": 6,
+            "raw_text": " \n8. \nDC Distribution Assembly and Connections \n",
+            "clean_text": "8.\nDC Distribution Assembly and Connections"
+        },
+        {
+            "page_number": 89,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 90,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 91,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 92,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 93,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 94,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 95,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 96,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 97,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 98,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 99,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 100,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 101,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 102,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 103,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 104,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 105,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 106,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 107,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 108,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 109,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 110,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 111,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 112,
+            "character_count": 38,
+            "word_count": 4,
+            "raw_text": " \n9. \n  Remote Peripheral Monitoring \n",
+            "clean_text": "9.\n Remote Peripheral Monitoring"
+        },
+        {
+            "page_number": 113,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 114,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 115,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 116,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 117,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 118,
+            "character_count": 8,
+            "word_count": 2,
+            "raw_text": " \n• \n• \n",
+            "clean_text": "•\n•"
+        },
+        {
+            "page_number": 119,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 120,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 121,
+            "character_count": 36,
+            "word_count": 4,
+            "raw_text": " \n10.   Battery Connection Panels  \n",
+            "clean_text": "10. Battery Connection Panels"
+        },
+        {
+            "page_number": 122,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 123,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 124,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 125,
+            "character_count": 6,
+            "word_count": 0,
+            "raw_text": " \n \n \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 126,
+            "character_count": 8,
+            "word_count": 2,
+            "raw_text": " \n• \n• \n",
+            "clean_text": "•\n•"
+        },
+        {
+            "page_number": 127,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 128,
+            "character_count": 4,
+            "word_count": 0,
+            "raw_text": " \n \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 129,
+            "character_count": 36,
+            "word_count": 4,
+            "raw_text": " \n11. \n  Fascia Cover Installation \n",
+            "clean_text": "11.\n Fascia Cover Installation"
+        },
+        {
+            "page_number": 130,
+            "character_count": 43,
+            "word_count": 7,
+            "raw_text": " \n12.   Connection of Office Alarms \n• \n• \n",
+            "clean_text": "12. Connection of Office Alarms\n•\n•"
+        },
+        {
+            "page_number": 131,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 132,
+            "character_count": 48,
+            "word_count": 6,
+            "raw_text": " \n13.   Power Up and Installation Completion \n \n",
+            "clean_text": "13. Power Up and Installation Completion"
+        },
+        {
+            "page_number": 133,
+            "character_count": 11,
+            "word_count": 3,
+            "raw_text": " \n• \n• \n• \n",
+            "clean_text": "•\n•\n•"
+        },
+        {
+            "page_number": 134,
+            "character_count": 2,
+            "word_count": 0,
+            "raw_text": " \n",
+            "clean_text": ""
+        },
+        {
+            "page_number": 135,
+            "character_count": 13,
+            "word_count": 3,
+            "raw_text": " \n \n• \n• \n• \n",
+            "clean_text": "•\n•\n•"
+        },
+        {
+            "page_number": 136,
+            "character_count": 25,
+            "word_count": 2,
+            "raw_text": " \nInstalling Rectifiers \n",
+            "clean_text": "Installing Rectifiers"
+        },
+        {
+            "page_number": 137,
+            "character_count": 98,
+            "word_count": 12,
+            "raw_text": " \nInstalling Rectifiers (Continued) \nNote: \nRemove keying plate for single rectifier shelf only. \n",
+            "clean_text": "Installing Rectifiers (Continued)\nNote:\nRemove keying plate for single rectifier shelf only."
+        },
+        {
+            "page_number": 138,
+            "character_count": 39,
+            "word_count": 3,
+            "raw_text": " \nInstalling Rectifiers (Continued) \n \n",
+            "clean_text": "Installing Rectifiers (Continued)"
+        },
+        {
+            "page_number": 139,
+            "character_count": 68,
+            "word_count": 9,
+            "raw_text": " \nLamp Test \nVoltage Calibration \nSetting the System Float Voltage \n",
+            "clean_text": "Lamp Test\nVoltage Calibration\nSetting the System Float Voltage"
+        },
+        {
+            "page_number": 140,
+            "character_count": 141,
+            "word_count": 20,
+            "raw_text": " \nSetting the System Shunt \n• \n• \n• \n• \nSetting the Low-Voltage Battery Disconnect Feature \nSetting the Low-Voltage Load Disconnect Feature \n",
+            "clean_text": "Setting the System Shunt\n•\n•\n•\n•\nSetting the Low-Voltage Battery Disconnect Feature\nSetting the Low-Voltage Load Disconnect Feature"
+        },
+        {
+            "page_number": 141,
+            "character_count": 24,
+            "word_count": 2,
+            "raw_text": " \nConnecting Batteries \n",
+            "clean_text": "Connecting Batteries"
+        },
+        {
+            "page_number": 142,
+            "character_count": 36,
+            "word_count": 3,
+            "raw_text": " \nConnecting Batteries (Continued) \n",
+            "clean_text": "Connecting Batteries (Continued)"
+        },
+        {
+            "page_number": 143,
+            "character_count": 86,
+            "word_count": 12,
+            "raw_text": " \nTesting Rectifiers and Load Share \nTesting Additional Alarms \nTesting the BD Alarm \n",
+            "clean_text": "Testing Rectifiers and Load Share\nTesting Additional Alarms\nTesting the BD Alarm"
+        },
+        {
+            "page_number": 144,
+            "character_count": 66,
+            "word_count": 9,
+            "raw_text": " \nMillennium II Controller System Alarm Test \nConnecting to Load \n",
+            "clean_text": "Millennium II Controller System Alarm Test\nConnecting to Load"
+        },
+        {
+            "page_number": 145,
+            "character_count": 14,
+            "word_count": 2,
+            "raw_text": " \nAppendix A \n",
+            "clean_text": "Appendix A"
+        },
+        {
+            "page_number": 146,
+            "character_count": 26,
+            "word_count": 3,
+            "raw_text": " \nAppendix A (Continued) \n",
+            "clean_text": "Appendix A (Continued)"
+        },
+        {
+            "page_number": 147,
+            "character_count": 8,
+            "word_count": 0,
+            "raw_text": " \n \n \n \n",
+            "clean_text": ""
+        }
+    ]
+}

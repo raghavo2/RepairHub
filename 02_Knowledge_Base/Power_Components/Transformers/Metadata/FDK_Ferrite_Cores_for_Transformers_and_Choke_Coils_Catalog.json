@@ -1,0 +1,33 @@
+{
+  "document_id": "XFMR_CORE_001",
+  "file_name": "FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog.pdf",
+  "title": "Ferrite Cores for Transformer & Choke Coil",
+  "manufacturer": "FDK",
+  "document_type": "Catalog",
+  "category": "Power Components",
+  "subcategory": "Transformers",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Core Selection",
+    "Magnetic Material Selection",
+    "Transformer Design"
+  ],
+  "covers": [
+    "Ferrite Materials",
+    "Core Shapes",
+    "Core Loss",
+    "Permeability",
+    "Saturation Flux Density",
+    "Switching Power Supplies",
+    "Pulse Transformers",
+    "Choke Coils"
+  ],
+  "used_by_agents": [
+    "Modification Agent",
+    "Alternative Component Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

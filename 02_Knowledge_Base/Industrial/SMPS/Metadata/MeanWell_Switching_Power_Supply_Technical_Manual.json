@@ -1,0 +1,34 @@
+{
+  "document_id": "SMPS_MANUAL_001",
+  "file_name": "MeanWell_Switching_Power_Supply_Technical_Manual.pdf",
+  "title": "Switching Power Supply Technical Manual",
+  "manufacturer": "Mean Well",
+  "document_type": "Technical Manual",
+  "category": "Industrial Systems",
+  "subcategory": "SMPS",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "SMPS Fundamentals",
+    "Industrial Design",
+    "Safety"
+  ],
+  "covers": [
+    "SMPS Basics",
+    "Specifications",
+    "Safety Standards",
+    "EMC",
+    "CE",
+    "Reliability",
+    "Operation",
+    "Failure Correction",
+    "Power Supply Design"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Knowledge Retrieval Agent",
+    "Repair Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

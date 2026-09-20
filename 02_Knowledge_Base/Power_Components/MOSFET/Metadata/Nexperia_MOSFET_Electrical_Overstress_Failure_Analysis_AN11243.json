@@ -1,0 +1,29 @@
+{
+  "document_id": "MOSFET_FAIL_001",
+  "file_name": "Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243.pdf",
+  "title": "Failure Signature of Electrical Overstress on MOSFETs",
+  "manufacturer": "Nexperia",
+  "document_type": "Failure Analysis Guide",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Failure Diagnosis",
+    "Root Cause Analysis"
+  ],
+  "covers": [
+    "ESD",
+    "Avalanche",
+    "Overcurrent",
+    "Linear Mode Failure",
+    "EOS",
+    "Failure Signatures"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

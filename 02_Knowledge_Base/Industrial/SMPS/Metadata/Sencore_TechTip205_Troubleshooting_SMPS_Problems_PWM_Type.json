@@ -1,0 +1,31 @@
+{
+  "document_id": "SMPS_TSHOOT_001",
+  "file_name": "Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type.pdf",
+  "title": "Troubleshooting SMPS Problems (PWM Type)",
+  "manufacturer": "Sencore",
+  "document_type": "Technical Troubleshooting Guide",
+  "category": "Industrial Systems",
+  "subcategory": "SMPS",
+  "priority": "High",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Field Troubleshooting",
+    "Fault Isolation"
+  ],
+  "covers": [
+    "PWM SMPS",
+    "Six-Step Troubleshooting",
+    "Startup Circuit",
+    "Feedback Loop",
+    "Driver Circuit",
+    "Primary Side",
+    "Secondary Side",
+    "Isolation Transformer Safety"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent"
+  ],
+  "retrieval_priority": 9,
+  "citation_required": true
+}

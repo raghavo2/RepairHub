@@ -1,0 +1,31 @@
+{
+  "document_id": "SMPS_REPAIR_001",
+  "file_name": "Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview.pdf",
+  "title": "Troubleshooting & Repairing Switch Mode Power Supplies",
+  "manufacturer": "Jestine Yong",
+  "document_type": "Repair Guide",
+  "category": "Industrial Systems",
+  "subcategory": "SMPS",
+  "priority": "High",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Repair",
+    "Troubleshooting",
+    "Fault Isolation"
+  ],
+  "covers": [
+    "SMPS Block Diagram",
+    "Circuit Functions",
+    "Common Faults",
+    "Repair Techniques",
+    "Voltage Testing",
+    "Oscilloscope Testing",
+    "Component Identification"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent"
+  ],
+  "retrieval_priority": 9,
+  "citation_required": true
+}

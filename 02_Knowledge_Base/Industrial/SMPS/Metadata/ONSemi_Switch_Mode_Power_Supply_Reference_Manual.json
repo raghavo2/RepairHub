@@ -1,0 +1,37 @@
+{
+  "document_id": "SMPS_REF_002",
+  "file_name": "ONSemi_Switch_Mode_Power_Supply_Reference_Manual.pdf",
+  "title": "Switch-Mode Power Supply Reference Manual",
+  "manufacturer": "onsemi",
+  "document_type": "Reference Manual",
+  "category": "Industrial Systems",
+  "subcategory": "SMPS",
+  "priority": "Critical",
+  "knowledge_level": "Expert",
+  "primary_use": [
+    "SMPS Design",
+    "Component Selection",
+    "Reference"
+  ],
+  "covers": [
+    "SMPS Fundamentals",
+    "Topologies",
+    "Flyback",
+    "Forward",
+    "MOSFETs",
+    "IGBTs",
+    "Rectifiers",
+    "Magnetics",
+    "PCB Layout",
+    "Efficiency",
+    "Power Factor Correction",
+    "Application Notes"
+  ],
+  "used_by_agents": [
+    "Modification Agent",
+    "Knowledge Retrieval Agent",
+    "Diagnosis Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

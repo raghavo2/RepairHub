@@ -1,0 +1,33 @@
+{
+  "document_id": "XFMR_FAIL_001",
+  "file_name": "Transformer_Failure_Analysis_Reasons_and_Methods_IJERT.pdf",
+  "title": "Transformer Failure Analysis: Reasons and Methods",
+  "manufacturer": "IJERT",
+  "document_type": "Research Paper",
+  "category": "Power Components",
+  "subcategory": "Transformers",
+  "application_domain": "Distribution Transformers",
+  "priority": "High",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Failure Analysis",
+    "Root Cause Investigation"
+  ],
+  "covers": [
+    "Core Failure",
+    "Winding Failure",
+    "Insulation Failure",
+    "Transformer Oil",
+    "Bushings",
+    "Short Circuits",
+    "Overheating",
+    "Preventive Maintenance"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 8,
+  "citation_required": true
+}

@@ -1,0 +1,32 @@
+{
+  "document_id": "RECT_FAIL_001",
+  "file_name": "NASA_NEXTC_Rectifier_Diode_Failure_Investigation.pdf",
+  "title": "Investigation of Rectifier Diode Failures in the NEXT-C Power Processing Unit",
+  "manufacturer": "NASA Glenn Research Center",
+  "document_type": "Failure Analysis",
+  "category": "Industrial Systems",
+  "subcategory": "Power Rectifier",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Failure Analysis",
+    "Reliability",
+    "Root Cause Investigation"
+  ],
+  "covers": [
+    "Rectifier Diodes",
+    "Thermal Runaway",
+    "Reverse Recovery",
+    "Reliability",
+    "Root Cause Analysis",
+    "Testing",
+    "Power Processing Unit"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

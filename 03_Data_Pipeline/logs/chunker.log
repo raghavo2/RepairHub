@@ -1,0 +1,324 @@
+2026-08-29 17:23:55,497 | INFO | Chunker Started
+2026-08-29 17:23:55,498 | INFO | ============================================================
+2026-08-29 17:23:55,498 | INFO | Chunking Started
+2026-08-29 17:23:55,498 | INFO | Documents : 52
+2026-08-29 17:23:55,525 | INFO | Processing ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_clean.json
+2026-08-29 17:23:55,615 | INFO | Saved ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_chunks.json
+2026-08-29 17:23:55,615 | INFO | Finished ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_clean.json | Chunks=59
+2026-08-29 17:23:55,634 | INFO | Processing BHEL_Industrial_UPS_Technical_Specification_PY55207_clean.json
+2026-08-29 17:23:55,692 | INFO | Saved BHEL_Industrial_UPS_Technical_Specification_PY55207_chunks.json
+2026-08-29 17:23:55,692 | INFO | Finished BHEL_Industrial_UPS_Technical_Specification_PY55207_clean.json | Chunks=60
+2026-08-29 17:23:55,705 | INFO | Processing Circutor_CA4_Power_Control_Instruction_Manual_clean.json
+2026-08-29 17:23:55,727 | INFO | Saved Circutor_CA4_Power_Control_Instruction_Manual_chunks.json
+2026-08-29 17:23:55,728 | INFO | Finished Circutor_CA4_Power_Control_Instruction_Manual_clean.json | Chunks=8
+2026-08-29 17:23:55,743 | INFO | Processing Eaton_5E_Advanced_User_Guide_clean.json
+2026-08-29 17:23:55,771 | INFO | Saved Eaton_5E_Advanced_User_Guide_chunks.json
+2026-08-29 17:23:55,771 | INFO | Finished Eaton_5E_Advanced_User_Guide_clean.json | Chunks=14
+2026-08-29 17:23:55,786 | INFO | Processing Eaton_93E_UPS_Installation_and_Operation_Manual_clean.json
+2026-08-29 17:23:55,854 | INFO | Saved Eaton_93E_UPS_Installation_and_Operation_Manual_chunks.json
+2026-08-29 17:23:55,854 | INFO | Finished Eaton_93E_UPS_Installation_and_Operation_Manual_clean.json | Chunks=83
+2026-08-29 17:23:55,871 | INFO | Processing Eaton_9E_UPS_Installation_and_User_Manual_clean.json
+2026-08-29 17:23:55,907 | INFO | Saved Eaton_9E_UPS_Installation_and_User_Manual_chunks.json
+2026-08-29 17:23:55,907 | INFO | Finished Eaton_9E_UPS_Installation_and_User_Manual_clean.json | Chunks=25
+2026-08-29 17:23:55,922 | INFO | Processing EPRI_UPS_Maintenance_and_Application_Guide_clean.json
+2026-08-29 17:23:55,997 | INFO | Saved EPRI_UPS_Maintenance_and_Application_Guide_chunks.json
+2026-08-29 17:23:55,997 | INFO | Finished EPRI_UPS_Maintenance_and_Application_Guide_clean.json | Chunks=105
+2026-08-29 17:23:56,015 | INFO | Processing ESP32_Chip_Errata_v3.0_clean.json
+2026-08-29 17:23:56,071 | INFO | Saved ESP32_Chip_Errata_v3.0_chunks.json
+2026-08-29 17:23:56,071 | INFO | Finished ESP32_Chip_Errata_v3.0_clean.json | Chunks=34
+2026-08-29 17:23:56,081 | INFO | Processing ESP32_Datasheet_v3.0_clean.json
+2026-08-29 17:23:56,142 | INFO | Saved ESP32_Datasheet_v3.0_chunks.json
+2026-08-29 17:23:56,143 | INFO | Finished ESP32_Datasheet_v3.0_clean.json | Chunks=79
+2026-08-29 17:23:56,157 | INFO | Processing ESP32_ESP_IDF_Programming_Guide_v5.2_clean.json
+2026-08-29 17:23:58,654 | INFO | Saved ESP32_ESP_IDF_Programming_Guide_v5.2_chunks.json
+2026-08-29 17:23:58,654 | INFO | Finished ESP32_ESP_IDF_Programming_Guide_v5.2_clean.json | Chunks=4116
+2026-08-29 17:23:58,767 | INFO | Processing ESP32_Hardware_Design_Guidelines_clean.json
+2026-08-29 17:23:58,811 | INFO | Saved ESP32_Hardware_Design_Guidelines_chunks.json
+2026-08-29 17:23:58,811 | INFO | Finished ESP32_Hardware_Design_Guidelines_clean.json | Chunks=40
+2026-08-29 17:23:58,829 | INFO | Processing ESP32_Technical_Reference_Manual_v5.7_clean.json
+2026-08-29 17:23:59,385 | INFO | Saved ESP32_Technical_Reference_Manual_v5.7_chunks.json
+2026-08-29 17:23:59,385 | INFO | Finished ESP32_Technical_Reference_Manual_v5.7_clean.json | Chunks=972
+2026-08-29 17:23:59,415 | INFO | Processing ETC_Power_Control_Processor_Configuration_Manual_v3.1_clean.json
+2026-08-29 17:23:59,477 | INFO | Saved ETC_Power_Control_Processor_Configuration_Manual_v3.1_chunks.json
+2026-08-29 17:23:59,477 | INFO | Finished ETC_Power_Control_Processor_Configuration_Manual_v3.1_clean.json | Chunks=64
+2026-08-29 17:23:59,499 | INFO | Processing Eurotherm_EPower_Controller_Datasheet_clean.json
+2026-08-29 17:23:59,549 | INFO | Saved Eurotherm_EPower_Controller_Datasheet_chunks.json
+2026-08-29 17:23:59,549 | INFO | Finished Eurotherm_EPower_Controller_Datasheet_clean.json | Chunks=36
+2026-08-29 17:23:59,558 | INFO | Processing FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_clean.json
+2026-08-29 17:23:59,625 | INFO | Saved FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_chunks.json
+2026-08-29 17:23:59,625 | INFO | Finished FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_clean.json | Chunks=77
+2026-08-29 17:23:59,638 | INFO | Processing Indeeco_Power_Controller_Troubleshooting_Guide_clean.json
+2026-08-29 17:23:59,658 | INFO | Saved Indeeco_Power_Controller_Troubleshooting_Guide_chunks.json
+2026-08-29 17:23:59,658 | INFO | Finished Indeeco_Power_Controller_Troubleshooting_Guide_clean.json | Chunks=3
+2026-08-29 17:23:59,673 | INFO | Processing Industrial_Regulators_Quick_Selection_Guide_Emerson_clean.json
+2026-08-29 17:23:59,710 | INFO | Saved Industrial_Regulators_Quick_Selection_Guide_Emerson_chunks.json
+2026-08-29 17:23:59,710 | INFO | Finished Industrial_Regulators_Quick_Selection_Guide_Emerson_clean.json | Chunks=19
+2026-08-29 17:23:59,726 | INFO | Processing MC33153-D_clean.json
+2026-08-29 17:23:59,762 | INFO | Saved MC33153-D_chunks.json
+2026-08-29 17:23:59,762 | INFO | Finished MC33153-D_clean.json | Chunks=32
+2026-08-29 17:23:59,775 | INFO | Processing MeanWell_Switching_Power_Supply_Technical_Manual_clean.json
+2026-08-29 17:23:59,870 | INFO | Saved MeanWell_Switching_Power_Supply_Technical_Manual_chunks.json
+2026-08-29 17:23:59,870 | INFO | Finished MeanWell_Switching_Power_Supply_Technical_Manual_clean.json | Chunks=100
+2026-08-29 17:23:59,883 | INFO | Processing Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_clean.json
+2026-08-29 17:23:59,982 | INFO | Saved Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_chunks.json
+2026-08-29 17:23:59,982 | INFO | Finished Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_clean.json | Chunks=112
+2026-08-29 17:23:59,996 | INFO | Processing MOSFET_Selection_for_SMPS_TI_SSZT810_clean.json
+2026-08-29 17:24:00,025 | INFO | Saved MOSFET_Selection_for_SMPS_TI_SSZT810_chunks.json
+2026-08-29 17:24:00,026 | INFO | Finished MOSFET_Selection_for_SMPS_TI_SSZT810_clean.json | Chunks=5
+2026-08-29 17:24:00,036 | INFO | Processing NASA_NEXTC_Rectifier_Diode_Failure_Investigation_clean.json
+2026-08-29 17:24:00,065 | INFO | Saved NASA_NEXTC_Rectifier_Diode_Failure_Investigation_chunks.json
+2026-08-29 17:24:00,066 | INFO | Finished NASA_NEXTC_Rectifier_Diode_Failure_Investigation_clean.json | Chunks=18
+2026-08-29 17:24:00,075 | INFO | Processing Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_clean.json
+2026-08-29 17:24:00,113 | INFO | Saved Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_chunks.json
+2026-08-29 17:24:00,113 | INFO | Finished Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_clean.json | Chunks=25
+2026-08-29 17:24:00,128 | INFO | Processing NXP_Power_MOSFET_Selection_Guide_clean.json
+2026-08-29 17:24:00,189 | INFO | Saved NXP_Power_MOSFET_Selection_Guide_chunks.json
+2026-08-29 17:24:00,190 | INFO | Finished NXP_Power_MOSFET_Selection_Guide_clean.json | Chunks=70
+2026-08-29 17:24:00,202 | INFO | Processing Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_clean.json
+2026-08-29 17:24:00,241 | INFO | Saved Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_chunks.json
+2026-08-29 17:24:00,241 | INFO | Finished Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_clean.json | Chunks=31
+2026-08-29 17:24:00,254 | INFO | Processing OmniOn_Galaxy_Power_Systems_Installation_Guide_clean.json
+2026-08-29 17:24:00,273 | INFO | Saved OmniOn_Galaxy_Power_Systems_Installation_Guide_chunks.json
+2026-08-29 17:24:00,273 | INFO | Finished OmniOn_Galaxy_Power_Systems_Installation_Guide_clean.json | Chunks=2
+2026-08-29 17:24:00,308 | INFO | Processing onsemi_IGBT_Applications_Handbook_HBD871_clean.json
+2026-08-29 17:24:00,514 | INFO | Saved onsemi_IGBT_Applications_Handbook_HBD871_chunks.json
+2026-08-29 17:24:00,514 | INFO | Finished onsemi_IGBT_Applications_Handbook_HBD871_clean.json | Chunks=285
+2026-08-29 17:24:00,537 | INFO | Processing onsemi_IGBT_Basic_II_AN9020_clean.json
+2026-08-29 17:24:00,588 | INFO | Saved onsemi_IGBT_Basic_II_AN9020_chunks.json
+2026-08-29 17:24:00,588 | INFO | Finished onsemi_IGBT_Basic_II_AN9020_clean.json | Chunks=35
+2026-08-29 17:24:00,610 | INFO | Processing onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_clean.json
+2026-08-29 17:24:00,647 | INFO | Saved onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_chunks.json
+2026-08-29 17:24:00,647 | INFO | Finished onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_clean.json | Chunks=11
+2026-08-29 17:24:00,668 | INFO | Processing onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_clean.json
+2026-08-29 17:24:00,705 | INFO | Saved onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_chunks.json
+2026-08-29 17:24:00,705 | INFO | Finished onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_clean.json | Chunks=10
+2026-08-29 17:24:00,719 | INFO | Processing ONSemi_Switch_Mode_Power_Supply_Reference_Manual_clean.json
+2026-08-29 17:24:00,833 | INFO | Saved ONSemi_Switch_Mode_Power_Supply_Reference_Manual_chunks.json
+2026-08-29 17:24:00,833 | INFO | Finished ONSemi_Switch_Mode_Power_Supply_Reference_Manual_clean.json | Chunks=87
+2026-08-29 17:24:00,852 | INFO | Processing Rectifier_Selection_Operation_and_Maintenance_Guide_clean.json
+2026-08-29 17:24:00,884 | INFO | Saved Rectifier_Selection_Operation_and_Maintenance_Guide_chunks.json
+2026-08-29 17:24:00,884 | INFO | Finished Rectifier_Selection_Operation_and_Maintenance_Guide_clean.json | Chunks=10
+2026-08-29 17:24:00,904 | INFO | Processing RS_PRO_RPL1_Power_Controller_User_Manual_clean.json
+2026-08-29 17:24:00,930 | INFO | Saved RS_PRO_RPL1_Power_Controller_User_Manual_chunks.json
+2026-08-29 17:24:00,930 | INFO | Finished RS_PRO_RPL1_Power_Controller_User_Manual_clean.json | Chunks=13
+2026-08-29 17:24:00,944 | INFO | Processing Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_clean.json
+2026-08-29 17:24:00,978 | INFO | Saved Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_chunks.json
+2026-08-29 17:24:00,978 | INFO | Finished Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_clean.json | Chunks=10
+2026-08-29 17:24:00,996 | INFO | Processing Siemens_PCS7_PowerControl_Library_AS_Manual_clean.json
+2026-08-29 17:24:01,288 | INFO | Saved Siemens_PCS7_PowerControl_Library_AS_Manual_chunks.json
+2026-08-29 17:24:01,288 | INFO | Finished Siemens_PCS7_PowerControl_Library_AS_Manual_clean.json | Chunks=320
+2026-08-29 17:24:01,305 | INFO | Processing Siemens_PCS7_PowerControl_Setup_Guide_clean.json
+2026-08-29 17:24:01,354 | INFO | Saved Siemens_PCS7_PowerControl_Setup_Guide_chunks.json
+2026-08-29 17:24:01,354 | INFO | Finished Siemens_PCS7_PowerControl_Setup_Guide_clean.json | Chunks=39
+2026-08-29 17:24:01,370 | INFO | Processing Siemens_Transformer_Selection_According_to_Utilisation_Profiles_clean.json
+2026-08-29 17:24:01,403 | INFO | Saved Siemens_Transformer_Selection_According_to_Utilisation_Profiles_chunks.json
+2026-08-29 17:24:01,404 | INFO | Finished Siemens_Transformer_Selection_According_to_Utilisation_Profiles_clean.json | Chunks=16
+2026-08-29 17:24:01,421 | INFO | Processing TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_clean.json
+2026-08-29 17:24:01,447 | INFO | Saved TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_chunks.json
+2026-08-29 17:24:01,447 | INFO | Finished TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_clean.json | Chunks=13
+2026-08-29 17:24:01,465 | INFO | Processing TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_clean.json
+2026-08-29 17:24:01,507 | INFO | Saved TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_chunks.json
+2026-08-29 17:24:01,507 | INFO | Finished TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_clean.json | Chunks=31
+2026-08-29 17:24:01,530 | INFO | Processing TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_clean.json
+2026-08-29 17:24:01,562 | INFO | Saved TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_chunks.json
+2026-08-29 17:24:01,562 | INFO | Finished TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_clean.json | Chunks=14
+2026-08-29 17:24:01,577 | INFO | Processing TI_LM340_LM7805_LM7812_LM7815_Datasheet_clean.json
+2026-08-29 17:24:01,624 | INFO | Saved TI_LM340_LM7805_LM7812_LM7815_Datasheet_chunks.json
+2026-08-29 17:24:01,624 | INFO | Finished TI_LM340_LM7805_LM7812_LM7815_Datasheet_clean.json | Chunks=41
+2026-08-29 17:24:01,647 | INFO | Processing TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_clean.json
+2026-08-29 17:24:01,718 | INFO | Saved TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_chunks.json
+2026-08-29 17:24:01,718 | INFO | Finished TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_clean.json | Chunks=71
+2026-08-29 17:24:01,735 | INFO | Processing TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_clean.json
+2026-08-29 17:24:01,762 | INFO | Saved TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_chunks.json
+2026-08-29 17:24:01,763 | INFO | Finished TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_clean.json | Chunks=11
+2026-08-29 17:24:01,776 | INFO | Processing TI_SN6501_Q1_Transformer_Driver_Datasheet_clean.json
+2026-08-29 17:24:01,822 | INFO | Saved TI_SN6501_Q1_Transformer_Driver_Datasheet_chunks.json
+2026-08-29 17:24:01,822 | INFO | Finished TI_SN6501_Q1_Transformer_Driver_Datasheet_clean.json | Chunks=37
+2026-08-29 17:24:01,833 | INFO | Processing TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_clean.json
+2026-08-29 17:24:01,856 | INFO | Saved TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_chunks.json
+2026-08-29 17:24:01,856 | INFO | Finished TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_clean.json | Chunks=6
+2026-08-29 17:24:01,866 | INFO | Processing Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_clean.json
+2026-08-29 17:24:01,902 | INFO | Saved Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_chunks.json
+2026-08-29 17:24:01,902 | INFO | Finished Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_clean.json | Chunks=21
+2026-08-29 17:24:01,918 | INFO | Processing Toshiba_MOSFET_Circuit_Design_Application_Note_clean.json
+2026-08-29 17:24:01,968 | INFO | Saved Toshiba_MOSFET_Circuit_Design_Application_Note_chunks.json
+2026-08-29 17:24:01,968 | INFO | Finished Toshiba_MOSFET_Circuit_Design_Application_Note_clean.json | Chunks=21
+2026-08-29 17:24:01,987 | INFO | Processing Toshiba_MOSFET_Gate_Drive_Circuit_clean.json
+2026-08-29 17:24:02,028 | INFO | Saved Toshiba_MOSFET_Gate_Drive_Circuit_chunks.json
+2026-08-29 17:24:02,028 | INFO | Finished Toshiba_MOSFET_Gate_Drive_Circuit_clean.json | Chunks=23
+2026-08-29 17:24:02,047 | INFO | Processing Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_clean.json
+2026-08-29 17:24:02,087 | INFO | Saved Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_chunks.json
+2026-08-29 17:24:02,087 | INFO | Finished Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_clean.json | Chunks=15
+2026-08-29 17:24:02,103 | INFO | Processing Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_clean.json
+2026-08-29 17:24:02,134 | INFO | Saved Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_chunks.json
+2026-08-29 17:24:02,134 | INFO | Finished Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_clean.json | Chunks=4
+2026-08-29 17:24:02,159 | INFO | Processing Unitrode_Power_Transformer_Design_Guide_SLUP126_clean.json
+2026-08-29 17:24:02,206 | INFO | Saved Unitrode_Power_Transformer_Design_Guide_SLUP126_chunks.json
+2026-08-29 17:24:02,207 | INFO | Finished Unitrode_Power_Transformer_Design_Guide_SLUP126_clean.json | Chunks=26
+2026-08-29 17:24:02,218 | INFO | Processing Universal_Rectifiers_Troubleshooting_Guide_clean.json
+2026-08-29 17:24:02,233 | INFO | Saved Universal_Rectifiers_Troubleshooting_Guide_chunks.json
+2026-08-29 17:24:02,233 | INFO | Finished Universal_Rectifiers_Troubleshooting_Guide_clean.json | Chunks=4
+2026-08-29 17:24:02,253 | INFO | Completed | Success=52 Failed=0 Chunks=7363
+2026-08-29 17:24:02,253 | INFO | Chunker Finished
+2026-08-29 17:37:43,403 | INFO | Chunker Started
+2026-08-29 17:37:43,405 | INFO | ============================================================
+2026-08-29 17:37:43,405 | INFO | Chunking Started
+2026-08-29 17:37:43,405 | INFO | Documents : 52
+2026-08-29 17:37:43,413 | INFO | Processing ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_clean.json
+2026-08-29 17:37:43,482 | INFO | Saved ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_chunks.json
+2026-08-29 17:37:43,482 | INFO | Finished ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_clean.json | Chunks=59
+2026-08-29 17:37:43,497 | INFO | Processing BHEL_Industrial_UPS_Technical_Specification_PY55207_clean.json
+2026-08-29 17:37:43,545 | INFO | Saved BHEL_Industrial_UPS_Technical_Specification_PY55207_chunks.json
+2026-08-29 17:37:43,545 | INFO | Finished BHEL_Industrial_UPS_Technical_Specification_PY55207_clean.json | Chunks=60
+2026-08-29 17:37:43,560 | INFO | Processing Circutor_CA4_Power_Control_Instruction_Manual_clean.json
+2026-08-29 17:37:43,582 | INFO | Saved Circutor_CA4_Power_Control_Instruction_Manual_chunks.json
+2026-08-29 17:37:43,582 | INFO | Finished Circutor_CA4_Power_Control_Instruction_Manual_clean.json | Chunks=8
+2026-08-29 17:37:43,604 | INFO | Processing Eaton_5E_Advanced_User_Guide_clean.json
+2026-08-29 17:37:43,631 | INFO | Saved Eaton_5E_Advanced_User_Guide_chunks.json
+2026-08-29 17:37:43,632 | INFO | Finished Eaton_5E_Advanced_User_Guide_clean.json | Chunks=14
+2026-08-29 17:37:43,649 | INFO | Processing Eaton_93E_UPS_Installation_and_Operation_Manual_clean.json
+2026-08-29 17:37:43,709 | INFO | Saved Eaton_93E_UPS_Installation_and_Operation_Manual_chunks.json
+2026-08-29 17:37:43,709 | INFO | Finished Eaton_93E_UPS_Installation_and_Operation_Manual_clean.json | Chunks=83
+2026-08-29 17:37:43,725 | INFO | Processing Eaton_9E_UPS_Installation_and_User_Manual_clean.json
+2026-08-29 17:37:43,759 | INFO | Saved Eaton_9E_UPS_Installation_and_User_Manual_chunks.json
+2026-08-29 17:37:43,759 | INFO | Finished Eaton_9E_UPS_Installation_and_User_Manual_clean.json | Chunks=25
+2026-08-29 17:37:43,778 | INFO | Processing EPRI_UPS_Maintenance_and_Application_Guide_clean.json
+2026-08-29 17:37:43,842 | INFO | Saved EPRI_UPS_Maintenance_and_Application_Guide_chunks.json
+2026-08-29 17:37:43,842 | INFO | Finished EPRI_UPS_Maintenance_and_Application_Guide_clean.json | Chunks=105
+2026-08-29 17:37:43,863 | INFO | Processing ESP32_Chip_Errata_v3.0_clean.json
+2026-08-29 17:37:43,906 | INFO | Saved ESP32_Chip_Errata_v3.0_chunks.json
+2026-08-29 17:37:43,906 | INFO | Finished ESP32_Chip_Errata_v3.0_clean.json | Chunks=34
+2026-08-29 17:37:43,926 | INFO | Processing ESP32_Datasheet_v3.0_clean.json
+2026-08-29 17:37:43,993 | INFO | Saved ESP32_Datasheet_v3.0_chunks.json
+2026-08-29 17:37:43,993 | INFO | Finished ESP32_Datasheet_v3.0_clean.json | Chunks=79
+2026-08-29 17:37:44,008 | INFO | Processing ESP32_ESP_IDF_Programming_Guide_v5.2_clean.json
+2026-08-29 17:37:46,256 | INFO | Saved ESP32_ESP_IDF_Programming_Guide_v5.2_chunks.json
+2026-08-29 17:37:46,257 | INFO | Finished ESP32_ESP_IDF_Programming_Guide_v5.2_clean.json | Chunks=4116
+2026-08-29 17:37:46,363 | INFO | Processing ESP32_Hardware_Design_Guidelines_clean.json
+2026-08-29 17:37:46,396 | INFO | Saved ESP32_Hardware_Design_Guidelines_chunks.json
+2026-08-29 17:37:46,396 | INFO | Finished ESP32_Hardware_Design_Guidelines_clean.json | Chunks=40
+2026-08-29 17:37:46,416 | INFO | Processing ESP32_Technical_Reference_Manual_v5.7_clean.json
+2026-08-29 17:37:46,937 | INFO | Saved ESP32_Technical_Reference_Manual_v5.7_chunks.json
+2026-08-29 17:37:46,937 | INFO | Finished ESP32_Technical_Reference_Manual_v5.7_clean.json | Chunks=972
+2026-08-29 17:37:46,967 | INFO | Processing ETC_Power_Control_Processor_Configuration_Manual_v3.1_clean.json
+2026-08-29 17:37:47,025 | INFO | Saved ETC_Power_Control_Processor_Configuration_Manual_v3.1_chunks.json
+2026-08-29 17:37:47,025 | INFO | Finished ETC_Power_Control_Processor_Configuration_Manual_v3.1_clean.json | Chunks=64
+2026-08-29 17:37:47,036 | INFO | Processing Eurotherm_EPower_Controller_Datasheet_clean.json
+2026-08-29 17:37:47,067 | INFO | Saved Eurotherm_EPower_Controller_Datasheet_chunks.json
+2026-08-29 17:37:47,067 | INFO | Finished Eurotherm_EPower_Controller_Datasheet_clean.json | Chunks=36
+2026-08-29 17:37:47,082 | INFO | Processing FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_clean.json
+2026-08-29 17:37:47,141 | INFO | Saved FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_chunks.json
+2026-08-29 17:37:47,141 | INFO | Finished FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_clean.json | Chunks=77
+2026-08-29 17:37:47,152 | INFO | Processing Indeeco_Power_Controller_Troubleshooting_Guide_clean.json
+2026-08-29 17:37:47,168 | INFO | Saved Indeeco_Power_Controller_Troubleshooting_Guide_chunks.json
+2026-08-29 17:37:47,168 | INFO | Finished Indeeco_Power_Controller_Troubleshooting_Guide_clean.json | Chunks=3
+2026-08-29 17:37:47,179 | INFO | Processing Industrial_Regulators_Quick_Selection_Guide_Emerson_clean.json
+2026-08-29 17:37:47,201 | INFO | Saved Industrial_Regulators_Quick_Selection_Guide_Emerson_chunks.json
+2026-08-29 17:37:47,201 | INFO | Finished Industrial_Regulators_Quick_Selection_Guide_Emerson_clean.json | Chunks=19
+2026-08-29 17:37:47,214 | INFO | Processing MC33153-D_clean.json
+2026-08-29 17:37:47,254 | INFO | Saved MC33153-D_chunks.json
+2026-08-29 17:37:47,255 | INFO | Finished MC33153-D_clean.json | Chunks=32
+2026-08-29 17:37:47,270 | INFO | Processing MeanWell_Switching_Power_Supply_Technical_Manual_clean.json
+2026-08-29 17:37:47,337 | INFO | Saved MeanWell_Switching_Power_Supply_Technical_Manual_chunks.json
+2026-08-29 17:37:47,337 | INFO | Finished MeanWell_Switching_Power_Supply_Technical_Manual_clean.json | Chunks=100
+2026-08-29 17:37:47,349 | INFO | Processing Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_clean.json
+2026-08-29 17:37:47,431 | INFO | Saved Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_chunks.json
+2026-08-29 17:37:47,432 | INFO | Finished Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_clean.json | Chunks=112
+2026-08-29 17:37:47,446 | INFO | Processing MOSFET_Selection_for_SMPS_TI_SSZT810_clean.json
+2026-08-29 17:37:47,459 | INFO | Saved MOSFET_Selection_for_SMPS_TI_SSZT810_chunks.json
+2026-08-29 17:37:47,459 | INFO | Finished MOSFET_Selection_for_SMPS_TI_SSZT810_clean.json | Chunks=5
+2026-08-29 17:37:47,468 | INFO | Processing NASA_NEXTC_Rectifier_Diode_Failure_Investigation_clean.json
+2026-08-29 17:37:47,497 | INFO | Saved NASA_NEXTC_Rectifier_Diode_Failure_Investigation_chunks.json
+2026-08-29 17:37:47,497 | INFO | Finished NASA_NEXTC_Rectifier_Diode_Failure_Investigation_clean.json | Chunks=18
+2026-08-29 17:37:47,512 | INFO | Processing Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_clean.json
+2026-08-29 17:37:47,552 | INFO | Saved Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_chunks.json
+2026-08-29 17:37:47,552 | INFO | Finished Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_clean.json | Chunks=25
+2026-08-29 17:37:47,570 | INFO | Processing NXP_Power_MOSFET_Selection_Guide_clean.json
+2026-08-29 17:37:47,628 | INFO | Saved NXP_Power_MOSFET_Selection_Guide_chunks.json
+2026-08-29 17:37:47,628 | INFO | Finished NXP_Power_MOSFET_Selection_Guide_clean.json | Chunks=70
+2026-08-29 17:37:47,638 | INFO | Processing Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_clean.json
+2026-08-29 17:37:47,667 | INFO | Saved Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_chunks.json
+2026-08-29 17:37:47,667 | INFO | Finished Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_clean.json | Chunks=31
+2026-08-29 17:37:47,677 | INFO | Processing OmniOn_Galaxy_Power_Systems_Installation_Guide_clean.json
+2026-08-29 17:37:47,685 | INFO | Saved OmniOn_Galaxy_Power_Systems_Installation_Guide_chunks.json
+2026-08-29 17:37:47,685 | INFO | Finished OmniOn_Galaxy_Power_Systems_Installation_Guide_clean.json | Chunks=2
+2026-08-29 17:37:47,687 | INFO | Processing onsemi_IGBT_Applications_Handbook_HBD871_clean.json
+2026-08-29 17:37:47,870 | INFO | Saved onsemi_IGBT_Applications_Handbook_HBD871_chunks.json
+2026-08-29 17:37:47,870 | INFO | Finished onsemi_IGBT_Applications_Handbook_HBD871_clean.json | Chunks=285
+2026-08-29 17:37:47,885 | INFO | Processing onsemi_IGBT_Basic_II_AN9020_clean.json
+2026-08-29 17:37:47,929 | INFO | Saved onsemi_IGBT_Basic_II_AN9020_chunks.json
+2026-08-29 17:37:47,929 | INFO | Finished onsemi_IGBT_Basic_II_AN9020_clean.json | Chunks=35
+2026-08-29 17:37:47,940 | INFO | Processing onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_clean.json
+2026-08-29 17:37:47,958 | INFO | Saved onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_chunks.json
+2026-08-29 17:37:47,958 | INFO | Finished onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_clean.json | Chunks=11
+2026-08-29 17:37:47,973 | INFO | Processing onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_clean.json
+2026-08-29 17:37:47,996 | INFO | Saved onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_chunks.json
+2026-08-29 17:37:47,996 | INFO | Finished onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_clean.json | Chunks=10
+2026-08-29 17:37:48,005 | INFO | Processing ONSemi_Switch_Mode_Power_Supply_Reference_Manual_clean.json
+2026-08-29 17:37:48,082 | INFO | Saved ONSemi_Switch_Mode_Power_Supply_Reference_Manual_chunks.json
+2026-08-29 17:37:48,082 | INFO | Finished ONSemi_Switch_Mode_Power_Supply_Reference_Manual_clean.json | Chunks=87
+2026-08-29 17:37:48,097 | INFO | Processing Rectifier_Selection_Operation_and_Maintenance_Guide_clean.json
+2026-08-29 17:37:48,110 | INFO | Saved Rectifier_Selection_Operation_and_Maintenance_Guide_chunks.json
+2026-08-29 17:37:48,110 | INFO | Finished Rectifier_Selection_Operation_and_Maintenance_Guide_clean.json | Chunks=10
+2026-08-29 17:37:48,124 | INFO | Processing RS_PRO_RPL1_Power_Controller_User_Manual_clean.json
+2026-08-29 17:37:48,148 | INFO | Saved RS_PRO_RPL1_Power_Controller_User_Manual_chunks.json
+2026-08-29 17:37:48,148 | INFO | Finished RS_PRO_RPL1_Power_Controller_User_Manual_clean.json | Chunks=13
+2026-08-29 17:37:48,159 | INFO | Processing Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_clean.json
+2026-08-29 17:37:48,180 | INFO | Saved Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_chunks.json
+2026-08-29 17:37:48,180 | INFO | Finished Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_clean.json | Chunks=10
+2026-08-29 17:37:48,190 | INFO | Processing Siemens_PCS7_PowerControl_Library_AS_Manual_clean.json
+2026-08-29 17:37:48,377 | INFO | Saved Siemens_PCS7_PowerControl_Library_AS_Manual_chunks.json
+2026-08-29 17:37:48,377 | INFO | Finished Siemens_PCS7_PowerControl_Library_AS_Manual_clean.json | Chunks=320
+2026-08-29 17:37:48,392 | INFO | Processing Siemens_PCS7_PowerControl_Setup_Guide_clean.json
+2026-08-29 17:37:48,436 | INFO | Saved Siemens_PCS7_PowerControl_Setup_Guide_chunks.json
+2026-08-29 17:37:48,436 | INFO | Finished Siemens_PCS7_PowerControl_Setup_Guide_clean.json | Chunks=39
+2026-08-29 17:37:48,446 | INFO | Processing Siemens_Transformer_Selection_According_to_Utilisation_Profiles_clean.json
+2026-08-29 17:37:48,467 | INFO | Saved Siemens_Transformer_Selection_According_to_Utilisation_Profiles_chunks.json
+2026-08-29 17:37:48,467 | INFO | Finished Siemens_Transformer_Selection_According_to_Utilisation_Profiles_clean.json | Chunks=16
+2026-08-29 17:37:48,479 | INFO | Processing TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_clean.json
+2026-08-29 17:37:48,499 | INFO | Saved TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_chunks.json
+2026-08-29 17:37:48,499 | INFO | Finished TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_clean.json | Chunks=13
+2026-08-29 17:37:48,507 | INFO | Processing TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_clean.json
+2026-08-29 17:37:48,550 | INFO | Saved TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_chunks.json
+2026-08-29 17:37:48,550 | INFO | Finished TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_clean.json | Chunks=31
+2026-08-29 17:37:48,561 | INFO | Processing TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_clean.json
+2026-08-29 17:37:48,580 | INFO | Saved TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_chunks.json
+2026-08-29 17:37:48,580 | INFO | Finished TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_clean.json | Chunks=14
+2026-08-29 17:37:48,590 | INFO | Processing TI_LM340_LM7805_LM7812_LM7815_Datasheet_clean.json
+2026-08-29 17:37:48,631 | INFO | Saved TI_LM340_LM7805_LM7812_LM7815_Datasheet_chunks.json
+2026-08-29 17:37:48,631 | INFO | Finished TI_LM340_LM7805_LM7812_LM7815_Datasheet_clean.json | Chunks=41
+2026-08-29 17:37:48,642 | INFO | Processing TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_clean.json
+2026-08-29 17:37:48,701 | INFO | Saved TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_chunks.json
+2026-08-29 17:37:48,701 | INFO | Finished TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_clean.json | Chunks=71
+2026-08-29 17:37:48,710 | INFO | Processing TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_clean.json
+2026-08-29 17:37:48,729 | INFO | Saved TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_chunks.json
+2026-08-29 17:37:48,730 | INFO | Finished TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_clean.json | Chunks=11
+2026-08-29 17:37:48,742 | INFO | Processing TI_SN6501_Q1_Transformer_Driver_Datasheet_clean.json
+2026-08-29 17:37:48,777 | INFO | Saved TI_SN6501_Q1_Transformer_Driver_Datasheet_chunks.json
+2026-08-29 17:37:48,777 | INFO | Finished TI_SN6501_Q1_Transformer_Driver_Datasheet_clean.json | Chunks=37
+2026-08-29 17:37:48,786 | INFO | Processing TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_clean.json
+2026-08-29 17:37:48,806 | INFO | Saved TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_chunks.json
+2026-08-29 17:37:48,806 | INFO | Finished TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_clean.json | Chunks=6
+2026-08-29 17:37:48,817 | INFO | Processing Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_clean.json
+2026-08-29 17:37:48,837 | INFO | Saved Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_chunks.json
+2026-08-29 17:37:48,838 | INFO | Finished Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_clean.json | Chunks=21
+2026-08-29 17:37:48,855 | INFO | Processing Toshiba_MOSFET_Circuit_Design_Application_Note_clean.json
+2026-08-29 17:37:48,878 | INFO | Saved Toshiba_MOSFET_Circuit_Design_Application_Note_chunks.json
+2026-08-29 17:37:48,878 | INFO | Finished Toshiba_MOSFET_Circuit_Design_Application_Note_clean.json | Chunks=21
+2026-08-29 17:37:48,888 | INFO | Processing Toshiba_MOSFET_Gate_Drive_Circuit_clean.json
+2026-08-29 17:37:48,916 | INFO | Saved Toshiba_MOSFET_Gate_Drive_Circuit_chunks.json
+2026-08-29 17:37:48,916 | INFO | Finished Toshiba_MOSFET_Gate_Drive_Circuit_clean.json | Chunks=23
+2026-08-29 17:37:48,929 | INFO | Processing Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_clean.json
+2026-08-29 17:37:48,954 | INFO | Saved Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_chunks.json
+2026-08-29 17:37:48,954 | INFO | Finished Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_clean.json | Chunks=15
+2026-08-29 17:37:48,964 | INFO | Processing Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_clean.json
+2026-08-29 17:37:48,984 | INFO | Saved Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_chunks.json
+2026-08-29 17:37:48,984 | INFO | Finished Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_clean.json | Chunks=4
+2026-08-29 17:37:49,001 | INFO | Processing Unitrode_Power_Transformer_Design_Guide_SLUP126_clean.json
+2026-08-29 17:37:49,043 | INFO | Saved Unitrode_Power_Transformer_Design_Guide_SLUP126_chunks.json
+2026-08-29 17:37:49,043 | INFO | Finished Unitrode_Power_Transformer_Design_Guide_SLUP126_clean.json | Chunks=26
+2026-08-29 17:37:49,055 | INFO | Processing Universal_Rectifiers_Troubleshooting_Guide_clean.json
+2026-08-29 17:37:49,068 | INFO | Saved Universal_Rectifiers_Troubleshooting_Guide_chunks.json
+2026-08-29 17:37:49,068 | INFO | Finished Universal_Rectifiers_Troubleshooting_Guide_clean.json | Chunks=4
+2026-08-29 17:37:49,083 | INFO | Completed | Success=52 Failed=0 Chunks=7363
+2026-08-29 17:37:49,083 | INFO | Chunker Finished

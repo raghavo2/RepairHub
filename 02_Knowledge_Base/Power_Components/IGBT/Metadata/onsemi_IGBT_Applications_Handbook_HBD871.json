@@ -1,0 +1,36 @@
+{
+  "document_id": "IGBT_HAND_001",
+  "file_name": "onsemi_IGBT_Applications_Handbook_HBD871.pdf",
+  "title": "IGBT Applications Handbook",
+  "manufacturer": "onsemi",
+  "document_type": "Technical Handbook",
+  "category": "Power Components",
+  "subcategory": "IGBT",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Industrial Power Electronics",
+    "Design Reference",
+    "Training"
+  ],
+  "covers": [
+    "Device Physics",
+    "Datasheet Interpretation",
+    "Gate Drive",
+    "Thermal Design",
+    "SOA",
+    "Reliability",
+    "Paralleling",
+    "Motor Drives",
+    "UPS",
+    "Solar Inverters"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

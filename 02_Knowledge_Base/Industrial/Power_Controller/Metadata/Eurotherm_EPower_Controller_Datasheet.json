@@ -1,0 +1,34 @@
+{
+  "document_id": "CTRL_DS_001",
+  "file_name": "Eurotherm_EPower_Controller_Datasheet.pdf",
+  "title": "EPower Advanced SCR Power Controller Datasheet",
+  "manufacturer": "Eurotherm",
+  "document_type": "Datasheet",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Specifications",
+    "Replacement Selection",
+    "System Design"
+  ],
+  "covers": [
+    "Electrical Ratings",
+    "SCR Control",
+    "Industrial Communications",
+    "Ethernet",
+    "Fieldbus",
+    "Analog Inputs",
+    "Digital Inputs",
+    "Relay Outputs",
+    "Technical Specifications"
+  ],
+  "used_by_agents": [
+    "Alternative Component Agent",
+    "Diagnosis Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

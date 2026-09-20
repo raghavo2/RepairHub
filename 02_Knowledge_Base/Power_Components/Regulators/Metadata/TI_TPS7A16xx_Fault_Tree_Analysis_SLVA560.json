@@ -1,0 +1,31 @@
+{
+  "document_id": "REG_FAIL_001",
+  "file_name": "TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560.pdf",
+  "title": "TPS7A16xx-Q1 Fault Tree Analysis",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Failure Analysis",
+  "category": "Power Components",
+  "subcategory": "Regulators",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Failure Diagnosis",
+    "Root Cause Analysis",
+    "Reliability"
+  ],
+  "covers": [
+    "Undervoltage Faults",
+    "Voltage Regulation Faults",
+    "Error Amplifier Failures",
+    "Feedback Faults",
+    "Power FET Failures",
+    "Thermal Shutdown"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

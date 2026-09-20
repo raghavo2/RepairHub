@@ -1,0 +1,42 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "ESP32 memory address write for LED register control in ESP-IDF",
+    "expected_doc_stem": "ESP32_ESP_IDF_Programming_Guide_v5.2",
+    "filters": {
+      "product_series": "ESP32"
+    }
+  },
+  {
+    "query_id": "Q002",
+    "query": "CSD17302Q5A 30V N channel MOSFET ratings and characteristics",
+    "expected_doc_stem": "TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet",
+    "filters": {
+      "manufacturer": "Texas Instruments"
+    }
+  },
+  {
+    "query_id": "Q003",
+    "query": "ABB MegaFlex UPS installation and power wiring manual",
+    "expected_doc_stem": "ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW",
+    "filters": {
+      "manufacturer": "ABB"
+    }
+  },
+  {
+    "query_id": "Q004",
+    "query": "IGBT thermal breakdown failure analysis and gate drive requirements",
+    "expected_doc_stem": "onsemi_IGBT_Applications_Handbook_HBD871",
+    "filters": {
+      "component_family": "Power Components"
+    }
+  },
+  {
+    "query_id": "Q005",
+    "query": "LM7805 voltage regulator pinout and operating conditions",
+    "expected_doc_stem": "TI_LM340_LM7805_LM7812_LM7815_Datasheet",
+    "filters": {
+      "manufacturer": "Texas Instruments"
+    }
+  }
+]

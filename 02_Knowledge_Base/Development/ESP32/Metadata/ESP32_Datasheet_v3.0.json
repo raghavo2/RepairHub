@@ -1,0 +1,63 @@
+{
+  "document_id": "ESP32_DS_001",
+
+  "title": "ESP32 Datasheet",
+
+  "manufacturer": "Espressif Systems",
+
+  "product_family": "ESP32",
+
+  "product_model": [
+    "ESP32-D0WD",
+    "ESP32-D0WDQ6",
+    "ESP32-D2WD",
+    "ESP32-S0WD"
+  ],
+
+  "document_type": "Datasheet",
+
+  "version": "3.0",
+
+  "publication_year": 2019,
+
+  "language": "English",
+
+  "source_tier": 1,
+
+  "knowledge_domain": "Development",
+
+  "subcategory": "ESP32",
+
+  "topics": [
+    "Architecture",
+    "Pinout",
+    "GPIO",
+    "Power",
+    "ADC",
+    "DAC",
+    "SPI",
+    "I2C",
+    "UART",
+    "Bluetooth",
+    "WiFi",
+    "Electrical Characteristics"
+  ],
+
+  "fault_categories": [
+    "Power Supply",
+    "Controller",
+    "Communication"
+  ],
+
+  "priority": "Critical",
+
+  "ocr_required": false,
+
+  "chunking_strategy": "Semantic",
+
+  "embedding_status": "Pending",
+
+  "citation_enabled": true,
+
+  "file_name": "ESP32_Datasheet_v3.0.pdf"
+}

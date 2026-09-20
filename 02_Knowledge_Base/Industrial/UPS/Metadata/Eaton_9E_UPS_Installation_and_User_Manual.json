@@ -1,0 +1,33 @@
+{
+  "document_id": "UPS_USER_001",
+  "file_name": "Eaton_9E_UPS_Installation_and_User_Manual.pdf",
+  "title": "Eaton 9E UPS Installation and User Manual",
+  "manufacturer": "Eaton",
+  "document_type": "User Manual",
+  "category": "Industrial Systems",
+  "subcategory": "UPS",
+  "priority": "Critical",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Installation",
+    "Operation",
+    "Troubleshooting"
+  ],
+  "covers": [
+    "Safety",
+    "Installation",
+    "Electrical Connections",
+    "Operation",
+    "Configuration",
+    "Alarm Codes",
+    "Troubleshooting",
+    "Technical Specifications"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

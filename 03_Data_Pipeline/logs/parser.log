@@ -1,0 +1,157 @@
+2026-08-29 17:36:50,418 | INFO | Found 52 PDF(s).
+2026-08-29 17:36:50,465 | INFO | Opened: ESP32_Datasheet_v3.0.PDF
+2026-08-29 17:36:50,601 | INFO | Extracted ESP32_Datasheet_v3.0.PDF (60 pages)
+2026-08-29 17:36:50,602 | INFO | Saved: ESP32_Datasheet_v3.0.json
+2026-08-29 17:36:50,622 | INFO | Opened: ESP32_Hardware_Design_Guidelines.pdf
+2026-08-29 17:36:50,667 | INFO | Extracted ESP32_Hardware_Design_Guidelines.pdf (38 pages)
+2026-08-29 17:36:50,669 | INFO | Saved: ESP32_Hardware_Design_Guidelines.json
+2026-08-29 17:36:50,801 | INFO | Opened: ESP32_ESP_IDF_Programming_Guide_v5.2.pdf
+2026-08-29 17:36:54,037 | INFO | Extracted ESP32_ESP_IDF_Programming_Guide_v5.2.pdf (3229 pages)
+2026-08-29 17:36:54,082 | INFO | Saved: ESP32_ESP_IDF_Programming_Guide_v5.2.json
+2026-08-29 17:36:54,182 | INFO | Opened: ESP32_Technical_Reference_Manual_v5.7.pdf
+2026-08-29 17:36:55,087 | INFO | Extracted ESP32_Technical_Reference_Manual_v5.7.pdf (783 pages)
+2026-08-29 17:36:55,099 | INFO | Saved: ESP32_Technical_Reference_Manual_v5.7.json
+2026-08-29 17:36:55,130 | INFO | Opened: ESP32_Chip_Errata_v3.0.pdf
+2026-08-29 17:36:55,162 | INFO | Extracted ESP32_Chip_Errata_v3.0.pdf (36 pages)
+2026-08-29 17:36:55,164 | INFO | Saved: ESP32_Chip_Errata_v3.0.json
+2026-08-29 17:36:55,198 | INFO | Opened: Circutor_CA4_Power_Control_Instruction_Manual.pdf
+2026-08-29 17:36:55,220 | INFO | Extracted Circutor_CA4_Power_Control_Instruction_Manual.pdf (21 pages)
+2026-08-29 17:36:55,221 | INFO | Saved: Circutor_CA4_Power_Control_Instruction_Manual.json
+2026-08-29 17:36:55,251 | INFO | Opened: ETC_Power_Control_Processor_Configuration_Manual_v3.1.pdf
+2026-08-29 17:36:55,533 | INFO | Extracted ETC_Power_Control_Processor_Configuration_Manual_v3.1.pdf (64 pages)
+2026-08-29 17:36:55,534 | INFO | Saved: ETC_Power_Control_Processor_Configuration_Manual_v3.1.json
+2026-08-29 17:36:55,574 | INFO | Opened: Eurotherm_EPower_Controller_Datasheet.pdf
+2026-08-29 17:36:55,937 | INFO | Extracted Eurotherm_EPower_Controller_Datasheet.pdf (22 pages)
+2026-08-29 17:36:55,939 | INFO | Saved: Eurotherm_EPower_Controller_Datasheet.json
+2026-08-29 17:36:55,968 | INFO | Opened: Siemens_PCS7_PowerControl_Setup_Guide.pdf
+2026-08-29 17:36:56,053 | INFO | Extracted Siemens_PCS7_PowerControl_Setup_Guide.pdf (90 pages)
+2026-08-29 17:36:56,054 | INFO | Saved: Siemens_PCS7_PowerControl_Setup_Guide.json
+2026-08-29 17:36:56,068 | INFO | Opened: RS_PRO_RPL1_Power_Controller_User_Manual.pdf
+2026-08-29 17:36:56,142 | INFO | Extracted RS_PRO_RPL1_Power_Controller_User_Manual.pdf (23 pages)
+2026-08-29 17:36:56,143 | INFO | Saved: RS_PRO_RPL1_Power_Controller_User_Manual.json
+2026-08-29 17:36:56,159 | INFO | Opened: Indeeco_Power_Controller_Troubleshooting_Guide.pdf
+2026-08-29 17:36:56,165 | INFO | Extracted Indeeco_Power_Controller_Troubleshooting_Guide.pdf (2 pages)
+2026-08-29 17:36:56,166 | INFO | Saved: Indeeco_Power_Controller_Troubleshooting_Guide.json
+2026-08-29 17:36:56,194 | INFO | Opened: Siemens_PCS7_PowerControl_Library_AS_Manual.pdf
+2026-08-29 17:36:56,675 | INFO | Extracted Siemens_PCS7_PowerControl_Library_AS_Manual.pdf (338 pages)
+2026-08-29 17:36:56,679 | INFO | Saved: Siemens_PCS7_PowerControl_Library_AS_Manual.json
+2026-08-29 17:36:56,697 | INFO | Opened: onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet.pdf
+2026-08-29 17:36:56,717 | INFO | Extracted onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet.pdf (6 pages)
+2026-08-29 17:36:56,718 | INFO | Saved: onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet.json
+2026-08-29 17:36:56,740 | INFO | Opened: NASA_NEXTC_Rectifier_Diode_Failure_Investigation.pdf
+2026-08-29 17:36:56,916 | INFO | Extracted NASA_NEXTC_Rectifier_Diode_Failure_Investigation.pdf (13 pages)
+2026-08-29 17:36:56,917 | INFO | Saved: NASA_NEXTC_Rectifier_Diode_Failure_Investigation.json
+2026-08-29 17:36:56,956 | INFO | Opened: OmniOn_Galaxy_Power_Systems_Installation_Guide.pdf
+2026-08-29 17:36:57,442 | INFO | Extracted OmniOn_Galaxy_Power_Systems_Installation_Guide.pdf (147 pages)
+2026-08-29 17:36:57,443 | INFO | Saved: OmniOn_Galaxy_Power_Systems_Installation_Guide.json
+2026-08-29 17:36:57,490 | INFO | Opened: Rectifier_Selection_Operation_and_Maintenance_Guide.pdf
+2026-08-29 17:36:57,513 | INFO | Extracted Rectifier_Selection_Operation_and_Maintenance_Guide.pdf (41 pages)
+2026-08-29 17:36:57,514 | INFO | Saved: Rectifier_Selection_Operation_and_Maintenance_Guide.json
+2026-08-29 17:36:57,529 | INFO | Opened: Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual.pdf
+2026-08-29 17:36:57,560 | INFO | Extracted Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual.pdf (29 pages)
+2026-08-29 17:36:57,561 | INFO | Saved: Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual.json
+2026-08-29 17:36:57,588 | INFO | Opened: Universal_Rectifiers_Troubleshooting_Guide.pdf
+2026-08-29 17:36:57,611 | INFO | Extracted Universal_Rectifiers_Troubleshooting_Guide.pdf (23 pages)
+2026-08-29 17:36:57,612 | INFO | Saved: Universal_Rectifiers_Troubleshooting_Guide.json
+2026-08-29 17:36:57,629 | INFO | Opened: ONSemi_Switch_Mode_Power_Supply_Reference_Manual.pdf
+2026-08-29 17:36:57,814 | INFO | Extracted ONSemi_Switch_Mode_Power_Supply_Reference_Manual.pdf (73 pages)
+2026-08-29 17:36:57,817 | INFO | Saved: ONSemi_Switch_Mode_Power_Supply_Reference_Manual.json
+2026-08-29 17:36:57,851 | INFO | Opened: Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide.pdf
+2026-08-29 17:36:58,161 | INFO | Extracted Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide.pdf (118 pages)
+2026-08-29 17:36:58,163 | INFO | Saved: Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide.json
+2026-08-29 17:36:58,180 | INFO | Opened: TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters.pdf
+2026-08-29 17:36:58,194 | INFO | Extracted TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters.pdf (7 pages)
+2026-08-29 17:36:58,196 | INFO | Saved: TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters.json
+2026-08-29 17:36:58,218 | INFO | Opened: Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview.pdf
+2026-08-29 17:36:58,225 | INFO | Extracted Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview.pdf (9 pages)
+2026-08-29 17:36:58,225 | INFO | Saved: Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview.json
+2026-08-29 17:36:58,248 | INFO | Opened: MeanWell_Switching_Power_Supply_Technical_Manual.pdf
+2026-08-29 17:36:58,410 | INFO | Extracted MeanWell_Switching_Power_Supply_Technical_Manual.pdf (124 pages)
+2026-08-29 17:36:58,412 | INFO | Saved: MeanWell_Switching_Power_Supply_Technical_Manual.json
+2026-08-29 17:36:58,429 | INFO | Opened: Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type.pdf
+2026-08-29 17:36:58,455 | INFO | Extracted Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type.pdf (4 pages)
+2026-08-29 17:36:58,457 | INFO | Saved: Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type.json
+2026-08-29 17:36:58,476 | INFO | Opened: BHEL_Industrial_UPS_Technical_Specification_PY55207.pdf
+2026-08-29 17:36:58,580 | INFO | Extracted BHEL_Industrial_UPS_Technical_Specification_PY55207.pdf (57 pages)
+2026-08-29 17:36:58,581 | INFO | Saved: BHEL_Industrial_UPS_Technical_Specification_PY55207.json
+2026-08-29 17:36:58,613 | INFO | Opened: ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW.pdf
+2026-08-29 17:37:01,110 | INFO | Extracted ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW.pdf (54 pages)
+2026-08-29 17:37:01,111 | INFO | Saved: ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW.json
+2026-08-29 17:37:01,134 | INFO | Opened: EPRI_UPS_Maintenance_and_Application_Guide.pdf
+2026-08-29 17:37:01,251 | INFO | Extracted EPRI_UPS_Maintenance_and_Application_Guide.pdf (126 pages)
+2026-08-29 17:37:01,253 | INFO | Saved: EPRI_UPS_Maintenance_and_Application_Guide.json
+2026-08-29 17:37:01,289 | INFO | Opened: Eaton_93E_UPS_Installation_and_Operation_Manual.pdf
+2026-08-29 17:37:01,426 | INFO | Extracted Eaton_93E_UPS_Installation_and_Operation_Manual.pdf (133 pages)
+2026-08-29 17:37:01,428 | INFO | Saved: Eaton_93E_UPS_Installation_and_Operation_Manual.json
+2026-08-29 17:37:01,444 | INFO | Opened: Eaton_5E_Advanced_User_Guide.pdf
+2026-08-29 17:37:01,471 | INFO | Extracted Eaton_5E_Advanced_User_Guide.pdf (19 pages)
+2026-08-29 17:37:01,472 | INFO | Saved: Eaton_5E_Advanced_User_Guide.json
+2026-08-29 17:37:01,484 | INFO | Opened: Eaton_9E_UPS_Installation_and_User_Manual.pdf
+2026-08-29 17:37:01,545 | INFO | Extracted Eaton_9E_UPS_Installation_and_User_Manual.pdf (41 pages)
+2026-08-29 17:37:01,546 | INFO | Saved: Eaton_9E_UPS_Installation_and_User_Manual.json
+2026-08-29 17:37:01,565 | INFO | Opened: onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet.pdf
+2026-08-29 17:37:01,580 | INFO | Extracted onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet.pdf (10 pages)
+2026-08-29 17:37:01,581 | INFO | Saved: onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet.json
+2026-08-29 17:37:01,594 | INFO | Opened: MC33153-D.PDF
+2026-08-29 17:37:01,628 | INFO | Extracted MC33153-D.PDF (17 pages)
+2026-08-29 17:37:01,629 | INFO | Saved: MC33153-D.json
+2026-08-29 17:37:01,641 | INFO | Opened: onsemi_IGBT_Basic_II_AN9020.pdf
+2026-08-29 17:37:01,679 | INFO | Extracted onsemi_IGBT_Basic_II_AN9020.pdf (14 pages)
+2026-08-29 17:37:01,680 | INFO | Saved: onsemi_IGBT_Basic_II_AN9020.json
+2026-08-29 17:37:01,705 | INFO | Opened: onsemi_IGBT_Applications_Handbook_HBD871.pdf
+2026-08-29 17:37:02,032 | INFO | Extracted onsemi_IGBT_Applications_Handbook_HBD871.pdf (158 pages)
+2026-08-29 17:37:02,035 | INFO | Saved: onsemi_IGBT_Applications_Handbook_HBD871.json
+2026-08-29 17:37:02,053 | INFO | Opened: TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet.pdf
+2026-08-29 17:37:02,076 | INFO | Extracted TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet.pdf (10 pages)
+2026-08-29 17:37:02,077 | INFO | Saved: TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet.json
+2026-08-29 17:37:02,118 | INFO | Opened: Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors.pdf
+2026-08-29 17:37:02,192 | INFO | Extracted Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors.pdf (29 pages)
+2026-08-29 17:37:02,193 | INFO | Saved: Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors.json
+2026-08-29 17:37:02,217 | INFO | Opened: Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243.pdf
+2026-08-29 17:37:02,436 | INFO | Extracted Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243.pdf (41 pages)
+2026-08-29 17:37:02,437 | INFO | Saved: Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243.json
+2026-08-29 17:37:02,461 | INFO | Opened: TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A.pdf
+2026-08-29 17:37:02,575 | INFO | Extracted TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A.pdf (48 pages)
+2026-08-29 17:37:02,576 | INFO | Saved: TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A.json
+2026-08-29 17:37:02,593 | INFO | Opened: Toshiba_MOSFET_Gate_Drive_Circuit.pdf
+2026-08-29 17:37:02,702 | INFO | Extracted Toshiba_MOSFET_Gate_Drive_Circuit.pdf (22 pages)
+2026-08-29 17:37:02,703 | INFO | Saved: Toshiba_MOSFET_Gate_Drive_Circuit.json
+2026-08-29 17:37:02,732 | INFO | Opened: MOSFET_Selection_for_SMPS_TI_SSZT810.pdf
+2026-08-29 17:37:02,744 | INFO | Extracted MOSFET_Selection_for_SMPS_TI_SSZT810.pdf (4 pages)
+2026-08-29 17:37:02,744 | INFO | Saved: MOSFET_Selection_for_SMPS_TI_SSZT810.json
+2026-08-29 17:37:02,766 | INFO | Opened: NXP_Power_MOSFET_Selection_Guide.pdf
+2026-08-29 17:37:02,904 | INFO | Extracted NXP_Power_MOSFET_Selection_Guide.pdf (60 pages)
+2026-08-29 17:37:02,906 | INFO | Saved: NXP_Power_MOSFET_Selection_Guide.json
+2026-08-29 17:37:02,924 | INFO | Opened: Toshiba_MOSFET_Circuit_Design_Application_Note.pdf
+2026-08-29 17:37:02,991 | INFO | Extracted Toshiba_MOSFET_Circuit_Design_Application_Note.pdf (19 pages)
+2026-08-29 17:37:02,993 | INFO | Saved: Toshiba_MOSFET_Circuit_Design_Application_Note.json
+2026-08-29 17:37:03,012 | INFO | Opened: TI_LM340_LM7805_LM7812_LM7815_Datasheet.pdf
+2026-08-29 17:37:03,112 | INFO | Extracted TI_LM340_LM7805_LM7812_LM7815_Datasheet.pdf (37 pages)
+2026-08-29 17:37:03,113 | INFO | Saved: TI_LM340_LM7805_LM7812_LM7815_Datasheet.json
+2026-08-29 17:37:03,128 | INFO | Opened: TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A.pdf
+2026-08-29 17:37:03,165 | INFO | Extracted TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A.pdf (25 pages)
+2026-08-29 17:37:03,166 | INFO | Saved: TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A.json
+2026-08-29 17:37:03,188 | INFO | Opened: TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560.pdf
+2026-08-29 17:37:03,199 | INFO | Extracted TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560.pdf (7 pages)
+2026-08-29 17:37:03,200 | INFO | Saved: TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560.json
+2026-08-29 17:37:03,224 | INFO | Opened: TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23.pdf
+2026-08-29 17:37:03,265 | INFO | Extracted TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23.pdf (18 pages)
+2026-08-29 17:37:03,267 | INFO | Saved: TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23.json
+2026-08-29 17:37:03,287 | INFO | Opened: Industrial_Regulators_Quick_Selection_Guide_Emerson.pdf
+2026-08-29 17:37:03,344 | INFO | Extracted Industrial_Regulators_Quick_Selection_Guide_Emerson.pdf (9 pages)
+2026-08-29 17:37:03,345 | INFO | Saved: Industrial_Regulators_Quick_Selection_Guide_Emerson.json
+2026-08-29 17:37:03,375 | INFO | Opened: TI_SN6501_Q1_Transformer_Driver_Datasheet.pdf
+2026-08-29 17:37:03,482 | INFO | Extracted TI_SN6501_Q1_Transformer_Driver_Datasheet.pdf (37 pages)
+2026-08-29 17:37:03,483 | INFO | Saved: TI_SN6501_Q1_Transformer_Driver_Datasheet.json
+2026-08-29 17:37:03,509 | INFO | Opened: Unitrode_Power_Transformer_Design_Guide_SLUP126.pdf
+2026-08-29 17:37:03,537 | INFO | Extracted Unitrode_Power_Transformer_Design_Guide_SLUP126.pdf (13 pages)
+2026-08-29 17:37:03,538 | INFO | Saved: Unitrode_Power_Transformer_Design_Guide_SLUP126.json
+2026-08-29 17:37:03,555 | INFO | Opened: Transformer_Failure_Analysis_Reasons_and_Methods_IJERT.pdf
+2026-08-29 17:37:03,582 | INFO | Extracted Transformer_Failure_Analysis_Reasons_and_Methods_IJERT.pdf (5 pages)
+2026-08-29 17:37:03,583 | INFO | Saved: Transformer_Failure_Analysis_Reasons_and_Methods_IJERT.json
+2026-08-29 17:37:03,603 | INFO | Opened: FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog.pdf
+2026-08-29 17:37:03,652 | INFO | Extracted FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog.pdf (45 pages)
+2026-08-29 17:37:03,654 | INFO | Saved: FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog.json
+2026-08-29 17:37:03,682 | INFO | Opened: Siemens_Transformer_Selection_According_to_Utilisation_Profiles.pdf
+2026-08-29 17:37:03,715 | INFO | Extracted Siemens_Transformer_Selection_According_to_Utilisation_Profiles.pdf (12 pages)
+2026-08-29 17:37:03,715 | INFO | Saved: Siemens_Transformer_Selection_According_to_Utilisation_Profiles.json

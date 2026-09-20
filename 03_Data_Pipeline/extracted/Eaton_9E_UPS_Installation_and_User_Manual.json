@@ -1,0 +1,253 @@
+{
+    "document_name": "Eaton_9E_UPS_Installation_and_User_Manual.pdf",
+    "source_path": "Industrial\\UPS\\User_Manuals\\Eaton_9E_UPS_Installation_and_User_Manual.pdf",
+    "total_pages": 41,
+    "pages": [
+        {
+            "page_number": 1,
+            "text": " TC-RDW-49-09 H \nEATON \nELECTRICAL SECTOR \n文件類別 \nFile Type \n機密文件 Confidential File  \n非機密文件 Non-Confidential file\nPage 1 of 41 \n資料名稱 \nData Name \n初期規格書Draft Spec.  \n報價規格書 Quote \nSpec.  \n正式規格書 Formal Spec. \n應用類別 \nApplication Type \nUPS \nAVR \nSMR \nINVERTER \nu-UPS \n硬體模組Module \n其他Others： \n品名 Description \nUSER’S MANUAL 1112F(220) ENGLISH EATON \n適用材料 \nInformation \nfor Original \nType  \n料號 \nPart Number \n規格 \nSpecification \n備註 (PPAP/FAI Level:) \n614-06847-05 \nEATON \nENGLISH \n最初適用機種 (Application Scope) \n \n內     容      記      事 （Particular Information） \n1 \n電氣規格 (Electric Specification) \n \n6 其他（Others） \n(1) 製造元件皆需經認可手續後方可進料. Material for mass \nproduction should be approved formally. \n(2) 不論電氣或機械結構上之修改，皆需於進料前再進行認\n證，方可進料. Material with change in electrical or \nmechanical should be verified before mass production. \n(3) SMD 电阻、SMD 电容和 SMD 半导体之MSL 需滿足IPC/JEDEC \nJ-STD-020 和 J-STD-033 標準。MSL of SMD Resister/Capacitor \n/semi-conductor should comply with IPC/ JEDEC J-STD-020 & \nJ-STD-033. \n2 \n機械結構 (Mechanism Structure) \n \n3 \n標示說明 (Marking) \n \n4 \n安全規格 (Safety Specification) \n \n5 \n所需文件 (Demands Documents) \n \nGP 等級 \nGP Level \nGP 等級請參考GP IT 或SAP。*Go to http://172.18.110.46:9015/ Check the MCD status ( I D：user ; password：000000) \n 要求无红磷Red P Free is required     \n 不要求无红磷Red P Free is not required \n製造商資訊Information \nof  Manufactory \n製造商 Manufactory \n製造商物料編號PN of Manufactory \n \n \n \n \n \n \n外觀圖\n外觀圖\n外觀圖\n外觀圖 Physical Structure : \n \nNOTE: \n1. \nSPECIFICATION:A5(145*210mm) \n2. \nPRINTING COLOR: BLACK \n3. \nMATERIAL: COVER:157G SEMI-GLOSS PAPER \nINNER:80g WRITING PAPER \n4. \nTHE PRINTED TEXT AND GRAPHIC MUST BE LEGIBLE \n5. \nTHE SURFACE OF MANUAL MUST BE CLEAR  \n6. \nUNSPECIFIED TOLERANCE:±1mm \n \n \n品質保證\n品質保證\n品質保證\n品質保證（Quality Guarantee）: \n變更記錄 \nChange \nRecord \n變更事項 （變更說明需含版本：例00→01。） \nChange items (Including changing version) \n核准 \nApproved\n審核 \nChecked\nLayout\n安規 \nSafety \n負責人\nProposer\n03->04:ECO-094260 \n更改端子跳线图 \n \n \n \n \n钱萍莲 \n2015-12-10\n04->05:ECO-138392 \nAdd weee discription \n费景涛 \n2018-4-25\n \n \n \n钱萍莲 \n2018-4-25\n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:33:30\n",
+            "character_count": 2062,
+            "word_count": 262
+        },
+        {
+            "page_number": 2,
+            "text": " \n \npowerquality.eaton.com \n \n \n \nEaton 9E \n6-20kVA \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 163,
+            "word_count": 9
+        },
+        {
+            "page_number": 3,
+            "text": " \n \nCONTENT: \n1. Introduction ............................................................................... 1 \n1.1 Safety instruction ............................................................... 1 \n1.2 Certification Standards ....................................................... 3 \n1.3 Special Symbols ................................................................ 4 \n2.Presentation ................................................................................ 5 \n2.1 Model List .......................................................................... 5 \n2.2 Electrical structure ............................................................. 5 \n2.3 UPS views ......................................................................... 7 \n3.Installation ................................................................................ 12 \n3.1 Unpacking ........................................................................ 12 \n3.2 Package content .............................................................. 13 \n3.3 Connection....................................................................... 13 \n4.OPERATION .............................................................................. 24 \n4.1 Display and Buttons ......................................................... 24 \n4.2 Operating UPS ................................................................. 28 \n4.3 Configuration ................................................................... 30 \n4.4 Trouble shooting .............................................................. 32 \n4.5 Alarm codes ..................................................................... 33 \n5.Technical data .......................................................................... 35 \n \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1818,
+            "word_count": 90
+        },
+        {
+            "page_number": 4,
+            "text": "1 \n \n1. Introduction \n1.1 Safety instruction \n• \nThe UPS must be installed and maintained exclusively by quailified \nstaff. See installation and operation instructions before connecting to \nthe supply. \n• \nThe UPS must be installed with an earth connection. It has a high \nleakage current. The first wire to be connected is the earth wire, which \nmust be connected to the terminal marked PE (yellow/green).  \n• \nThe UPS generates a leakage current of over 3.5 mA. The leakage \ncurrent of the load should be added to that of the UPS on the \nprotective earth wire.  \n• \nThe UPS needs a neutral connection to work properly. Operation \nwithout Neutral may damage the unit. \n• \nA readily accessible disconnect device shall be incorporated in the \nbuilding installation wiring for permanently connected equipment. \n• \nThe UPS generates hazardous electric voltages inside it even when \nthe input and/or battery switches are open. The inside of the UPS is \nprotected by safety guards that are not to be removed by non-qualified \nstaff. All installation and maintenance or other operations that entail \ngaining access to the inside of the UPS require the use of tools and \nare to be performed exclusively by qualified staff.  \n• \nThe UPS contains an energy source: the batteries. All terminals and \nsockets may be powered even when the UPS is not connected to the \nmains.  \n• \nThe total battery voltage is potentially hazardous: it may cause an \nelectric shock. The compartment containing the batteries is protected \nby safety guards, which are not to be removed by non-qualified staff. \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1629,
+            "word_count": 261
+        },
+        {
+            "page_number": 5,
+            "text": "2 \n \nAll battery installation and maintenance operations entail gaining \naccess to the inside of the UPS and require the use of tools: these \noperations are to be performed exclusively by qualified staff.  \n• \nThe batteries replaced are to be considered as toxic waste and treated \naccordingly. Dispose of used batteries according to the instructions. \nDo not throw the batteries into fire: they could explode. Do not attempt \nto open the battery casing: no maintenance work can be done on them. \nIn addition, the electrolyte is hazardous for the skin and eyes and may \nbe toxic.  \n• \nRisk of explosion if battery is replaced by an incorrect type. \n• \nDo not turn on the UPS if you see any leaks of liquid or a white \npowder residue.  \n• \nMake sure that no water, liquid in general and/or other foreign matter \ngets inside the UPS.  \n• \nUnder hazardous conditions, turn off the UPS at the “1/0” main power \nswitch and open all the isolators present (see the user manual to \nlocate the “1/0” main power switch and the isolators).  \n• \nDo not open the battery fuse holders while the UPS is powering the \nload from the batteries. An interruption of the battery DC voltage may \ncause an electric arc and result in breakage of the equipment and/or \nfire.  \n• \nThe energy required to power the load is provided by the batteries in \nthe event of a power failure. if the battery protection were open, the \nload would be powered off.  \n• \nFuses have to be replaced with the same type if necessary.  \n• \nTo connect external battery cabinets, use the expansion cable \nsuggested by the manufacturer in this manual.  \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1659,
+            "word_count": 282
+        },
+        {
+            "page_number": 6,
+            "text": "3 \n \n1.2 Certification Standards \nSafety \nIEC 62040-1:2008 \nIEC 60950-1:2005 (Modified) \nEMC \nConducted Emission: IEC 62040-2. Category C3 \nRadiated Emission: IEC 62040-2. Category C3 \nESD:IEC 61000-4-2. Contact: Level 2, Air discharge: Level 3 \nRS:IEC 61000-4-3. Level 3 \nEFT:IEC/EN 61000-4-4. Level 4 \nSurge:IEC/EN 61000-4-5. Level 4 \nCS:IEC/EN 61000-4-6. Level 3 \nMS:IEC/EN 61000-4-8. Level 3 \nVoltage Dips, short interruptions and voltage variations:IEC/EN 61000-4-11 \nWarning:  This is a product for commercial and industrial application, in other \nenvironment installation restrictions or additional measures may be needed to \nprevent disturbances. Additional curbs may be needed while output wiring \nlength is more than 10m or communication wiring length is more than 3m. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 866,
+            "word_count": 110
+        },
+        {
+            "page_number": 7,
+            "text": "4 \n \n1.3 Special Symbols \nThe following are examples of symbols used on the UPS or accessories to \nshow you the important information: \n \n \n \n \n \n \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 212,
+            "word_count": 27
+        },
+        {
+            "page_number": 8,
+            "text": "5 \n \n2.Presentation \n9E series UPS uses ON-LINE double conversion technology, resulting in \nthe highest levels of reliability and maximum protection for critical loads. \n2.1 Model List \nModel \nPower Ratings \nPF \nVoltage (Output) \n9E6Ki \n6kVA/4.8kW \n0.8 \n230V (220/240) \n9E10Ki \n10kVA/8kW Combo \n0.8 \n230V (220/240) \n9E10KiXL \n10kVA/8kW Combo \n0.8 \n230V (220/240) \n9E15Ki \n15kVA/12kW Combo \n0.8 \n230V (220/240) \n9E20Ki \n20kVA/16kW Combo \n0.8 \n230V (220/240) \n9E20KiXL \n20kVA/16kW Combo \n0.8 \n230V (220/240) \n9EEBM180 \nFor 9E6Ki \n \n180V \n9EEBM240 \nFor 9E10Ki, 9E10KiXL \n \n240V \n“XL” Model: Model with internal supercharger, and without internal batteries. \nOther models with internal batteries \n2.2 Electrical structure \n \n9E6Ki \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 780,
+            "word_count": 100
+        },
+        {
+            "page_number": 9,
+            "text": "6 \n \n \n9E10Ki, 9E10KiXL \n \n \n9E15Ki, 9E20Ki, 9E20KiXL \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 119,
+            "word_count": 11
+        },
+        {
+            "page_number": 10,
+            "text": "7 \n \n2.3 UPS views \n2.3.1 UPS Front view \n \n \n \n \n① \nDisplay \n② \nMultipurpose buttons \n③ \nWheels (front wheels swivel and can be locked, fixed rear wheels) \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 215,
+            "word_count": 30
+        },
+        {
+            "page_number": 11,
+            "text": "8 \n \n2.3.2 UPS Rear view  \n \n \n \n9E6Ki \nWith backpanel cover \n9E6Ki\nWithout backpanel cover  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 186,
+            "word_count": 18
+        },
+        {
+            "page_number": 12,
+            "text": "9 \n \n \n9E10Ki/9E10KiXL \nWith backpanel cover \n \n9E10Ki/9E10KiXL\nWithout backpanel cover \n \n \n \n④ USB communication port \n⑩ Input switch \n⑤ RS232 communication \nport and contacts \n⑪ Cover for terminals \n⑥ Slot for optional \ncommunication card \n⑫ Fuse \n⑦ Cooling fan(s) \n⑬ Terminals for I/O cable connection \n(refer to related section) \n⑧ Output switch \n⑭ Earthing screws \n⑨ Manual bypass for \nmaintenance \n⑮ Tie wrap hold-down \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 481,
+            "word_count": 67
+        },
+        {
+            "page_number": 13,
+            "text": "10 \n \n \nUPS Rear view  \n \n9E15Ki/9E15KiXL/9E20Ki/9E20KiXL \nWith backpanel cover \n9E15Ki/9E15KiXL/9E20Ki/9E20KiXL\nWithout backpanel cover \n \n \n \n \n④ RS232 communication port \nand contacts \n⑩ Input switch \n⑤ USB communication port \n⑪ Cover for terminals \n⑥ Slot for optional \ncommunication card \n⑫ Terminals for I/O cable connection \n(refer to related section) \n⑦ Cooling fans \n⑬ Earthing screws \n⑧ Output switch \n⑭ Fuse  \n⑨ Manual bypass for \nmaintenance \n⑮ Tie wrap hold-down \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 531,
+            "word_count": 70
+        },
+        {
+            "page_number": 14,
+            "text": "11 \n \n2.3.3 EBM Rear view \n \n \n \n \n \n① Fuse \n② Cover for terminals \n③ Tie wrap hold-down \n④ Wheels (front wheels swivel and can be locked, fixed rear wheels)\n⑤ Terminals for I/O cable connection (refer to related section) \n⑥ Earthing screws \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 302,
+            "word_count": 45
+        },
+        {
+            "page_number": 15,
+            "text": "12 \n \n3.Installation  \n3.1 Unpacking \n1. Cut the straps  \n2. Open the carton, take off wood board, accessory pack and PE form. \n3. Remove carton upward and take out front PE form. \n4. Put the wood board (removed at step2) as figure showed. Make sure \nthat the slide rests firmly against the pallet so it remains in place during \nunloading operations. Pull the UPS from the front with caution when \nsliding it off the pallet. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nNOTE: All parts of the packaging should be kept for future use. \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 573,
+            "word_count": 91
+        },
+        {
+            "page_number": 16,
+            "text": "13 \n \n3.2 Package content \nAfter opening the packaging, it is first necessary to check the contents. \nThe package must contain: \n \n3.3 Connection \n3.3.1 Installation requirements \n \nWarning:  \nInstallation must be performed by qualified personnel. The first \nconnection to perform is the protective conductor (earth cable), \nwhich must be connected to the screw marketed \n. \n \nThe UPS, when inserted in an installation, does not alter the existing \nneutral (system earthing) arrangements.  \nUPS \nUSB cable \nRS232 cable \n \n \n \nJumper  \n(15/20kVA models only) \nUser manual \nSoftware CD \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 639,
+            "word_count": 87
+        },
+        {
+            "page_number": 17,
+            "text": "14 \n \nA differential switch upstream will also be triggered for a fault occurring \ndownstream of the UPS. In calculating reactivity of this switch, account \nmust be taken of the leakage current of the UPS (approx. 8 mA) plus that \nof the load which come together on the UPS’s earth conductor. \n \nUPS input \nDifferential switch \nSingle-phase \nType B or Type A \nThree-phase \nType B \n \nThe neutral arrangements are altered only if there is an isolating \ntransformer or when the UPS operates with a neutral that is disconnected \nupstream. \nIn any case avoid connecting the output neutral with the input neutral \nor to the earth as this could damage the UPS. \n \nReminder : The UPS needs a neutral connection to work properly. \nOperation without Neutral may damage the unit. \n \nFor installation with change in system earthing arrangement or \ngalvanic isolation see below schematic \n \n \nFig.3-1 Change in SEA or Galvanic isolation \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 979,
+            "word_count": 153
+        },
+        {
+            "page_number": 18,
+            "text": "15 \n \nNotice: It is required to install an external isolating device against current \nbackfeed between Mains input and UPS. After the device is installed, it \nmust add a warning label with the following wording or the equivalent on \nthe external AC contactor: RISK OF VOLTAGE BACKFEED. Isolate the \nUPS before operating on this circuit, then check for hazardous voltage \nbetween all terminals. The current rating of T - AC contactor should be \nmore than 1.3 times of UPS capacity \n \n \n       \n \n \n \n \n \n \nFig.3-2 Typical external isolating device installation \n \n \n3.3.2 UPS Wiring Connection \n \nTo make the mains power and load connections, follow the instructions \nbelow: \nSingle phase input \nThree phase input \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 764,
+            "word_count": 112
+        },
+        {
+            "page_number": 19,
+            "text": "16 \n \n1. Install a magneto-thermal switch (63A for 6 & 10kVA versions, 125A \nfor 15 and 20kVA versions) with intervention curve D upstream of the \nmachine (4 poles for three-phase versions, 2 poles for single-phase \nversions). \n2. The connection terminals to use for the input and output lines are \nlocated on the backpanel. Unscrew the 4 screws located on the sides \nof the cover (one on each side, see figure). \n3. Remove  the backpanel cover  (see figure to the side). \n \nFig.3-3 Wiring connection \n \nSingle-phase version (9E6Ki only) \n4. (SINGLE-PHASE CONNECTION 9E6KI): use 3 cables with cross-\nsection 6 mm2 (EARTH, N and L) for the input, and 3 cables with \ncross-section 6 mm2 for the output (EARTH, N and L). \n5. Connect the wires to the relative terminals, following exactly the \ninstructions given below: \nInput line \na - Make sure that the magneto-thermal switch upstream is open. \nb - Connect the earth wire to screw A. \nc - Connect the neutral wire to terminal 2. \nd - Connect the live wire to terminal 1.  \nOutput line \na - Connect the earth wire to screw B. \nb - Connect the neutral wire to terminal 3. \nc - Connect the live wire to terminal 4. \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1212,
+            "word_count": 208
+        },
+        {
+            "page_number": 20,
+            "text": "17 \n \nR.E.P.O. \na - The REPO connection (between terminal 5 and 6) is normally open. \nFor more information please refer to the REPO section of this \nmanual \n \n \nFig.3-4 6K terminal view \n \n6. Tighten the terminals well, close the backpanel cover and secure it with \nthe screws taken out earlier. \n \nThe suggested tighten force is 1.2~1.6Nm. \n \nCombo version \nSingle-phase connection \n4. (SINGLE-PHASE CONNECTION 9E10KI, 9E10KIXL): use 3 cables of \ncross-section 10 mm2 (EARTH, N and L) for the input, and 3 cables \nof cross-section 10 mm2 for the output(EARTH, N and L). \n(SINGLE-PHASE CONNECTION 9E15KI, 9E15KIXL): use 3 cables of \ncross-section 16 mm2 (EARTH, N and L) for the input, and 3 cables \nof cross-section 16 mm2 for the output(EARTH, N and L). \n(SINGLE-PHASE CONNECTION 9E20KI, 9E20KIXL): use 3 cables of \ncross-section 25 mm2 (EARTH, N and L) for the input, and 3 cables \nof cross-section 25 mm2 for the output(EARTH, N and L). \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 992,
+            "word_count": 158
+        },
+        {
+            "page_number": 21,
+            "text": "18 \n \n5. Short-circuit the input terminals (1, 2 and 3) with the jumper provided in \nthe accessories kit. Connect the wires to the respective terminals, \nfollowing exactly the instructions below: \nInput line  \na - Ensure that the upstream magneto-thermal switch is open. \nb - Connect the earth wire to screw A. \nc - Connect the neutral wire to terminal 4. \nd - Connect the live wire to terminal 1. \nOutput line \na - Connect the earth wire to screw B. \nb - Connect the neutral wire to terminal 5. \nc - Connect the live wire to terminal 6. \nR.E.P.O. \na - The REPO connection (between terminal 7 and 8) is normally open. \nFor more information please refer to the REPO section of this \nmanual \n \nFig.3-5 10~20K single phase input terminal view \n6. Tighten the terminals well, close the backpanel cover and secure it with \nthe screws taken out earlier. \n \nFor 10 to 15kVA the suggested tighten force is 1.2~1.6Nm. For 20kVA, \nthe suggested tighten force is 2.5~3 Nm. \nJUMPER \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1021,
+            "word_count": 174
+        },
+        {
+            "page_number": 22,
+            "text": "19 \n \nThree-phase connection \n1. (THREE-PHASE CONNECTION 9E10KI, 9E10KIXL): Use 2 cables of \ncross-section 4 mm2 (L2 and L3) and 3 with cross-section 10 mm2 \n(EARTH, N, L1) for the input (N.B.: L1 and N are of greater cross-\nsection because in bypass operation they have to carry all of the \ninput current). For the output use 3 cables of cross-section 10 mm2 \n(EARTH, N and L).  \n(THREE-PHASE CONNECTION 9E15KI, 9E15KIXL): Use 2 cables of \ncross-section 4 mm2 (L2 and L3) and 3 of cross-section 16 mm2 \n(EARTH, N, L1) for the input (N.B.: L1 and N are of greater cross-\nsection because in bypass operation they have to carry all of the \ninput current). For the output use 3 cables of cross-section 16 mm2 \n(EARTH, N and L). \n(THREE-PHASE CONNECTION 9E20KI, 9E20KIXL): Use 2 cables of \ncross-section 6 mm2 (L2 and L3) and 3 of cross-section 25 mm2 \n(EARTH, N, L1) for the input (N.B.: L1 and N are of greater cross-\nsection because in bypass operation they have to carry all of the \ninput current). For the output use 3 cables of cross-section 25 mm2 \n(EARTH, N and L).  \n2. Connect the wires to the respective terminals, following exactly the \ninstructions below: \nInput line  \na - Ensure that the upstream magneto-thermal switch is open. \nb - Connect the earth wire to screw A. \nc - Connect the neutral wire to terminal 4. \nd - Connect the wires of the phases to terminals 1, 2 and 3 (for L1 use \nred wire). \nOutput line \na - Connect the earth wire to screw B. \nb - Connect the neutral wire to terminal 5. \nc - Connect the live wire to terminal 6. \nR.E.P.O. \na - The REPO connection (between terminal 7 and 8) is normally open. \nFor more information please refer to the REPO section of this \nmanual \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1752,
+            "word_count": 312
+        },
+        {
+            "page_number": 23,
+            "text": "20 \n \n \nFig.3-6 10~20K three phase input terminal view \n \n3. Tighten the terminals well, close the backpanel cover and secure it with \nthe screws taken out earlier.  \n \nFor 10 to 15kVA the suggested tighten force is 1.2~1.6Nm. For 20kVA, \nthe suggested tighten force is 2.5~3 Nm. \n \nR.E.P.O. \nThe terminal block on the back of the UPS also implements the R.E.P.O. \n(Remote Emergency Power Off) function that can be used to shut off the \nUPS remotely in case of an emergency. \nFor installation, connect to the device's normally open contact . \nIn case of an emergency, if the stop device is used, the REPO control is \nclosed and the UPS goes into stand-by mode and the load is completely \ndisconnected.  \nAttention: before restarting the UPS, reset the stop device. \nThe circuitry of the remote control terminal board is self-powered with \nSELV circuits. Therefore, an external voltage supply is not required. When \na contact is closed, a maximum current of 15mA circulates. \nAll connections with the remote control terminal board are made through a \ncable which guarantees a double insulation connection. \nIf you would like to bring the R.E.P.O. control outside, unscrew the two \nscrews securing the lower part of the backpanel cover and remove it (as \nindicated in the section “Connections”). Then, proceed as follows: \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1371,
+            "word_count": 218
+        },
+        {
+            "page_number": 24,
+            "text": "21 \n \n1. Use a 2x0.75mm2 cable to make the connection with the R.E.P.O. \nterminals. \n2. Insert the screw driver in the square hole and press down to make the \nround hole terminal open. Then insert the wire into the round hole. Then \npull out the screw driver. Connect the two wires of the cable to terminals \n5 and 6 (for version 9E6Ki), 7 and 8 (for versions 9E10Ki, 9E10KiXL, \n9E15Ki, 9E15KiXL, 9E20Ki, 9E20KiXL) to be able to remotely shut off \nthe UPS. \n9E6Ki \n9E10Ki, 9E10KiXL, 9E15Ki, \n9E15KiXL, 9E20Ki, 9E20KiXL \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig.3-7 EPO terminal connection \n3. Close the backpanel cover and secure it with the screws taken out \nearlier. \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 715,
+            "word_count": 112
+        },
+        {
+            "page_number": 25,
+            "text": "22 \n \n3.3.3 EBM Wiring Connection \nIt is possible to connect more than one EBM in order to achieve any level \nof autonomy without mains power. Connect any Battery Boxes in a \ncascade as shown in the figure below: \n \n1. CONNECTION: Use 3 cables with 10 mm2 section (Earth, +, N and -) \n \n2. Connect the wires to the relative terminals, following exactly the \ninstructions given below: \nFor  9E6Ki, 9E10Ki, 9E10KiXL \na - Make sure that the fuse holder of the external battery box is open. \nb -  Connect the earth (PE) wire to EBM’s earth (PE) screw \nc - Connect the positive (+) branch wire to EBM’s positive (+) terminal. \nd - Connect the negative (-) branch wire to EBM’s negative (-) terminal. \nThe suggested tighten force is 1.6Nm. (Detailed wiring diagram see fig \n3-9~10) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFig.3-8 EBM terminal view (Fuse for 9E6Ki, \n9E10Ki, 9E10KiXLwithout Neutral) \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 955,
+            "word_count": 150
+        },
+        {
+            "page_number": 26,
+            "text": "23 \n \nVersions 9E6Ki, 9E10Ki, 9E10KiXL \n \n \n                                                              \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nNote: For  9E15Ki, 9E20Ki, 9E20KiXL EBM wiring connection, you \nshould check the 9EEBM manual in EBM package. \nFig.3-10 EBM terminal connection for 9E6Ki,   \n9E10Ki, 9E10KiXL With Mutliple EBM \nFig.3-9 EBM terminal connection for 9E6Ki, \n9E10Ki, 9E10KiXL With Single EBM \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 505,
+            "word_count": 49
+        },
+        {
+            "page_number": 27,
+            "text": "24 \n \n4.OPERATION \n4.1 Display and Buttons  \n \nFig. 4-1 Control Panel \nThe following tables shows the buttons, LCD indicator and LED indicator \nstatus and description:  \nTable 4-1 Control Buttons Functions \nThe Button Function \nIllustration  \n \nTurn on \nIf the UPS is in standby or bypass mode, press >2s, \nthe buzzer will beep once, then the UPS system will \nbe turned on. \nTurn off \nIf the UPS is in line, battery, HE or battery test mode, \npress >3s, the buzzer will beep once, then the UPS \nwill be turned off. \nTransfer \nIf the UPS is in fault mode, and the fault cause has \ndisappeared, press >2s, the buzzer will beep once, \nfault will be cleared and UPS will turn to standby \nmode. \n \nFunction key \nBattery test on line mode,Press the button >2s \nMute: Press the button >2s \nDown to next page: Press the button<200ms \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 878,
+            "word_count": 146
+        },
+        {
+            "page_number": 28,
+            "text": "25 \n \nTable 4-2 LED indicator \nLED name \nColour \nDescription \nLine \nGreen \nIt indicates the utility is normal \nBattery \nYellow \nIt indicates the input is connected with battery, and the \ninput power is supplied from the battery. \nBypass \nYellow \nIt indicates the UPS is in bypass mode, the load current \nis directly supplied from the utility power  \nInverter  \nGreen \nIt indicates that the inverter is OK and the load is \nsupplied from the inverter. \nNote: After UPS power on, all LEDs will be lightened for 2 seconds, and \nthen turn to normal status.  When UPS is turning on, 4 LEDs will be \nlightened one by one until the UPS is turned on successfully. \n⊙:Utility is normal  \n●: Lightened constantly  \n★: Flashing every 4s  \n◇: Depended on the fault status  \n□: Depend on the original display \n \n \n \n \n \n \n \nLED \nLine \nBattery \nBypass \nInverter \nNo Output mode \n⊙ \n \n \n \nBypass mode \n● \n \n● \n \nLine mode \n● \n \n \n● \nBattery mode \n● \n \n● \nBattery test mode \n★ \n \n● \nFault mode \n□ \n \n◇ \nWarning \n□ \n□ \n□ \n□ \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1057,
+            "word_count": 174
+        },
+        {
+            "page_number": 29,
+            "text": "26 \n \nTable 4-3 Buzzer \nPriority \nUPS condition \nBuzzer \n1 \nUPS fault and failure \nContinuous  \n2 \nNormal mode \nNo beep \n3 \nBattery/battery test mode \nOne beep per 4 sec \n(One beep per 1s when battery low) \n4 \nBypass mode \nOne beep per 2 minutes \n5 \nOverload \nOne beep per 500ms \n6 \nOther alarm \nOne beep per 1s \n7 \nManual bypass \nOne beep per 1s \nNote: buzzer alarm can be enable/disable by function button, if buzzer \nalarm is disabled, all present alarm is muted except that the button press \nstill has a tick beep. Buzzer alarm will be enabled automatically once new \nalarm arises. \nInterface \nIn order to make sure all segments are OK, LCD begins to do self-test after \npower on. During self-test, all the segments will be lighted for 2 seconds, \nthen the LCD will turn to normal display status. \n \n \nFig. 4-2 The default LCD display \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 898,
+            "word_count": 151
+        },
+        {
+            "page_number": 30,
+            "text": "27 \n \n \nIcon \nIcon name \nDescription \n \nMeasureme\nnts \nDisplay values, eg: voltage, \nfrequency, load percentage, etc. \n \n \nDC Voltage  \nBattery voltage \n \n \nPercentage \nThe percentage,  eg: Load \npercentage and battery capacity \npercentage \n \n \nOutput \nIt indicates information for output. \n \n \nInput \nIt indicates information for input. \n \nLoad \nIt indicates information for load. \n \nBattery \nIt indicates information for battery. \n \nLoad level \nIt indicates the load level. Load \nborder will flash if the load is \noverload. \n \nBattery level \nIt indicates the battery capacity. \nBattery border will flash if the battery \nis low.  \n \nWarning/Fau\nlt \nIt indicates warnings or UPS Fault . \nIf it is a warning, the icon will flash; if \nit is a fault, the icon will be lighted \nconstantly. \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 843,
+            "word_count": 119
+        },
+        {
+            "page_number": 31,
+            "text": "28 \n \n4.2 Operating UPS  \nNotice: Please switch off the connected loads first before turning on the \nUPS, and switch on the loads one by one after the UPS is turned on. \nSwitch off all of the connected loads before turning off the UPS. \nNotice: Power on for the first time \n1. Close the magnetothermic switch located upstream of the UPS. \n2. Close the input and output switches and insert the battery fuses (if any) \nlocated on the back of the UPS’s backpack.  \n \n4.2.1 Turning on UPS with mains \nCheck that all connections are correct. Check the breaker of external \nbattery pack is in “ON” position. \nSet input breaker in “ON” position. At this time the fan begins to rotate. By \npressing \n button continuously for more than 2 second, the buzzer will \nbeep once, UPS starts to turn on. \nA few seconds later, the UPS turns into Line mode. If the mains power is \nabnormal, the UPS will transfer to Battery mode without output interruption \nof the UPS. \n4.2.2 Turning on UPS without mains \nCheck that all connections are correct. Check the breaker of external \nbattery pack is in “ON” position. \nBy pressing \n button continuously for more than 2s, the buzzer will beep \nonce, UPS starts to turn on. \nA few seconds later, the UPS turns into Battery mode. If the mains power \ncomes back, the UPS will transfer to Line mode without output interruption \nof the UPS. \n4.2.3 Turning off UPS with mains \nTo turn off the inverter of UPS press \n button continuously for more than \n3s and the buzzer beep once.  \nThe UPS will turn into standby mode. \nCut off the mains power supply.  \nA few seconds later, LCD display shuts down. \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1670,
+            "word_count": 288
+        },
+        {
+            "page_number": 32,
+            "text": "29 \n \n4.2.4 Turning off UPS without mains \nTo power off the UPS press \n button continuously for more than 3s, and \nthe buzzer beep once. The UPS will cut off the output. \nA few seconds later, LCD shuts down and no voltage is available from the \nUPS output.  \n \n4.2.5 Transfer to Bypass \nTo transfer the UPS in internal bypass mode, press on/off button and test \nbutton at the same time for more than 4 seconds.  \nTo transfer the UPS back to normal mode, press on/off button and test \nbutton at the same time for more than 4 seconds.  \n \n4.2.6 Transfer to maintenance Bypass \nTo transfer the UPS in maintenance bypass mode, switch on the \nmaintenance switch. And then the UPS will transfer to maintenance bypass \nmode.  Switch off the input and output switch before doing maintenance on \nthe UPS. \nTo transfer the UPS back to normal mode, switch on the input and output \nswitch and then switch off the maintenance switch. Then turn on the UPS \nfollowing “Turning on UPS” steps. \n4.2.7 Transfer to manual Bypass \nPress the on/off button and function button continuously for 4s, the UPS \nwill transfer to manual bypass mode.  \nIf execute manual  bypass operation when the UPS is working on ECO \nmode, the UPS will transfer to  bypass output mode. If press the on/off \nbutton again to clear manual bypass, the UPS will not transfer back to ECO \nmode and will stays in bypass output mode.  \nOnly when ups working in line-on mode before executing manual  bypass \noperation, UPS will auto restart to line mode after clearing the manual \nbypass operation. \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1601,
+            "word_count": 270
+        },
+        {
+            "page_number": 33,
+            "text": "30 \n \n4.3 Configuration \n4.3.1 \nCommunication ports \nOn the back of the UPS (see UPS Views), the following communication \nports are present: RS232 connector, USB connector, Slot for optional \nconnectivity cards \n \nRS232 or USB communication ports \n \nThe RS232 and USB communication ports cannot operate simultaneously. \n \n1. Connect the RS232 or USB communication cable to the serial or USB \nport on the computer. \n2. Connect the other end of the communication cable to the RS232 or \nUSB communication port on the UPS. \nThe UPS can now communicate with EATON power management software. \nConnectivity Cards \nThe UPS is equipped with an expansion slot for optional Connectivity \nCards (see figure on right). \nIt is not necessary to shutdown the UPS before installing a communication \ncard. \n1. Remove the slot cover secured by screws. \n2. Insert the communication card in the slot. \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 931,
+            "word_count": 142
+        },
+        {
+            "page_number": 34,
+            "text": "31 \n \n3. Secure the card cover with the 2 screws \n \n \n \n \n \n \n \n \n \n \n \n \nConnectivity cards allow the UPS to communicate in a variety of \nnetworking environments and with different types of devices.  \n \n• Network-MS card - has SNMP and HTTP capabilities as well as \nmonitoring through a Web browser interface; connects to Ethernet \nnetwork. In addition, a Environmental Monitoring Probe can be atta- \nched to obtain humidity, temperature, smoke alarm, and security \ninformation. \n• \nModbus-MS card - has connection to Modbus protocol in addition to \nnetwork management. \n• Relay-MS card - has isolated dry contact (Form-C) relay outputs for \nUPS status: Utility failure, Battery low, UPS alarm/OK, or on Bypass. \n \n \n4.3.2 \nEaton Intelligent Power Software suite \n \nEach 9E UPS ships with Eaton Intelligent Power Software suite. To begin \ninstalling, see the instructions accompanying the Software suite CD. \nEaton Software suite provides up-to-date graphics of UPS power and \nsystem data and power flow. \nIt also gives you a complete record of critical power events, and it notifies \nyou of important UPS or power \ninformation. \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1181,
+            "word_count": 175
+        },
+        {
+            "page_number": 35,
+            "text": "32 \n \nIf there is a power outage and the 9E UPS battery power becomes low, \nEaton Software suite can automatically shut down your computer system to \nprotect your data before the UPS shutdown occurs. \n4.4 Trouble shooting  \nPROBLEM \nPOSSIBLE CAUSE \nSOLUTION \nTHE DISPLAY DOES \nNOT LIGHT UP \nINPUT SWITCH \nOPEN \nClose the input switch located on \nthe back of the UPS. \nMAIN \nCONNECTION \nCABLE MISSING \nCheck that the power cable is \nconnected correctly. \nNO MAINS \nVOLTAGE \n(BLACKOUT) \nCheck that the power reaches the \nUPS \nUPSTREAM \nTHERMAL \nPROTECTION TRIP \nReset the thermal protection. \nCAUTION: Check that there is no \noutput overload to the UPS. \nTHE DISPLAY IS ON \nBUT THE LOAD IS \nNOT POWERED \nTHE UPS IS IN \nStandby mode \nPress the “ON” button on the front \npanel to power the loads. \nTHE UPS IS \nOPERATING FROM \nTHE BATTERY \nDESPITE THE \nPRESENCE OF \nMAINS VOLTAGE \nTHE INPUT \nVOLTAGE IS \nOUTSIDE THE \nPERMITTED \nTOLERANCE \nRANGE FOR MAINS \nOPERATION  \nProblem with the mains. Wait until \nthe input mains voltage returns \nwithin the tolerance range. The \nUPS will automatically return to \nmains operation.  \nTHE BUZZER \nSOUNDS \nCONTINUOUSLY \nAND THE DISPLAY \nSHOWS ONE OF THE \nFOLLOWING CODES: \nA80E, A810, F808 \n THE LOAD \nAPPLIED TO THE \nUPS IS TOO HIGH \nReduce the load to within the \nthreshold of 100% (or user \nthreshold in the case of code \nA80E).   \nIf the display shows an Fault:  \nremove the load and switch the \nUPS off and back on again. \nTHE DISPLAY \nSHOWS THE \nFOLLOW CODE: \nA60D \nBATTERIES \nMISSING OR \nBATTERY BOX \nMISSING OR NOT \nCONNECTED \nCheck that the Battery Box is \ninserted and connected to the UPS \ncorrectly. \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1695,
+            "word_count": 274
+        },
+        {
+            "page_number": 36,
+            "text": "33 \n \nTHE BUZZER \nSOUNDS \nCONTINUOUSLY \nAND THE DISPLAY \nSHOWS ONE OF THE \nFOLLOWING CODES: \nA004 F004 \nTHE \nTEMPERATURE \nINSIDE THE UPS IS \nTOO HIGH \nCheck that the temperature of the \nenvironment in which the UPS is \nlocated does not exceed 40°C.   \nTHE BUZZER \nSOUNDS \nCONTINUOUSLY \nAND THE DISPLAY \nSHOWS ONE OF THE \nFOLLOWING CODES: \nF805 \nTHERE IS A FAULT \nON ONE OR MORE \nOF THE LOADS \nPOWERED BY THE \nUPS \nDisconnect all the utilities, switch \nthe UPS off and back on again, \nreconnect the utilities one at a time \nto identify which one is faulty. \nTHE BUZZER \nSOUNDS \nCONTINUOUSLY \nAND THE DISPLAY \nSHOWS ONE OF THE \nFOLLOWING CODES: \nF704, \nF70D,F70C,F302, \nF303,F305,F300,F301\n,F304, F002 \nTHE UPS IS \nMALFUNCTIONING \nIf possible, disconnect the power \nto the load, switch the UPS off and \nback on again; if the problem \noccurs again, call the support \ncentre. \nTHE DISPLAY \nSHOWS THE CODE: \nA900 \n \nTHE \nMAINTENANCE \nBYPASS FUNCTION \nIS ACTIVE \nTo take the UPS out of the \nmaintenance bypass function, \nopen the manual bypass switch on \nthe back of the UPS. \n4.5 Alarm codes \nUsing a sophisticated self-diagnosis system, the UPS is able to check its \nown status and any anomalies and/or faults which may occur during \nnormal operation and display them on the display panel. If there is a \nproblem, the UPS signals the event by showing the code and the type of \nactive alarm on the display. \nAlarms \n“Minor” problems which reduce performance or prevent certain functions \nfrom being used. \nCODE \nDESCRIPTION \nA007 \nFans blocked \nA107 \nCable connection error \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1620,
+            "word_count": 260
+        },
+        {
+            "page_number": 37,
+            "text": "34 \n \nA10A \nUnbalanced input voltages (three-phase input) \nA806 \nE.P.O control active \nA80E \nOverload:  load > 105% \nA810 \nLoad percentage greater than the user threshold set \nA60D \nBatteries missing or Battery Box missing or not connected \nA802 \nLow battery \nAC20 \nUPS work in Manual Bypass operation mode \nFaults \nFaults are normally preceded by an alarm signal and their scale leads to \nthe power-off of the inverter and the load being powered by the bypass line. \nCODE \nDESCRIPTION \nF002 \nUPS Fault \nF004 \nDissipator over temperature \nF302 F303 \nCapacitor bank undervoltage \nF300 F301 \nCapacitor bank overvoltage \nF304 \nUnbalanced capacitor bank \nF305 \nFailed capacitor bank soft start \nF70D \nInverter overvoltage \nF805 \nShort circuit \nF704 \nFailed inverter soft start \nF70C \nInverter undervoltage \nF808 \nOutput overload fault \nF811 \nNegative output power \n \n \n \n \n \n \n \n \n \n \n \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 933,
+            "word_count": 130
+        },
+        {
+            "page_number": 38,
+            "text": "35 \n \n5.Technical data \nUPS MODELS \n9E6Ki \n9E10Ki, \n9E10KiXL \n9E15Ki\n9E20Ki, \n9E20KiXL \nINPUT \n \nNominal voltage \n[Vac] \n220 - 230 - 240 \n220 - 230 – 240 / 380 – 400 - 415 \nMaximum operating \nvoltage \n[Vac] \n276 \n276 / 478 \nNominal frequency \n[Hz] \n50 - 60 \nNominal current \n[A] \n26 \n \n41 / 16 \n(42 / 20,5 XL)\n62 / 22 \n82 / 28 \n(83 / 29,5 XL)\nBATTERY \n \nRecharge time \n(standard versions) \n[h] \n< 8h for 90% of the charge \nExpandability and \nnominal voltage of the \nBattery Box \n \n180Vdc \n240Vdc \n240 + \n240Vdc\n240 + \n240Vdc \nCharging current \n(for XL versions only) \n \nNot \napplicable \n4,4A \n5A \n5A \nOUTPUT \n \nNominal voltage \n[Vac] \nSelectable:  220/230/240 \nFrequency \n[Hz] \nSelectable: 50, 60 or auto sensing \nNominal power \n[VA] \n6000 \n10000 \n15000 \n20000 \nNominal power \n[W] \n4800 \n8000 \n12000 \n16000 \nOverload: 105% < load < \n110% \nBypass line available:  \nactivates the bypass \nafter 5 min, then \n \ncontinues to work \nBypass line not available:  \nlocks after 5 min \nOverload: 110% < load < \n130% \nBypass line available: \nactivates the bypass \nafter 1 min, then \n \nlocks after 1 min \nBypass line not available:  \nlocks after 1 min \nOverload: 130% < load < \n150% \nBypass line available: \nactivates the bypass \nafter 10 s, then \n \nlocks after 10 s \nBypass line not available:  \nlocks after 10 s \nOverload load > 150% \nBypass line available:  \nactivates the bypass \nafter 100 ms, then \n \nlocks after 1 s \nBypass line not available:  \nlocks after 1 s \nOTHER \n \nLeakage current to \nearth \n[mA] \n< 8mA \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 1554,
+            "word_count": 256
+        },
+        {
+            "page_number": 39,
+            "text": "36 \n \nAmbient temperature \n[°C] \n0 – 40 \nHumidity \n< 95% without condensation \nProtection devices \nBatteries deep discharge - overcurrent - short circuit - \novervoltage - undervoltage - circuit breaker \nDimensions   \nW x D x H \n[mm] \n262 x 613x 709 \n350 x 706 x 818 \nWeight \n[kg] \n68.8 \n86 \n(29 XL) \n147 \n160 \n(48.5 XL) \nOperating Temperature \n0\n oC to 40\n oC \nOperating humidity \n0-95% no condensing \nAltitude \nUp to 1,000 meters above sea level with 10% derating per \n1000m \nStorage temperature \n-15\noC to 60\noC without batteries \n0~35°C with batteries \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nEBM \n180VDC 9Ah \n240VDC 9Ah \nNominal battery voltage \n[Vdc] \n180Vdc \n240Vdc \nDimensions  W x D x H \n[mm] \n262 x 580 x 709 \nWeight \n[kg] \n105.5 \n132.4 \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 835,
+            "word_count": 124
+        },
+        {
+            "page_number": 40,
+            "text": " \n \nThe crossed-out wheeled bin symbol indicates that \nwaste electrical and electronic equipment should not be \ndiscarded together with unseparated household waste, \nbut must be collected separately. The product should be \nhanded in for recycling  in accordance with the local \nenvironmental regulations for waste disposal.  \nBy separating waste electrical and electronic equipment , you will help \nreduce the volume of waste sent for incineration or land-ﬁlls and minimize \nany potential negative impact on human health and environment.       \n",
+            "character_count": 545,
+            "word_count": 76
+        },
+        {
+            "page_number": 41,
+            "text": "37 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n614-06847-05 \nUsers E2011703(Qian, Pinglian) 2018/4/25 17:31:59\n",
+            "character_count": 208,
+            "word_count": 7
+        }
+    ]
+}

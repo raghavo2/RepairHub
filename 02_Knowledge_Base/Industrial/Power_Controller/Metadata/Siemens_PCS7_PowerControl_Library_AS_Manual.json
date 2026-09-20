@@ -1,0 +1,34 @@
+{
+  "document_id": "CTRL_LIBRARY_001",
+  "file_name": "Siemens_PCS7_PowerControl_Library_AS_Manual.pdf",
+  "title": "PCS 7 PowerControl Library AS Manual",
+  "manufacturer": "Siemens",
+  "document_type": "Function Manual",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "Critical",
+  "knowledge_level": "Expert",
+  "primary_use": [
+    "Industrial Automation",
+    "PLC Integration",
+    "Power System Control"
+  ],
+  "covers": [
+    "PLC Blocks",
+    "Faceplates",
+    "Power Feeders",
+    "Transformers",
+    "Busbars",
+    "Interlocks",
+    "Alarm Handling",
+    "Engineering",
+    "Process Control"
+  ],
+  "used_by_agents": [
+    "Knowledge Retrieval Agent",
+    "Diagnosis Agent",
+    "Modification Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

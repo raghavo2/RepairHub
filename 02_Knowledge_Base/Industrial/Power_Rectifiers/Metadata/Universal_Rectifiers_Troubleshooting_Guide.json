@@ -1,0 +1,34 @@
+{
+  "document_id": "RECT_TSHOOT_001",
+  "file_name": "Universal_Rectifiers_Troubleshooting_Guide.pdf",
+  "title": "Rectifier Troubleshooting Guide",
+  "manufacturer": "Universal Rectifiers Inc.",
+  "document_type": "Troubleshooting Guide",
+  "category": "Industrial Systems",
+  "subcategory": "Power Rectifier",
+  "priority": "Critical",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Fault Diagnosis",
+    "Field Repair",
+    "Maintenance"
+  ],
+  "covers": [
+    "Rectifier Components",
+    "Common Failures",
+    "Inspection",
+    "Testing",
+    "Safety",
+    "Fuse Failures",
+    "Loose Connections",
+    "Lightning Damage",
+    "Field Troubleshooting"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

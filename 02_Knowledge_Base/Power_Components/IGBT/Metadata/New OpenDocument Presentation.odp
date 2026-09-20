@@ -1,0 +1,32 @@
+{
+  "document_id": "IGBT_DS_001",
+  "file_name": "onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet.pdf",
+  "title": "NGTG50N60FW 600 V 50 A Trench IGBT",
+  "manufacturer": "onsemi",
+  "document_type": "Datasheet",
+  "category": "Power Components",
+  "subcategory": "IGBT",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Component Specifications",
+    "Replacement Selection",
+    "Industrial Power Design"
+  ],
+  "covers": [
+    "Electrical Characteristics",
+    "Switching Characteristics",
+    "Gate Charge",
+    "Thermal Characteristics",
+    "Maximum Ratings",
+    "SOA",
+    "Package Information"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Alternative Component Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

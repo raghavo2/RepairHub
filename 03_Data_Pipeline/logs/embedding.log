@@ -1,0 +1,88 @@
+2026-08-29 17:38:23,232 | INFO | No device provided, using cpu
+2026-08-29 17:38:23,532 | INFO | HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-08-29 17:38:23,757 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:23,758 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-29 17:38:23,768 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:24,018 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:24,029 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:24,042 | INFO | Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-08-29 17:38:24,270 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:24,279 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:24,503 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:24,514 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-08-29 17:38:24,760 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:24,772 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:25,022 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:25,041 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:25,279 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-29 17:38:25,563 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:25,575 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:26,017 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-29 17:38:26,252 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-29 17:38:26,495 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-29 17:38:26,786 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-29 17:38:27,012 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:27,024 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:27,261 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:27,273 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:27,510 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:27,521 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:27,747 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:27,757 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:27,991 | INFO | HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-29 17:38:28,223 | INFO | HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-29 17:38:28,496 | INFO | HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-29 17:38:28,508 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-29 17:38:28,757 | INFO | HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-08-29 17:38:34,265 | INFO | Successfully embedded ABB_MegaFlex_UPS_Installation_Guide_1000-1600kW_chunks.json
+2026-08-29 17:38:38,676 | INFO | Successfully embedded BHEL_Industrial_UPS_Technical_Specification_PY55207_chunks.json
+2026-08-29 17:38:39,271 | INFO | Successfully embedded Circutor_CA4_Power_Control_Instruction_Manual_chunks.json
+2026-08-29 17:38:40,328 | INFO | Successfully embedded Eaton_5E_Advanced_User_Guide_chunks.json
+2026-08-29 17:38:46,098 | INFO | Successfully embedded Eaton_93E_UPS_Installation_and_Operation_Manual_chunks.json
+2026-08-29 17:38:48,016 | INFO | Successfully embedded Eaton_9E_UPS_Installation_and_User_Manual_chunks.json
+2026-08-29 17:38:54,905 | INFO | Successfully embedded EPRI_UPS_Maintenance_and_Application_Guide_chunks.json
+2026-08-29 17:38:57,493 | INFO | Successfully embedded ESP32_Chip_Errata_v3.0_chunks.json
+2026-08-29 17:39:03,294 | INFO | Successfully embedded ESP32_Datasheet_v3.0_chunks.json
+2026-08-29 17:44:09,302 | INFO | Successfully embedded ESP32_ESP_IDF_Programming_Guide_v5.2_chunks.json
+2026-08-29 17:44:12,339 | INFO | Successfully embedded ESP32_Hardware_Design_Guidelines_chunks.json
+2026-08-29 17:45:23,647 | INFO | Successfully embedded ESP32_Technical_Reference_Manual_v5.7_chunks.json
+2026-08-29 17:45:28,292 | INFO | Successfully embedded ETC_Power_Control_Processor_Configuration_Manual_v3.1_chunks.json
+2026-08-29 17:45:30,813 | INFO | Successfully embedded Eurotherm_EPower_Controller_Datasheet_chunks.json
+2026-08-29 17:45:35,749 | INFO | Successfully embedded FDK_Ferrite_Cores_for_Transformers_and_Choke_Coils_Catalog_chunks.json
+2026-08-29 17:45:35,987 | INFO | Successfully embedded Indeeco_Power_Controller_Troubleshooting_Guide_chunks.json
+2026-08-29 17:45:37,278 | INFO | Successfully embedded Industrial_Regulators_Quick_Selection_Guide_Emerson_chunks.json
+2026-08-29 17:45:39,722 | INFO | Successfully embedded MC33153-D_chunks.json
+2026-08-29 17:45:46,805 | INFO | Successfully embedded MeanWell_Switching_Power_Supply_Technical_Manual_chunks.json
+2026-08-29 17:45:55,018 | INFO | Successfully embedded Microchip_dsPIC_SMPS_ACDC_Reference_Design_User_Guide_chunks.json
+2026-08-29 17:45:55,426 | INFO | Successfully embedded MOSFET_Selection_for_SMPS_TI_SSZT810_chunks.json
+2026-08-29 17:45:56,835 | INFO | Successfully embedded NASA_NEXTC_Rectifier_Diode_Failure_Investigation_chunks.json
+2026-08-29 17:45:58,826 | INFO | Successfully embedded Nexperia_MOSFET_Electrical_Overstress_Failure_Analysis_AN11243_chunks.json
+2026-08-29 17:46:03,930 | INFO | Successfully embedded NXP_Power_MOSFET_Selection_Guide_chunks.json
+2026-08-29 17:46:06,313 | INFO | Successfully embedded Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual_chunks.json
+2026-08-29 17:46:06,480 | INFO | Successfully embedded OmniOn_Galaxy_Power_Systems_Installation_Guide_chunks.json
+2026-08-29 17:46:26,576 | INFO | Successfully embedded onsemi_IGBT_Applications_Handbook_HBD871_chunks.json
+2026-08-29 17:46:29,261 | INFO | Successfully embedded onsemi_IGBT_Basic_II_AN9020_chunks.json
+2026-08-29 17:46:30,197 | INFO | Successfully embedded onsemi_NGTG50N60FW_600V_50A_Trench_IGBT_Datasheet_chunks.json
+2026-08-29 17:46:31,025 | INFO | Successfully embedded onsemi_NRVHP8H200MFD_Switch_Mode_Power_Rectifier_Datasheet_chunks.json
+2026-08-29 17:46:37,378 | INFO | Successfully embedded ONSemi_Switch_Mode_Power_Supply_Reference_Manual_chunks.json
+2026-08-29 17:46:37,917 | INFO | Successfully embedded Rectifier_Selection_Operation_and_Maintenance_Guide_chunks.json
+2026-08-29 17:46:38,916 | INFO | Successfully embedded RS_PRO_RPL1_Power_Controller_User_Manual_chunks.json
+2026-08-29 17:46:39,651 | INFO | Successfully embedded Sencore_TechTip205_Troubleshooting_SMPS_Problems_PWM_Type_chunks.json
+2026-08-29 17:47:03,153 | INFO | Successfully embedded Siemens_PCS7_PowerControl_Library_AS_Manual_chunks.json
+2026-08-29 17:47:05,984 | INFO | Successfully embedded Siemens_PCS7_PowerControl_Setup_Guide_chunks.json
+2026-08-29 17:47:07,147 | INFO | Successfully embedded Siemens_Transformer_Selection_According_to_Utilisation_Profiles_chunks.json
+2026-08-29 17:47:08,203 | INFO | Successfully embedded TI_CSD17302Q5A_30V_N_Channel_MOSFET_Datasheet_chunks.json
+2026-08-29 17:47:10,575 | INFO | Successfully embedded TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A_chunks.json
+2026-08-29 17:47:11,646 | INFO | Successfully embedded TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23_chunks.json
+2026-08-29 17:47:14,600 | INFO | Successfully embedded TI_LM340_LM7805_LM7812_LM7815_Datasheet_chunks.json
+2026-08-29 17:47:19,774 | INFO | Successfully embedded TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A_chunks.json
+2026-08-29 17:47:20,678 | INFO | Successfully embedded TI_Off_Line_SMPS_Failure_Modes_PWM_Switchers_DC_DC_Converters_chunks.json
+2026-08-29 17:47:23,412 | INFO | Successfully embedded TI_SN6501_Q1_Transformer_Driver_Datasheet_chunks.json
+2026-08-29 17:47:23,843 | INFO | Successfully embedded TI_TPS7A16xx_Fault_Tree_Analysis_SLVA560_chunks.json
+2026-08-29 17:47:25,469 | INFO | Successfully embedded Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors_chunks.json
+2026-08-29 17:47:27,188 | INFO | Successfully embedded Toshiba_MOSFET_Circuit_Design_Application_Note_chunks.json
+2026-08-29 17:47:29,014 | INFO | Successfully embedded Toshiba_MOSFET_Gate_Drive_Circuit_chunks.json
+2026-08-29 17:47:30,166 | INFO | Successfully embedded Transformer_Failure_Analysis_Reasons_and_Methods_IJERT_chunks.json
+2026-08-29 17:47:30,501 | INFO | Successfully embedded Troubleshooting_and_Repairing_Switch_Mode_Power_Supplies_Preview_chunks.json
+2026-08-29 17:47:32,460 | INFO | Successfully embedded Unitrode_Power_Transformer_Design_Guide_SLUP126_chunks.json
+2026-08-29 17:47:32,787 | INFO | Successfully embedded Universal_Rectifiers_Troubleshooting_Guide_chunks.json

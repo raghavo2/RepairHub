@@ -1,0 +1,31 @@
+{
+  "document_id": "MOSFET_APP_001",
+  "file_name": "MOSFET_Selection_for_SMPS_TI_SSZT810.pdf",
+  "title": "How to Select a MOSFET for Switch Mode Power Supplies",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Technical Article",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Critical",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "MOSFET Selection",
+    "SMPS Design",
+    "Efficiency Optimization"
+  ],
+  "covers": [
+    "RDS(on)",
+    "Gate Charge",
+    "Switching Loss",
+    "Conduction Loss",
+    "Synchronous Rectification",
+    "MOSFET Figure of Merit"
+  ],
+  "used_by_agents": [
+    "Alternative Component Agent",
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

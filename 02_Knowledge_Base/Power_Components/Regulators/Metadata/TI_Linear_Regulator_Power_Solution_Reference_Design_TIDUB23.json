@@ -1,0 +1,29 @@
+{
+  "document_id": "REG_REF_001",
+  "file_name": "TI_Linear_Regulator_Power_Solution_Reference_Design_TIDUB23.pdf",
+  "title": "Linear Regulator Power Solution Reference Design for Reducing MSP430G2xx3 Power Dissipation",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Reference Design",
+  "category": "Power Components",
+  "subcategory": "Regulators",
+  "priority": "High",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Reference Design",
+    "Low Power Design",
+    "PCB Design"
+  ],
+  "covers": [
+    "LDO Implementation",
+    "Power Dissipation",
+    "Power Supply Design",
+    "Low Noise",
+    "Reference Circuit"
+  ],
+  "used_by_agents": [
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 8,
+  "citation_required": true
+}

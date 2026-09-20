@@ -1,0 +1,30 @@
+{
+  "document_id": "XFMR_GUIDE_001",
+  "file_name": "Siemens_Transformer_Selection_According_to_Utilisation_Profiles.pdf",
+  "title": "Transformer Selection According to Utilisation Profiles",
+  "manufacturer": "Siemens",
+  "document_type": "Technical Guide",
+  "category": "Power Components",
+  "subcategory": "Transformers",
+  "application_domain": "Industrial Power Distribution",
+  "priority": "Medium",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Transformer Selection",
+    "Efficiency Analysis"
+  ],
+  "covers": [
+    "Dry-Type Transformers",
+    "Load Profiles",
+    "Efficiency",
+    "No-Load Losses",
+    "Load Losses",
+    "Transformer Sizing"
+  ],
+  "used_by_agents": [
+    "Recommendation Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 6,
+  "citation_required": true
+}

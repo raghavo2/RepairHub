@@ -1,0 +1,27 @@
+{
+  "document_id": "MOSFET_BASIC_001",
+  "file_name": "Toshiba_Discrete_Semiconductor_Basics_Chapter3_Transistors.pdf",
+  "title": "Basic Knowledge of Discrete Semiconductor Devices - Chapter III: Transistors",
+  "manufacturer": "Toshiba",
+  "document_type": "Training Guide",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Medium",
+  "knowledge_level": "Beginner",
+  "primary_use": [
+    "Fundamentals",
+    "Educational Reference"
+  ],
+  "covers": [
+    "BJT",
+    "MOSFET",
+    "JFET",
+    "IGBT",
+    "Operating Principles"
+  ],
+  "used_by_agents": [
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 6,
+  "citation_required": true
+}

@@ -1,0 +1,31 @@
+{
+  "document_id": "CTRL_INSTALL_001",
+  "file_name": "Circutor_CA4_Power_Control_Instruction_Manual.pdf",
+  "title": "CA-4 Power Control Instruction Manual",
+  "manufacturer": "Circutor",
+  "document_type": "Instruction Manual",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "High",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Installation",
+    "Load Management",
+    "Operation"
+  ],
+  "covers": [
+    "Load Control",
+    "RS-485 Communication",
+    "Controller Modules",
+    "Installation",
+    "Electrical Connections",
+    "Power Demand Management",
+    "Maintenance"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 9,
+  "citation_required": true
+}

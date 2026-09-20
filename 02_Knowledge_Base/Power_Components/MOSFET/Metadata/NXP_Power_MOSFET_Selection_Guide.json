@@ -1,0 +1,30 @@
+{
+  "document_id": "MOSFET_GUIDE_001",
+  "file_name": "NXP_Power_MOSFET_Selection_Guide.pdf",
+  "title": "Power MOSFET Selection Guide",
+  "manufacturer": "NXP",
+  "document_type": "Selection Guide",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Critical",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Component Selection",
+    "Equivalent Component Recommendation"
+  ],
+  "covers": [
+    "Package Types",
+    "Voltage Rating",
+    "Current Rating",
+    "RDS(on)",
+    "Qg",
+    "Automotive MOSFETs",
+    "Application Selection"
+  ],
+  "used_by_agents": [
+    "Alternative Component Agent",
+    "Recommendation Agent"
+  ],
+  "retrieval_priority": 9,
+  "citation_required": true
+}

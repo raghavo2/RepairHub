@@ -1,0 +1,31 @@
+{
+  "document_id": "XFMR_DRV_001",
+  "file_name": "TI_SN6501_Q1_Transformer_Driver_Datasheet.pdf",
+  "title": "SN6501-Q1 Transformer Driver for Isolated Power Supplies",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Datasheet",
+  "category": "Power Components",
+  "subcategory": "Transformers",
+  "priority": "High",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Transformer Driver Design",
+    "Isolated Power Supply"
+  ],
+  "covers": [
+    "Transformer Driver",
+    "Push-Pull Driver",
+    "Isolation",
+    "CAN",
+    "RS-485",
+    "Industrial Automation",
+    "Layout Guidelines",
+    "Reference Circuits"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Modification Agent"
+  ],
+  "retrieval_priority": 8,
+  "citation_required": true
+}

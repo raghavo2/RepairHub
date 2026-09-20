@@ -1,0 +1,29 @@
+{
+  "document_id": "MOSFET_GATE_002",
+  "file_name": "Toshiba_MOSFET_Gate_Drive_Circuit.pdf",
+  "title": "MOSFET Gate Drive Circuit",
+  "manufacturer": "Toshiba",
+  "document_type": "Application Note",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "High",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Gate Drive Design",
+    "Switching Optimization"
+  ],
+  "covers": [
+    "Gate Charge",
+    "Gate Resistance",
+    "Bootstrap",
+    "Charge Pump",
+    "Protection",
+    "High-Side Drive"
+  ],
+  "used_by_agents": [
+    "Repair Agent",
+    "Modification Agent"
+  ],
+  "retrieval_priority": 8,
+  "citation_required": true
+}

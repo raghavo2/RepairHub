@@ -1,0 +1,31 @@
+{
+  "document_id": "REG_DS_001",
+  "file_name": "TI_LM340_LM7805_LM7812_LM7815_Datasheet.pdf",
+  "title": "LM340, LM340A, LM7805, LM7812, LM7815 Fixed Voltage Regulators",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Datasheet",
+  "category": "Power Components",
+  "subcategory": "Regulators",
+  "priority": "Critical",
+  "knowledge_level": "Reference",
+  "primary_use": [
+    "Component Specifications",
+    "Replacement Selection",
+    "Electrical Reference"
+  ],
+  "covers": [
+    "Absolute Maximum Ratings",
+    "Electrical Characteristics",
+    "Thermal Characteristics",
+    "Package Information",
+    "Application Circuits",
+    "Layout Guidelines"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Alternative Component Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

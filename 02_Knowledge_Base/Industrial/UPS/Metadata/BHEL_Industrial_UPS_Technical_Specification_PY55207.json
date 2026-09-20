@@ -1,0 +1,34 @@
+{
+  "document_id": "UPS_SPEC_001",
+  "file_name": "BHEL_Industrial_UPS_Technical_Specification_PY55207.pdf",
+  "title": "Industrial UPS Technical Specification",
+  "manufacturer": "Bharat Heavy Electricals Limited (BHEL)",
+  "document_type": "Technical Specification",
+  "category": "Industrial Systems",
+  "subcategory": "UPS",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Industrial UPS Design",
+    "Procurement",
+    "System Engineering"
+  ],
+  "covers": [
+    "Scope of Supply",
+    "Technical Requirements",
+    "Inspection",
+    "Testing",
+    "Commissioning",
+    "Line Diagrams",
+    "Design Variables",
+    "Standards",
+    "Vendor Components"
+  ],
+  "used_by_agents": [
+    "Modification Agent",
+    "Knowledge Retrieval Agent",
+    "Diagnosis Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "RECT_GUIDE_001",
+  "file_name": "Rectifier_Selection_Operation_and_Maintenance_Guide.pdf",
+  "title": "Rectifier Selection, Operation & Maintenance",
+  "manufacturer": "MATCOR",
+  "document_type": "Technical Guide",
+  "category": "Industrial Systems",
+  "subcategory": "Power Rectifier",
+  "priority": "High",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Rectifier Fundamentals",
+    "Operation",
+    "Maintenance"
+  ],
+  "covers": [
+    "Rectifier Principles",
+    "Rectifier Components",
+    "Installation",
+    "Preventive Maintenance",
+    "Cooling",
+    "Grounding",
+    "Inspection",
+    "Basic Troubleshooting"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 9,
+  "citation_required": true
+}

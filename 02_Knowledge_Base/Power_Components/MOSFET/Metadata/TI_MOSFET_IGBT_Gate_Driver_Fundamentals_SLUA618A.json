@@ -1,0 +1,30 @@
+{
+  "document_id": "MOSFET_GATE_001",
+  "file_name": "TI_MOSFET_IGBT_Gate_Driver_Fundamentals_SLUA618A.pdf",
+  "title": "Fundamentals of MOSFET and IGBT Gate Driver Circuits",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Application Report",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Gate Driver Design",
+    "Switching Analysis"
+  ],
+  "covers": [
+    "Gate Drivers",
+    "Bootstrap",
+    "High-Side Drive",
+    "Transformer Drive",
+    "Synchronous Rectification",
+    "Switching Behaviour"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

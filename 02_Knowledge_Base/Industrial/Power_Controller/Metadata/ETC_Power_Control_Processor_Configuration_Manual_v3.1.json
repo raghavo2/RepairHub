@@ -1,0 +1,34 @@
+{
+  "document_id": "CTRL_CONFIG_001",
+  "file_name": "ETC_Power_Control_Processor_Configuration_Manual_v3.1.pdf",
+  "title": "Power Control Processor Configuration Manual",
+  "manufacturer": "ETC",
+  "document_type": "Configuration Manual",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Controller Configuration",
+    "Commissioning",
+    "System Programming"
+  ],
+  "covers": [
+    "Panel Configuration",
+    "Menu Navigation",
+    "User Interface",
+    "Control Logic",
+    "Relay Configuration",
+    "File Operations",
+    "Diagnostics",
+    "Service",
+    "Maintenance"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Knowledge Retrieval Agent",
+    "Configuration Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

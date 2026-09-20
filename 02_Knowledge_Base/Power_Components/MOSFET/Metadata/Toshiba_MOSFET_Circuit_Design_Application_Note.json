@@ -1,0 +1,31 @@
+{
+  "document_id": "MOSFET_APP_002",
+  "file_name": "Toshiba_MOSFET_Circuit_Design_Application_Note.pdf",
+  "title": "Selecting MOSFETs and Consideration for Circuit Design",
+  "manufacturer": "Toshiba",
+  "document_type": "Application Note",
+  "knowledge_domain": "Power Components",
+  "subcategory": "MOSFET",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Circuit Design",
+    "Component Selection",
+    "Reliability"
+  ],
+  "covers": [
+    "Voltage Rating",
+    "Current Rating",
+    "VGS",
+    "Thermal Design",
+    "Layout",
+    "Snubber Circuits",
+    "Avalanche"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Modification Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

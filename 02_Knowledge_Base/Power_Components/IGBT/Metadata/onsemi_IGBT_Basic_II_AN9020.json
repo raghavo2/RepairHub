@@ -1,0 +1,32 @@
+{
+  "document_id": "IGBT_BASIC_001",
+  "file_name": "onsemi_IGBT_Basic_II_AN9020.pdf",
+  "title": "IGBT Basic II",
+  "manufacturer": "onsemi",
+  "document_type": "Application Note",
+  "category": "Power Components",
+  "subcategory": "IGBT",
+  "priority": "Critical",
+  "knowledge_level": "Beginner",
+  "primary_use": [
+    "IGBT Fundamentals",
+    "Gate Drive Design",
+    "Switching Behaviour"
+  ],
+  "covers": [
+    "IGBT Structure",
+    "MOSFET vs IGBT",
+    "Gate Drive",
+    "Switching Waveforms",
+    "Safe Operating Area",
+    "Hard Switching",
+    "Soft Switching"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Knowledge Retrieval Agent",
+    "Modification Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

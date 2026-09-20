@@ -1,0 +1,32 @@
+{
+  "document_id": "RECT_MANUAL_001",
+  "file_name": "Ohio_Magnetics_Power_Rectifier_Magnet_Power_Supply_Manual.pdf",
+  "title": "Power Rectifier Magnet Power Supply Manual",
+  "manufacturer": "Ohio Magnetics",
+  "document_type": "Service Manual",
+  "category": "Industrial Systems",
+  "subcategory": "Power Rectifier",
+  "priority": "High",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Operation",
+    "Maintenance",
+    "Repair"
+  ],
+  "covers": [
+    "Installation",
+    "Adjustment",
+    "Operation",
+    "Troubleshooting",
+    "Maintenance",
+    "Equipment Data",
+    "Spare Parts"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 9,
+  "citation_required": true
+}

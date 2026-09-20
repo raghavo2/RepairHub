@@ -1,0 +1,32 @@
+{
+  "document_id": "REG_APP_001",
+  "file_name": "TI_Linear_Regulator_Design_Guide_for_LDOs_SLVA118A.pdf",
+  "title": "Linear Regulator Design Guide for LDOs",
+  "manufacturer": "Texas Instruments",
+  "document_type": "Application Report",
+  "category": "Power Components",
+  "subcategory": "Regulators",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "LDO Design",
+    "Thermal Design",
+    "Regulator Selection"
+  ],
+  "covers": [
+    "Power Dissipation",
+    "Thermal Design",
+    "Dropout Voltage",
+    "Efficiency",
+    "Quiescent Current",
+    "Package Selection",
+    "Linear Regulator Design"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

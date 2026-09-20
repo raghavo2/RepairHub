@@ -1,0 +1,31 @@
+{
+  "document_id": "UPS_GUIDE_001",
+  "file_name": "Eaton_5E_Advanced_User_Guide.pdf",
+  "title": "Eaton 5E Advanced User Guide",
+  "manufacturer": "Eaton",
+  "document_type": "User Guide",
+  "category": "Industrial Systems",
+  "subcategory": "UPS",
+  "priority": "Medium",
+  "knowledge_level": "Beginner",
+  "primary_use": [
+    "UPS Fundamentals",
+    "Operation",
+    "Basic Troubleshooting"
+  ],
+  "covers": [
+    "Safety",
+    "Installation",
+    "Operating Modes",
+    "Maintenance",
+    "Troubleshooting",
+    "Electrical Specifications",
+    "Battery",
+    "Environmental Requirements"
+  ],
+  "used_by_agents": [
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 7,
+  "citation_required": true
+}

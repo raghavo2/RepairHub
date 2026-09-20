@@ -1,0 +1,34 @@
+{
+  "document_id": "UPS_INSTALL_001",
+  "file_name": "Eaton_93E_UPS_Installation_and_Operation_Manual.pdf",
+  "title": "Eaton 93E UPS Installation and Operation Manual",
+  "manufacturer": "Eaton",
+  "document_type": "Installation and Operation Manual",
+  "category": "Industrial Systems",
+  "subcategory": "UPS",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "Industrial UPS Installation",
+    "Operation",
+    "Maintenance"
+  ],
+  "covers": [
+    "Installation Planning",
+    "Power Cabling",
+    "Battery Systems",
+    "Parallel Operation",
+    "Operating Modes",
+    "Communication",
+    "Preventive Maintenance",
+    "Battery Maintenance",
+    "Technical Specifications"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

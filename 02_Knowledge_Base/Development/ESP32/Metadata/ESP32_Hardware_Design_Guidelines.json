@@ -1,0 +1,38 @@
+{
+  "document_id": "ESP32_HDG_001",
+  "file_name": "ESP32_Hardware_Design_Guidelines.pdf",
+  "title": "ESP32 Hardware Design Guidelines",
+  "manufacturer": "Espressif Systems",
+  "document_type": "Hardware Design Guide",
+  "category": "Development",
+  "subcategory": "ESP32",
+  "priority": "Critical",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "PCB Design",
+    "Power Design",
+    "Reference Design",
+    "Hardware Validation"
+  ],
+  "covers": [
+    "Power Supply",
+    "Reset Circuit",
+    "Flash",
+    "PSRAM",
+    "Crystal",
+    "RF",
+    "GPIO",
+    "UART",
+    "SPI",
+    "ADC",
+    "PCB Layout"
+  ],
+  "used_by_agents": [
+    "Modification Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 9,
+  "ocr_required": false,
+  "citation_required": true
+}

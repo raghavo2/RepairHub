@@ -1,0 +1,33 @@
+{
+  "document_id": "XFMR_DESIGN_001",
+  "file_name": "Unitrode_Power_Transformer_Design_Guide_SLUP126.pdf",
+  "title": "Power Transformer Design",
+  "manufacturer": "Unitrode (Texas Instruments)",
+  "document_type": "Design Guide",
+  "category": "Power Components",
+  "subcategory": "Transformers",
+  "priority": "Critical",
+  "knowledge_level": "Advanced",
+  "primary_use": [
+    "SMPS Transformer Design",
+    "Power Electronics Design"
+  ],
+  "covers": [
+    "Forward Converter",
+    "Bridge Converter",
+    "Half Bridge",
+    "Full Bridge",
+    "Turns Ratio",
+    "Leakage Inductance",
+    "Magnetizing Inductance",
+    "Thermal Design",
+    "Transformer Losses"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Modification Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}

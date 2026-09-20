@@ -1,0 +1,34 @@
+{
+  "document_id": "CTRL_TSHOOT_001",
+  "file_name": "Indeeco_Power_Controller_Troubleshooting_Guide.pdf",
+  "title": "Power Controller Troubleshooting Guide",
+  "manufacturer": "Indeeco",
+  "document_type": "Troubleshooting Guide",
+  "category": "Industrial Systems",
+  "subcategory": "Power Controller",
+  "priority": "Critical",
+  "knowledge_level": "Intermediate",
+  "primary_use": [
+    "Fault Diagnosis",
+    "Field Service",
+    "Repair"
+  ],
+  "covers": [
+    "Visual Inspection",
+    "LED Diagnostics",
+    "Input Signal Verification",
+    "Wiring Faults",
+    "Load Testing",
+    "Heating Faults",
+    "Slave Controller Faults",
+    "Repair Procedures",
+    "Electrical Safety"
+  ],
+  "used_by_agents": [
+    "Diagnosis Agent",
+    "Repair Agent",
+    "Knowledge Retrieval Agent"
+  ],
+  "retrieval_priority": 10,
+  "citation_required": true
+}
